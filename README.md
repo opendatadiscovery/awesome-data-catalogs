@@ -33,6 +33,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Amundsen 
 
 A popular open-source data catalog for metadata management and data discovery originated from Lyft. 
+[Website](https://www.amundsen.io/) | [GitHub](https://github.com/amundsen-io/amundsen)
 
 |Based on Open Standard | Search-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:--------:|:-------:|:---------:|:----------------:|:--------------:|:--------------------: 
@@ -67,6 +68,8 @@ A popular open-source data catalog for metadata management and data discovery or
 <a name="datahub"></a>
 ### DataHub
 
+[Website](https://datahubproject.io/) | [GitHub](https://github.com/linkedin/datahub)
+
 |Based on Open Standard | Search-based | UI-based | Lineage-based |Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:--------:|:-------:|:---------:|:--------:|:--------:|:--------------:|:--------------------: 
 | ❌ | ✔️  | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ 
@@ -88,6 +91,8 @@ A popular open-source data catalog for metadata management and data discovery or
 
 <a name="marquez"></a>
 ### Marquez
+
+[Website](https://marquezproject.github.io/marquez/) | [GitHub](https://github.com/MarquezProject/marquez)
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
