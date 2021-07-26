@@ -26,7 +26,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 <br>
 
 <a name="opensource"></a>
-## Open-Source Data Catalogs
+## 📙 Open-Source Data Catalogs
 
 
 <a name="amundsen"></a>
