@@ -34,9 +34,9 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 
 
-|Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
-| ❌ | ❌ | ❌| ❌ | ❌ | ❌ 
+|Based on Open Standard | Search-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
+|:---------------:|:-------:|:--------:|:-------:|---------:|:----------------:|:--------------:|:--------------------: 
+| ❌ | ✔️  | ✔️  | ❌ | ❌ | ❌ | ❌ | ❌ 
 
 <details>
 <summary>More features</summary>
