@@ -117,6 +117,8 @@ A popular open-source data catalog for metadata management and data discovery or
 <a name="atlas"></a>
 ### Atlas 
 
+[Website](https://atlas.apache.org/#/) | [GitHub](https://github.com/apache/atlas)
+
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
 | ❌ | ❌ | ❌| ❌ | ❌ | ❌ 
@@ -140,6 +142,8 @@ A popular open-source data catalog for metadata management and data discovery or
 <a name="ckan"></a>
 ### CKAN
 
+[Website](https://ckan.org/) | [GitHub](https://github.com/ckan/ckan)
+
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
 | ❌ | ✔️ | ❌| ❌ | ❌ | ❌ 
@@ -162,6 +166,8 @@ A popular open-source data catalog for metadata management and data discovery or
 
 <a name="magda"></a>
 ### Magda
+
+[Website](https://magda.io/) | [GitHub](https://github.com/magda-io/magda)
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
@@ -189,6 +195,8 @@ A popular open-source data catalog for metadata management and data discovery or
 <a name="collibra"></a>
 ### Collibra
 
+[Website](https://github.com/collibra) | [GitHub](https://www.collibra.com/)
+
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
 | ❌ | ❌ | ❌| ? | ❌ | ❌ 
@@ -212,6 +220,8 @@ A popular open-source data catalog for metadata management and data discovery or
 
 <a name="informatica"></a>
 ### Informatica
+
+[Website](https://www.informatica.com/) | [GitHub](https://www.collibra.com/)
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
