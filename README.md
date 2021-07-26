@@ -221,7 +221,7 @@ A popular open-source data catalog for metadata management and data discovery or
 <a name="informatica"></a>
 ### Informatica
 
-[Website](https://www.informatica.com/) | [GitHub](https://www.collibra.com/)
+[Website](https://www.informatica.com/) | [GitHub](https://github.com/InformaticaCloudApplicationIntegration) 
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
@@ -245,6 +245,8 @@ A popular open-source data catalog for metadata management and data discovery or
 <a name="alation"></a>
 ### Alation
 
+[Website](https://www.alation.com/) | [GitHub](https://github.com/Alation)
+
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
 | ❌ | ❌ | ❌| ✔️ | ❌ | ❌ 
@@ -267,6 +269,7 @@ A popular open-source data catalog for metadata management and data discovery or
 
 <a name="atlan"></a>
 ### Atlan
+[Website](https://atlan.com/) | [GitHub](https://github.com/atlanhq)
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
@@ -291,6 +294,9 @@ A popular open-source data catalog for metadata management and data discovery or
 <a name="ataccama"></a>
 ### Ataccama
 
+[Website](https://www.ataccama.com/) | [GitHub](https://github.com/ataccama)
+
+
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
 | ❌ | ❌ | ❌| ✔️ | ❌ | ❌ 
@@ -313,6 +319,8 @@ A popular open-source data catalog for metadata management and data discovery or
 <a name="stemma"></a>
 ### Stemma
 
+[Website](https://www.stemma.ai/)  
+
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
 | ❌ | ❌ | ❌| ❌ | ❌ | ❌ 
@@ -334,6 +342,8 @@ A popular open-source data catalog for metadata management and data discovery or
 
 <a name="talend"></a>
 ### Talend
+
+[Website](https://www.talend.com/) | [GitHub](https://github.com/Talend)
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
@@ -360,6 +370,8 @@ A popular open-source data catalog for metadata management and data discovery or
 <a name="talend"></a>
 ### Google Cloud Data Catalog
 
+[Website](https://cloud.google.com/data-catalog) | [GitHub](https://github.com/GoogleCloudPlatform)
+
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
 | ❌ | ❌ | ❌| ? | ❌ | ❌ 
@@ -382,6 +394,8 @@ A popular open-source data catalog for metadata management and data discovery or
 
 <a name="talend"></a>
 ### Azure Data Catalog
+
+[Website](https://azure.microsoft.com/en-us/services/data-catalog/)  
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
@@ -408,6 +422,8 @@ A popular open-source data catalog for metadata management and data discovery or
 <a name="montecarlo"></a>
 ### Monte Carlo
 
+[Website](https://www.montecarlodata.com/)  
+
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
 | ❌ | ❌ | ❌| ✔️ | ❌ | ✔️
@@ -430,6 +446,10 @@ A popular open-source data catalog for metadata management and data discovery or
 <a name="databand"></a>
 ### Databand
 
+[Website](https://databand.ai/) | [GitHub](https://github.com/databand-ai/)
+
+Databand is an observability platform that helps data engineers identify and troubleshoot pipeline issues and data quality problems.
+
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
 | ❌ | ❌ | ❌| ✔️ | ❌ | ❌
@@ -451,6 +471,10 @@ A popular open-source data catalog for metadata management and data discovery or
 
 <a name="datafold"></a>
 ### Datafold
+
+[Website](https://www.datafold.com/) | [GitHub](https://github.com/datafold)
+
+Datafold is a data monitoring and observability platform.
 
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
