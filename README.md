@@ -33,6 +33,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 ### Amundsen 
 
 A popular open-source data catalog for metadata management and data discovery originated from Lyft. 
+
 [Website](https://www.amundsen.io/) | [GitHub](https://github.com/amundsen-io/amundsen)
 
 |Based on Open Standard | Search-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
