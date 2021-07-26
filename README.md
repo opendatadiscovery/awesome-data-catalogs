@@ -48,7 +48,6 @@ A popular open-source data catalog for metadata management and data discovery or
 <li><b>AI autowiring:</b> No</li> 
 <li><b>Network-based:</b> Yes</li> 
 <li><b>Rich data profiling:</b>  No</li> 
-<li><b>Supported data sources:</b> </li>
 <li><b>Search-based:</b> Yes </li>
 <li><b>Recommendations:</b> Yes </li>
 <li><b>Schemas, Description:</b> Yes</li>
@@ -83,6 +82,16 @@ A popular open-source data catalog for metadata management and data discovery or
 <li><b>AI autowiring:</b> No</li> 
 <li><b>Network-based:</b> Yes</li> 
 <li><b>Rich data profiling:</b> No</li> 
+<li><b>Search-based:</b> Yes </li>
+<li><b>Recommendations:</b> ? </li>
+<li><b>Schemas, Description:</b> Yes</li>
+<li><b>Complex schemas:</b> No </li>
+<li><b>Data preview:</b> ? </li>
+<li><b>Column statistics:</b> No </li>
+<li><b>Data owner:</b> Yes</li>
+<li><b>Top data users:</b> ? </li>
+<li><b>Change notifications:</b> No </li>
+<li><b>Change feed:</b> No </li>
 <li><b>Supported data sources:</b> Hive, Kafka, RDBMS </li>
 </ul>
 </details>
