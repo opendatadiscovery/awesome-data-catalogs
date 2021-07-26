@@ -4,6 +4,7 @@
 # Awesome Data Discovery and Observability
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 This repository contains a curated list of awesome data data catalogs and observability platforms that help you discover, manage, and observe data in your organization. 
 
