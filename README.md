@@ -5,7 +5,7 @@
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-This repository contains a curated list of awesome data data catalogs and observability platforms that will help you discover, observe and manage data in your organization. 
+This repository contains a curated list of awesome data data catalogs and observability platforms that help you discover, manage, and observe data in your organization. 
 
 <br>
 
