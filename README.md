@@ -190,7 +190,7 @@ A popular open-source data catalog for metadata management and data discovery or
 
 
 <a name="proprietary"></a>
-## Proprietary Data Catalogs
+## 📕 Proprietary Data Catalogs
 
 <a name="collibra"></a>
 ### Collibra
@@ -365,7 +365,7 @@ A popular open-source data catalog for metadata management and data discovery or
  <br>
 
 <a name="proprietary"></a>
-## Monocloud Data Catalogs
+## 📒 Monocloud Data Catalogs
 
 <a name="talend"></a>
 ### Google Cloud Data Catalog
@@ -417,7 +417,7 @@ A popular open-source data catalog for metadata management and data discovery or
 <br>
 
 <a name="proprietary"></a>
-## Data Observability Platforms
+## 🔍 Data Observability Platforms
 
 <a name="montecarlo"></a>
 ### Monte Carlo
