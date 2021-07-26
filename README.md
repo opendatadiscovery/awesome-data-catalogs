@@ -364,7 +364,7 @@ A popular open-source data catalog for metadata management and data discovery or
 
  <br>
 
-<a name="proprietary"></a>
+<a name="monocloud"></a>
 ## 📒 Monocloud Data Catalogs
 
 <a name="talend"></a>
@@ -416,7 +416,7 @@ A popular open-source data catalog for metadata management and data discovery or
 
 <br>
 
-<a name="proprietary"></a>
+<a name="observability"></a>
 ## 🔍 Data Observability Platforms
 
 <a name="montecarlo"></a>
