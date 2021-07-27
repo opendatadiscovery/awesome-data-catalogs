@@ -319,7 +319,7 @@ DataHub is an open-source data catalog featuring data discovery, data governance
 <li><b>AI autowiring:</b> ?</li> 
 <li><b>Network-based:</b> No</li> 
 <li><b>Rich data profiling:</b> ?</li> 
-<li><b>Supported data sources:</b>Presto, Deequ, Atlas, Airflow, Hudi  </li>
+<li><b>Supported data sources:</b> Presto, Deequ, Atlas, Airflow, Hudi  </li>
 </ul>
 </details>
 
