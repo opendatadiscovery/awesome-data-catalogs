@@ -105,7 +105,7 @@ A popular open-source data catalog for metadata management and data discovery or
 [Website](https://marquezproject.github.io/marquez/) | [GitHub](https://github.com/MarquezProject/marquez)
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:---------:|:--------:|:-------:|:----------------:|:--------------:|:--------------------: 
+|:---------------:|:-------:|:---------:|:--------:|:-------:|:--------:|:--------:|:--------------:|:--------------------: 
 | OpenLineage | ❌ | ✔️| ❌ | ✔️ | ❌ | ❌ | ❌ | ❌
 
 
