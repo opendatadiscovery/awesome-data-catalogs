@@ -39,7 +39,7 @@ A popular open-source data catalog for metadata management and data discovery or
 <details>
 <summary>More features</summary>
 <br>
-<ul>
+<ol>
 <li><b>Strategy:</b> Push </li>
 <li><b>UX personalization:</b> No</li> 
 <li><b>AI autowiring:</b> No</li> 
@@ -55,7 +55,7 @@ A popular open-source data catalog for metadata management and data discovery or
 <li><b>Change feed:</b> No </li>
 <li><b>Deployment:</b>  </li> 
 <li><b>Supported data sources:</b> Hive, Redshift, Druid, RDBMS, Presto, Snowflake </li>
-</ul>
+</ol>
 </details>
 
 <br>
