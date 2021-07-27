@@ -106,8 +106,7 @@ A popular open-source data catalog for metadata management and data discovery or
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:-----------:|:--:|:--:|:--:|:---:|:--:|:---:|:--:|:---:| 
-| OpenLineage | ❌ | ✔️| ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
-
+| OpenLineage | ✔️ | ❌| ✔️ | ? | ❌ | ❌ | ❌ | ❌ |
 
 <details>
 <summary>More features</summary>
@@ -133,7 +132,6 @@ A popular open-source data catalog for metadata management and data discovery or
 |:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
 | ❌ | ✔️  | ❌  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌|
 
-
 <details>
 <summary>More features</summary>
 <br>
@@ -157,7 +155,6 @@ A popular open-source data catalog for metadata management and data discovery or
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
 | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
-
 
 <details>
 <summary>More features</summary>
@@ -210,8 +207,6 @@ A popular open-source data catalog for metadata management and data discovery or
 |:--:|:---:|:--:|:---:|:--:|:---:|:-:|:--:|:--:| 
 | ❌ | ✔️ | ?  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
 
-
-
 <details>
 <summary>More features</summary>
 <br>
@@ -234,7 +229,7 @@ A popular open-source data catalog for metadata management and data discovery or
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:---:|:---:|:--:|:--:|:--:|:---:|:--:| 
-| ❌ | ✔️ | ✔️  | ✔️ | ? | ❌ | ❌ | ❌ | ❌ |
+| ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
 
 <details>
 <summary>More features</summary>
@@ -258,7 +253,7 @@ A popular open-source data catalog for metadata management and data discovery or
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:---:|:---:|:--:|:--:|:--:|:---:|:---:| 
-| ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
 
 <details>
 <summary>More features</summary>
@@ -273,14 +268,14 @@ A popular open-source data catalog for metadata management and data discovery or
 </ul>
 </details>
 
- <br>
+<br>
 
 <a name="atlan"></a>
 ### Atlan
 [Website](https://atlan.com/) | [GitHub](https://github.com/atlanhq)
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
-|:--:|:---:|:---:|:---:|:--:|:--:|:--:|:---:|:--:| 
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:---:|:---:| 
 | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
 
 <details>
@@ -303,10 +298,9 @@ A popular open-source data catalog for metadata management and data discovery or
 
 [Website](https://www.ataccama.com/) | [GitHub](https://github.com/ataccama)
 
-
-|Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
-| ❌ | ❌ | ❌| ✔️ | ❌ | ❌ 
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:---:|:---:| 
+| ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
 
 <details>
 <summary>More features</summary>
@@ -328,9 +322,9 @@ A popular open-source data catalog for metadata management and data discovery or
 
 [Website](https://www.stemma.ai/)  
 
-|Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
-| ❌ | ❌ | ❌| ❌ | ❌ | ❌ 
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:| 
+| ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
 
 <details>
 <summary>More features</summary>
@@ -352,9 +346,9 @@ A popular open-source data catalog for metadata management and data discovery or
 
 [Website](https://www.talend.com/) | [GitHub](https://github.com/Talend)
 
-|Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
-| ❌ | ❌ | ❌| ✔️ | ❌ | ❌ 
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:| 
+| ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
 
 <details>
 <summary>More features</summary>
