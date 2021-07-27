@@ -198,7 +198,6 @@ A popular open-source data catalog for metadata management and data discovery or
 
 <br>
 
-
 <a name="proprietary"></a>
 ## 📕 Proprietary Data Catalogs
 
@@ -207,9 +206,9 @@ A popular open-source data catalog for metadata management and data discovery or
 
 [Website](https://github.com/collibra) | [GitHub](https://www.collibra.com/)
 
-|Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
-| ❌ | ❌ | ❌| ? | ❌ | ❌ 
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:--:|:---:|:--:|:---:|:-:|:--:|:--:| 
+| ❌ | ✔️ | ?  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
 
 
 
@@ -226,16 +225,16 @@ A popular open-source data catalog for metadata management and data discovery or
 </ul>
 </details>
 
- <br>
+<br>
 
 <a name="informatica"></a>
 ### Informatica
 
 [Website](https://www.informatica.com/) | [GitHub](https://github.com/InformaticaCloudApplicationIntegration) 
 
-|Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
-| ❌ | ❌ | ❌| ? | ❌ | ❌ 
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:--:|:--:|:---:|:--:| 
+| ❌ | ✔️ | ✔️  | ✔️ | ? | ❌ | ❌ | ❌ | ❌ |
 
 <details>
 <summary>More features</summary>
@@ -257,10 +256,9 @@ A popular open-source data catalog for metadata management and data discovery or
 
 [Website](https://www.alation.com/) | [GitHub](https://github.com/Alation)
 
-|Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
-| ❌ | ❌ | ❌| ✔️ | ❌ | ❌ 
-
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:--:|:--:|:---:|:---:| 
+| ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 <details>
 <summary>More features</summary>
@@ -281,10 +279,9 @@ A popular open-source data catalog for metadata management and data discovery or
 ### Atlan
 [Website](https://atlan.com/) | [GitHub](https://github.com/atlanhq)
 
-|Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
-| ❌ | ❌ | ❌| ✔️ | ❌ | ❌ 
-
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:--:|:--:|:---:|:--:| 
+| ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
 
 <details>
 <summary>More features</summary>
