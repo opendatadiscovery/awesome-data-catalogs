@@ -36,9 +36,9 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 A popular open-source data catalog for metadata management and data discovery originated from Lyft. 
 
-|Based on Open Standard | Search-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:--------:|:-------:|:---------:|:----------------:|:--------------:|:--------------------: 
-| ❌ | ✔️  | ✔️  | ❌ | ❌ | ❌ | ❌ | ❌ 
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
+|:---------------:|:-------:|:--------:|:-------:|:---------:|:----------------:|:--------------:|:---------:|:-----------:| 
+| ❌ | ✔️  | ✔️  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
 <details>
 <summary>More features</summary>
@@ -70,7 +70,7 @@ A popular open-source data catalog for metadata management and data discovery or
 
 [Website](https://datahubproject.io/) | [GitHub](https://github.com/linkedin/datahub)
 
-|Based on Open Standard | Search-based | UI-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:--------:|:-------:|:---------:|:--------:|:--------:|:--------------:|:--------------------: 
 | ❌ | ✔️  | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
