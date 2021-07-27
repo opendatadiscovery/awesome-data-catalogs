@@ -67,9 +67,9 @@ A popular open-source data catalog for metadata management and data discovery or
 <a name="datahub"></a>
 ### DataHub
 
-DataHub is an open-source data catalog featuring data discovery, data governance, metadata management originated from LinkedIn. 
-
 [Website](https://datahubproject.io/) | [GitHub](https://github.com/linkedin/datahub)
+
+DataHub is an open-source data catalog featuring data discovery, data governance, metadata management originated from LinkedIn. 
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
@@ -102,9 +102,9 @@ DataHub is an open-source data catalog featuring data discovery, data governance
 <a name="marquez"></a>
 ### Marquez
 
-Marquez is an open-source data catalog for collection, aggregation, and visualization of a data ecosystem’s metadata originated from WeWork. 
-
 [Website](https://marquezproject.github.io/marquez/) | [GitHub](https://github.com/MarquezProject/marquez)
+
+Marquez is an open-source data catalog for collection, aggregation, and visualization of a data ecosystem’s metadata originated from WeWork. 
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:-----------:|:--:|:--:|:--:|:---:|:--:|:---:|:--:|:---:| 
@@ -137,9 +137,9 @@ Marquez is an open-source data catalog for collection, aggregation, and visualiz
 <a name="atlas"></a>
 ### Atlas 
 
-Apache Atlas is an open-source data catalog for metadata collection, governance, and data democratization.
-
 [Website](https://atlas.apache.org/#/) | [GitHub](https://github.com/apache/atlas)
+
+Apache Atlas is an open-source data catalog for metadata collection, governance, and data democratization.
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
@@ -172,9 +172,9 @@ Apache Atlas is an open-source data catalog for metadata collection, governance,
 <a name="ckan"></a>
 ### CKAN
 
-CKAN is an open-source data catalog for data management, powering data portals for govenments and enterprises. 
-
 [Website](https://ckan.org/) | [GitHub](https://github.com/ckan/ckan)
+
+CKAN is an open-source data catalog for data management, powering data portals for govenments and enterprises. 
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
@@ -208,6 +208,8 @@ CKAN is an open-source data catalog for data management, powering data portals f
 ### Magda
 
 [Website](https://magda.io/) | [GitHub](https://github.com/magda-io/magda)
+
+Magda is an open-source data catalog that features data discovery, metadata enrichment, and federation, focused on geodata.
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
