@@ -12,16 +12,6 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 ## Contents: Existing Data Discovery and Observability Solutions
 
-| [OSS](#opensource)       | [Proprietary](#proprietary)    | [Monocloud](#monocloud) | [Observability](#observability) |
-|--------------------------|--------------------------------|-------------------------|---------------------------------|
-| [📙 Amundsen](#amundsen) | [📕 Collibra](#collibra)       | [📒 Google DC](#google) | [🔍 Monte Carlo](#montecarlo)  |
-| [📙 DataHub](#datahub)   | [📕 Informatica](#informatica) | [📒 Azure DC](#azure)   | [🔍 Databand](#databand)       |
-| [📙 Marquez](#marquez)   | [📕 Alation](#alation)         |                         | [🔍 Datafold](#datafold)       |
-| [📙 Atlas](#atlas)       | [📕 Atlan](#atlan)             |                         | [🔍 Ataccama](#ataccama)       |
-| [📙 CKAN](#ckan)         | [📕Stemma](#stemma)            |                         |                                 |
-| [📙 Magda](#magda)       |                                |                         |                                 |
-
-
 | [OSS](#opensource)       | [Proprietary](#proprietary)    | 
 |--------------------------|--------------------------------| 
 | [📙 Amundsen](#amundsen) | [📕 Collibra](#collibra)       | 
