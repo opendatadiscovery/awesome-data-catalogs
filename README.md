@@ -369,9 +369,9 @@ A popular open-source data catalog for metadata management and data discovery or
 
 [Website](https://cloud.google.com/data-catalog) | [GitHub](https://github.com/GoogleCloudPlatform)
 
-|Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
-| ❌ | ❌ | ❌| ? | ❌ | ❌ 
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:| 
+| ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
 
 <details>
 <summary>More features</summary>
@@ -393,9 +393,9 @@ A popular open-source data catalog for metadata management and data discovery or
 
 [Website](https://azure.microsoft.com/en-us/services/data-catalog/)  
 
-|Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
-| ❌ | ❌ | ❌| ? | ❌ | ❌ 
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:| 
+| ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
 
 <details>
 <summary>More features</summary>
@@ -420,9 +420,9 @@ A popular open-source data catalog for metadata management and data discovery or
 
 [Website](https://www.montecarlodata.com/)  
 
-|Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
-| ❌ | ❌ | ❌| ✔️ | ❌ | ✔️
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:| 
+| ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ |
 
 <details>
 <summary>More features</summary>
@@ -446,9 +446,9 @@ A popular open-source data catalog for metadata management and data discovery or
 
 Databand is an observability platform that helps data engineers identify and troubleshoot pipeline issues and data quality problems.
 
-|Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
-| ❌ | ❌ | ❌| ✔️ | ❌ | ❌
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:| 
+| ❌ | ? | ? | ? | ❌ | ? | ? | ? | ✔️ |
 
 <details>
 <summary>More features</summary>
@@ -472,9 +472,9 @@ Databand is an observability platform that helps data engineers identify and tro
 
 Datafold is a data monitoring and observability platform.
 
-|Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
-| ❌ | ❌ | ❌| ✔️ | ❌ | ❌
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:| 
+| ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ |
 
 <details>
 <summary>More features</summary>
