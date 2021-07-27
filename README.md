@@ -108,7 +108,7 @@ Marquez is an open-source data catalog for collection, aggregation, and visualiz
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:-----------:|:--:|:--:|:--:|:---:|:--:|:---:|:--:|:---:| 
-| OpenLineage | ✔️ | ❌| ✔️ | ? | ❌ | ❌ | ❌ | ❌ |
+| [OpenLineage](https://github.com/OpenLineage/OpenLineage) | ✔️ | ❌| ✔️ | ? | ❌ | ❌ | ❌ | ❌ |
 
 <details>
 <summary>More features</summary>
