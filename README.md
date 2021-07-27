@@ -36,8 +36,8 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 A popular open-source data catalog for metadata management and data discovery originated from Lyft. 
 
-|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:--------:|:-------:|:---------:|:----------------:|:--------------:|:---------:|:-----------:| 
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
 | ❌ | ✔️  | ✔️  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ 
 
 <details>
@@ -70,9 +70,9 @@ A popular open-source data catalog for metadata management and data discovery or
 
 [Website](https://datahubproject.io/) | [GitHub](https://github.com/linkedin/datahub)
 
-|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:--------:|:-------:|:---------:|:--------:|:--------:|:--------------:|:--------------------:| 
-| ❌ | ✔️  | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ 
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
+| ❌ | ✔️  | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 <details>
 <summary>More features</summary>
@@ -104,9 +104,9 @@ A popular open-source data catalog for metadata management and data discovery or
 
 [Website](https://marquezproject.github.io/marquez/) | [GitHub](https://github.com/MarquezProject/marquez)
 
-|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:---------:|:--------:|:-------:|:--------:|:--------:|:--------------:|:--------------------:| 
-| OpenLineage | ❌ | ✔️| ❌ | ✔️ | ❌ | ❌ | ❌ | ❌
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:-----------:|:--:|:--:|:--:|:---:|:--:|:---:|:--:|:---:| 
+| OpenLineage | ❌ | ✔️| ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
 
 
 <details>
@@ -154,9 +154,9 @@ A popular open-source data catalog for metadata management and data discovery or
 
 [Website](https://ckan.org/) | [GitHub](https://github.com/ckan/ckan)
 
-|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:--------:|:-------:|:---------:|:----------------:|:--------------:|:---------:|:-----------:| 
-| ❌ | ✔️  | ❌  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ 
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
+| ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
 
 
 <details>
@@ -179,9 +179,9 @@ A popular open-source data catalog for metadata management and data discovery or
 
 [Website](https://magda.io/) | [GitHub](https://github.com/magda-io/magda)
 
-|Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
-|:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
-| ❌ | ✔️ | ❌| ❌ | ❌ | ❌ 
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
+| ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
 
 <details>
 <summary>More features</summary>
