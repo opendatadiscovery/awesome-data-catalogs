@@ -247,6 +247,8 @@ Magda is an open-source data catalog that features data discovery, metadata enri
 
 [Website](https://github.com/collibra) | [GitHub](https://www.collibra.com/)
 
+Collibra is an enterprise data catalog that helps to discover and understand data that matters and drive impactful insights from it.
+
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:--:|:---:|:--:|:---:|:-:|:--:|:--:| 
 | ❌ | ✔️ | ?  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
@@ -270,6 +272,8 @@ Magda is an open-source data catalog that features data discovery, metadata enri
 ### Informatica
 
 [Website](https://www.informatica.com/) | [GitHub](https://github.com/InformaticaCloudApplicationIntegration) 
+
+Informatica is an enterprise data catalog that provides AI-powered data discovery engine to scan and catalog data assets. 
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:---:|:---:|:--:|:--:|:--:|:---:|:--:| 
@@ -295,6 +299,8 @@ Magda is an open-source data catalog that features data discovery, metadata enri
 
 [Website](https://www.alation.com/) | [GitHub](https://github.com/Alation)
 
+Alation is a collaborative data catalog that helps companies to drive value and business impact from their data. 
+
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:---:|:---:|:--:|:--:|:--:|:---:|:---:| 
 | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
@@ -317,6 +323,8 @@ Magda is an open-source data catalog that features data discovery, metadata enri
 <a name="atlan"></a>
 ### Atlan
 [Website](https://atlan.com/) | [GitHub](https://github.com/atlanhq)
+
+Atlan is a modern data catalog offering data discovery, data profiling, data quality, data lineage and data governance.
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:---:|:---:| 
@@ -342,6 +350,8 @@ Magda is an open-source data catalog that features data discovery, metadata enri
 
 [Website](https://www.stemma.ai/)  
 
+Stemma is a fully managed data catalog powered by the open-source data catalog Amundsen that helps data teams have total trust in their data. 
+
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:| 
 | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
@@ -365,6 +375,8 @@ Magda is an open-source data catalog that features data discovery, metadata enri
 ### Talend
 
 [Website](https://www.talend.com/) | [GitHub](https://github.com/Talend)
+
+Talend is a data catalog that helps enterprises power critical business descisions with trusted data. 
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:| 
