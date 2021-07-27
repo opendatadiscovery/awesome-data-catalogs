@@ -21,14 +21,10 @@ This repository contains a curated list of awesome data data catalogs and observ
 |[📙 CKAN](#ckan) | [📕Stemma](#stemma) | |
 |[📙 Magda](#magda) | | |
 
-
-
-
 <br>
 
 <a name="opensource"></a>
 ## 📙 Open-Source Data Catalogs
-
 
 <a name="amundsen"></a>
 ### Amundsen 
@@ -291,7 +287,7 @@ A popular open-source data catalog for metadata management and data discovery or
 </ul>
 </details>
 
- <br>
+<br>
 
 <a name="ataccama"></a>
 ### Ataccama
@@ -315,7 +311,7 @@ A popular open-source data catalog for metadata management and data discovery or
 </ul>
 </details>
 
- <br>
+<br>
 
 <a name="stemma"></a>
 ### Stemma
@@ -339,7 +335,7 @@ A popular open-source data catalog for metadata management and data discovery or
 </ul>
 </details>
 
- <br>
+<br>
 
 <a name="talend"></a>
 ### Talend
@@ -363,7 +359,7 @@ A popular open-source data catalog for metadata management and data discovery or
 </ul>
 </details>
 
- <br>
+<br>
 
 <a name="monocloud"></a>
 ## 📒 Monocloud Data Catalogs
@@ -376,7 +372,6 @@ A popular open-source data catalog for metadata management and data discovery or
 |Based on Open Standard | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability
 |:---------------:|:-------:|:------------------------:|:----------------:|:--------------:|:--------------------: 
 | ❌ | ❌ | ❌| ? | ❌ | ❌ 
-
 
 <details>
 <summary>More features</summary>
