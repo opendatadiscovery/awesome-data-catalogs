@@ -64,6 +64,8 @@ A popular open-source data catalog for metadata management and data discovery or
 <a name="datahub"></a>
 ### DataHub
 
+DataHub is an open-source data catalog featuring data discovery, data governance, metadata management. 
+
 [Website](https://datahubproject.io/) | [GitHub](https://github.com/linkedin/datahub)
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
