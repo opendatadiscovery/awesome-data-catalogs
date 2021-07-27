@@ -322,6 +322,7 @@ Alation is a collaborative data catalog that helps companies to drive value and 
 
 <a name="atlan"></a>
 ### Atlan
+
 [Website](https://atlan.com/) | [GitHub](https://github.com/atlanhq)
 
 Atlan is a modern data catalog offering data discovery, data profiling, data quality, data lineage and data governance.
@@ -405,6 +406,8 @@ Talend is a data catalog that helps enterprises power critical business descisio
 
 [Website](https://cloud.google.com/data-catalog) | [GitHub](https://github.com/GoogleCloudPlatform)
 
+Google Cloud Data Catalog is a fully managed, scalable metadata management service in Google Cloud's Data Analytics family of products.
+
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:| 
 | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
@@ -428,6 +431,8 @@ Talend is a data catalog that helps enterprises power critical business descisio
 ### Azure Data Catalog
 
 [Website](https://azure.microsoft.com/en-us/services/data-catalog/)  
+
+Azure Data Catalog is a fully managed, enterprise-wide metadata catalog that makes data asset discovery straightforward.
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:| 
@@ -455,6 +460,8 @@ Talend is a data catalog that helps enterprises power critical business descisio
 ### Monte Carlo
 
 [Website](https://www.montecarlodata.com/)  
+
+Monte Carlo is a data observability tool that helps to increase trust in data by eliminating or preventing data downtime.
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:| 
@@ -506,7 +513,7 @@ Databand is an observability platform that helps data engineers identify and tro
 
 [Website](https://www.datafold.com/) | [GitHub](https://github.com/datafold)
 
-Datafold is a data monitoring and observability platform.
+Datafold is a data monitoring and observability platform that gives you confidence in your data quality through diffs, profiling, and anomaly detection.
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:| 
@@ -531,6 +538,8 @@ Datafold is a data monitoring and observability platform.
 ### Ataccama
 
 [Website](https://www.ataccama.com/) | [GitHub](https://github.com/ataccama)
+
+Ataccama is an enterprise data catalog and observability tool featuring data profiling and data quality management, designed for data professionals.
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:---:|:---:| 
