@@ -21,6 +21,20 @@ This repository contains a curated list of awesome data data catalogs and observ
 | [📙 CKAN](#ckan)         | [📕Stemma](#stemma)            |                         |                                 |
 | [📙 Magda](#magda)       |                                |                         |                                 |
 
+
+| [OSS](#opensource)       | [Proprietary](#proprietary)    | 
+|--------------------------|--------------------------------| 
+| [📙 Amundsen](#amundsen) | [📕 Collibra](#collibra)       | 
+| [📙 DataHub](#datahub)   | [📕 Informatica](#informatica) | 
+| [📙 Marquez](#marquez)   | [📕 Alation](#alation)         |                          
+| [📙 Atlas](#atlas)       | [📕 Atlan](#atlan)             |                          
+| [📙 CKAN](#ckan)         | [📕Stemma](#stemma)            |                         
+| [📙 Magda](#magda)       | [📒 Google DC](#google)        |
+|                           | [📒 Azure DC](#azure)         |                         
+|                           | [🔍 Monte Carlo](#montecarlo) |
+|                           | [🔍 Databand](#databand)      |
+|                           | [🔍 Datafold](#datafold)      |
+|                           | [🔍 Ataccama](#ataccama)      | 
 <br>
 
 <a name="opensource"></a>
