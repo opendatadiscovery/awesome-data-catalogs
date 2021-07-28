@@ -12,19 +12,14 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 ## Contents: Existing Data Discovery and Observability Solutions
 
-| [OSS](#opensource)       | [Proprietary](#proprietary)    | 
-|--------------------------|--------------------------------| 
-| [📙 Amundsen](#amundsen) | [📕 Collibra](#collibra)       | 
-| [📙 DataHub](#datahub)   | [📕 Informatica](#informatica) | 
-| [📙 Marquez](#marquez)   | [📕 Alation](#alation)         |                          
-| [📙 Atlas](#atlas)       | [📕 Atlan](#atlan)             |                          
-| [📙 CKAN](#ckan)         | [📕Stemma](#stemma)            |                         
-| [📙 Magda](#magda)       | [📒 Google DC](#google)        |
-|                           | [📒 Azure DC](#azure)         |                         
-|                           | [🔍 Monte Carlo](#montecarlo) |
-|                           | [🔍 Databand](#databand)      |
-|                           | [🔍 Datafold](#datafold)      |
-|                           | [🔍 Ataccama](#ataccama)      | 
+| [OSS Data Catalogs](#opensource) | [ Proprietary Monocloud DCs](#monocloud)| [ Proprietary Obserability Tools](#observability) | [Other Proprietary DCs](#proprietary) |
+|--------------------------|--------------------------------|---------------------------------|--------------------------------|
+| [📙 Amundsen](#amundsen) |  [📒 Google DC](#google)       | [🔍 Monte Carlo](#montecarlo)  | [📕 Alation](#alation)         |
+| [📙 DataHub](#datahub)   |  [📒 Azure DC](#azure)         | [🔍 Databand](#databand)       | [📕 Atlan](#atlan)             |
+| [📙 Marquez](#marquez)   |                                | [🔍 Datafold](#datafold)       | [📕 Collibra](#collibra)       |
+| [📙 Atlas](#atlas)       |                                | [🔍 Ataccama](#ataccama)       | [📕 Informatica](#informatica) |
+| [📙 CKAN](#ckan)         |                                |                                | [📕Stemma](#stemma)             |
+| [📙 Magda](#magda)       |                                |                                |                                 |
 
 <br>
 
