@@ -27,24 +27,24 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 | Tool | Specification -Based | Search-based | Network-based | Lineage-based | Federa- tion | ML 1st Citizen | Data Quality | End-to-end Lineage | Observ- ability |
 |:-------------:|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
-| Alation       | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
-| Amundsen      | ❌ | ✔️  | ✔️  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Ataccama      | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
-| Atlan         | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
-| Atlas         | ❌ | ✔️  | ❌  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌|
-| Azure DC      | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
-| CKAN          | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
-| Collibra      | ❌ | ✔️ | ?  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
-| Databand      | ❌ | ? | ? | ? | ❌ | ? | ? | ? | ✔️ |
-| Datafold      | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ |
-| DataHub       | ❌ | ✔️  | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Google DC     | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
-| Informatica   | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
-| Magda         | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
-| Marquez       | [OpenLineage](https://github.com/OpenLineage/OpenLineage) | ✔️ | ❌| ✔️ | ? | ❌ | ❌ | ❌ | ❌ |
-| Monte Carlo   | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ |
-| Stemma        | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
-| Talend        | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
+| [Alation](#alation)    | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
+| [Amundsen](#amundsen)  | ❌ | ✔️  | ✔️  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Ataccama](#ataccama)  | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
+| [Atlan](#atlan)        | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
+| [Atlas](#atlas)        | ❌ | ✔️  | ❌  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌|
+| [Azure DC](#azure)     | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
+| [CKAN](#ckan)          | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
+| [Collibra](#collibra)  | ❌ | ✔️ | ?  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
+| [Databand](#databand)  | ❌ | ? | ? | ? | ❌ | ? | ? | ? | ✔️ |
+| [Datafold](#datafold)  | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ |
+| [DataHub](#datahub}    | ❌ | ✔️  | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [Google DC](#google)   | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
+| [Informatica](#informatica)   | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
+| [Magda](#magda)        | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
+| [Marquez](#marquez)    | [OpenLineage](https://github.com/OpenLineage/OpenLineage) | ✔️ | ❌| ✔️ | ? | ❌ | ❌ | ❌ | ❌ |
+| [Monte Carlo](#montecarlo)   | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ |
+| [Stemma](#stemma)      | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
+| [Talend](#talend)      | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
 
 <br>
 
