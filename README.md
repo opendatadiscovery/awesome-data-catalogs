@@ -25,6 +25,31 @@ This repository contains a curated list of awesome data data catalogs and observ
 |                           | [🔍 Databand](#databand)      |
 |                           | [🔍 Datafold](#datafold)      |
 |                           | [🔍 Ataccama](#ataccama)      | 
+
+<br>
+
+
+| Tool | Based on Open Spec | Search-based | Network-based | Lineage-based | Federa- tion | ML 1st Citizen | Data Quality | End-to-end Lineage | Observ- ability |
+|:-------------:|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
+| Alation       | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
+| Amundsen      | ❌ | ✔️  | ✔️  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Ataccama      | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
+| Atlan         | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
+| Atlas         | ❌ | ✔️  | ❌  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌|
+| Azure DC      | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
+| CKAN          | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
+| Collibra      | ❌ | ✔️ | ?  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
+| Databand      | ❌ | ? | ? | ? | ❌ | ? | ? | ? | ✔️ |
+| Datafold      | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ |
+| DataHub       | ❌ | ✔️  | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Google DC     | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
+| Informatica   | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
+| Magda         | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
+| Marquez       | [OpenLineage](https://github.com/OpenLineage/OpenLineage) | ✔️ | ❌| ✔️ | ? | ❌ | ❌ | ❌ | ❌ |
+| Monte Carlo   | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ |
+| Stemma        | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
+| Talend        | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
+
 <br>
 
 <a name="opensource"></a>
@@ -38,7 +63,7 @@ A popular open-source data catalog for metadata management and data discovery or
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
-| ❌ | ✔️  | ✔️  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ 
+| ❌ | ✔️  | ✔️  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 <details>
 <summary>More features</summary>
