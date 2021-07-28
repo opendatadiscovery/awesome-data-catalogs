@@ -23,6 +23,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 <br>
 
+## High-Level Feature Comparision
 
 | Tool | Specification -Based | Search-based | Network-based | Lineage-based | Federa- tion | ML 1st Citizen | Data Quality | End-to-end Lineage | Observ- ability |
 |:-------------:|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
