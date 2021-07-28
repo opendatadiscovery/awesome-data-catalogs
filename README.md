@@ -37,7 +37,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 | [Collibra](#collibra)  | ❌ | ✔️ | ?  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
 | [Databand](#databand)  | ❌ | ? | ? | ? | ❌ | ? | ? | ? | ✔️ |
 | [Datafold](#datafold)  | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ |
-| [DataHub](#datahub}    | ❌ | ✔️  | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [DataHub](#datahub)    | ❌ | ✔️  | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Google DC](#google)   | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
 | [Informatica](#informatica)   | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
 | [Magda](#magda)        | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
@@ -422,7 +422,7 @@ Talend is a data catalog that helps enterprises power critical business descisio
 <a name="monocloud"></a>
 ## 📒 Monocloud Data Catalogs
 
-<a name="talend"></a>
+<a name="google"></a>
 ### Google Cloud Data Catalog
 
 [Website](https://cloud.google.com/data-catalog) | [GitHub](https://github.com/GoogleCloudPlatform)
@@ -448,7 +448,7 @@ Google Cloud Data Catalog is a fully managed, scalable metadata management servi
 
 <br>
 
-<a name="talend"></a>
+<a name="azure"></a>
 ### Azure Data Catalog
 
 [Website](https://azure.microsoft.com/en-us/services/data-catalog/)  
