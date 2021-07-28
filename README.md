@@ -580,3 +580,5 @@ Ataccama is an enterprise data catalog and observability tool featuring data pro
 </details>
 
 <br>
+
+<a href="#top">Back to top</a>
