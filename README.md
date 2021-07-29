@@ -54,7 +54,6 @@ This repository contains a curated list of awesome data data catalogs and observ
 <a name="amundsen"></a>
 ### Amundsen 
 [Website](https://www.amundsen.io/) | [GitHub](https://github.com/amundsen-io/amundsen)
-
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/amundsen-io/amundsen/graphs/commit-activity)
 ![](https://img.shields.io/github/stars/amundsen-io/amundsen.svg?style=social)
 
