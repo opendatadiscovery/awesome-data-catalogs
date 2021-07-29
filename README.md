@@ -54,6 +54,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 <a name="amundsen"></a>
 ### Amundsen 
 [Website](https://www.amundsen.io/) | [GitHub](https://github.com/amundsen-io/amundsen)
+(https://github.com/amundsen-io/amundsen) ![](https://img.shields.io/github/stars/amundsen-io/amundsen.svg?style=social)
 
 A popular open-source data catalog for metadata management and data discovery originated from Lyft. 
 
