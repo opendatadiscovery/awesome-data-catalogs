@@ -91,6 +91,7 @@ A popular open-source data catalog for metadata management and data discovery or
 ### DataHub
 
 [Website](https://datahubproject.io/) | [GitHub](https://github.com/linkedin/datahub)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/linkedin/datahub/graphs/commit-activity)
 ![](https://img.shields.io/github/stars/linkedin/datahub.svg?style=social)
 
 DataHub is an open-source data catalog featuring data discovery, data governance, metadata management originated from LinkedIn. 
