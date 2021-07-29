@@ -128,6 +128,7 @@ DataHub is an open-source data catalog featuring data discovery, data governance
 ### Marquez
 
 [Website](https://marquezproject.github.io/marquez/) | [GitHub](https://github.com/MarquezProject/marquez)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/MarquezProject/marquez/graphs/commit-activity)
 ![](https://img.shields.io/github/stars/MarquezProject/marquez.svg?style=social)
 
 Marquez is an open-source data catalog for collection, aggregation, and visualization of a data ecosystem’s metadata originated from WeWork. 
@@ -164,6 +165,7 @@ Marquez is an open-source data catalog for collection, aggregation, and visualiz
 ### Atlas 
 
 [Website](https://atlas.apache.org/#/) | [GitHub](https://github.com/apache/atlas)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/apache/atlas/graphs/commit-activity)
 ![](https://img.shields.io/github/stars/apache/atlas.svg?style=social)
 
 Apache Atlas is an open-source data catalog for metadata collection, governance, and data democratization.
@@ -200,6 +202,7 @@ Apache Atlas is an open-source data catalog for metadata collection, governance,
 ### CKAN
 
 [Website](https://ckan.org/) | [GitHub](https://github.com/ckan/ckan)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ckan/ckan/graphs/commit-activity)
 ![](https://img.shields.io/github/stars/ckan/ckan.svg?style=social)
 
 CKAN is an open-source data catalog for data management, powering data portals for govenments and enterprises. 
@@ -236,6 +239,7 @@ CKAN is an open-source data catalog for data management, powering data portals f
 ### Magda
 
 [Website](https://magda.io/) | [GitHub](https://github.com/magda-io/magda)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/magda-io/magda/graphs/commit-activity)
 ![](https://img.shields.io/github/stars/magda-io/magda.svg?style=social)
 
 Magda is an open-source data catalog that features data discovery, metadata enrichment, and federation, focused on geodata.
