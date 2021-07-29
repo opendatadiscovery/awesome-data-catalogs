@@ -272,7 +272,7 @@ Magda is an open-source data catalog that features data discovery, metadata enri
 <a name="collibra"></a>
 ### Collibra
 
-[Website](https://github.com/collibra) | [GitHub](https://www.collibra.com/)
+[Website](https://github.com/collibra) | [GitHub](https://github.com/collibra)
 
 Collibra is an enterprise data catalog that helps to discover and understand data that matters and drive impactful insights from it.
 
