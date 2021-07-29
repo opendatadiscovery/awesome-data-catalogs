@@ -54,7 +54,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 <a name="amundsen"></a>
 ### Amundsen 
 [Website](https://www.amundsen.io/) | [GitHub](https://github.com/amundsen-io/amundsen)
-![](https://img.shields.io/github/stars/amundsen-io/amundsen.svg?style=social)
+ ![](https://img.shields.io/github/stars/amundsen-io/amundsen.svg?style=social)
 
 A popular open-source data catalog for metadata management and data discovery originated from Lyft. 
 
@@ -90,6 +90,7 @@ A popular open-source data catalog for metadata management and data discovery or
 ### DataHub
 
 [Website](https://datahubproject.io/) | [GitHub](https://github.com/linkedin/datahub)
+![](https://img.shields.io/github/stars/linkedin/datahub.svg?style=social)
 
 DataHub is an open-source data catalog featuring data discovery, data governance, metadata management originated from LinkedIn. 
 
@@ -125,6 +126,7 @@ DataHub is an open-source data catalog featuring data discovery, data governance
 ### Marquez
 
 [Website](https://marquezproject.github.io/marquez/) | [GitHub](https://github.com/MarquezProject/marquez)
+![](https://img.shields.io/github/stars/MarquezProject/marquez.svg?style=social)
 
 Marquez is an open-source data catalog for collection, aggregation, and visualization of a data ecosystem’s metadata originated from WeWork. 
 
@@ -160,6 +162,7 @@ Marquez is an open-source data catalog for collection, aggregation, and visualiz
 ### Atlas 
 
 [Website](https://atlas.apache.org/#/) | [GitHub](https://github.com/apache/atlas)
+![](https://img.shields.io/github/stars/apache/atlas.svg?style=social)
 
 Apache Atlas is an open-source data catalog for metadata collection, governance, and data democratization.
 
@@ -195,6 +198,7 @@ Apache Atlas is an open-source data catalog for metadata collection, governance,
 ### CKAN
 
 [Website](https://ckan.org/) | [GitHub](https://github.com/ckan/ckan)
+![](https://img.shields.io/github/stars/ckan/ckan.svg?style=social)
 
 CKAN is an open-source data catalog for data management, powering data portals for govenments and enterprises. 
 
@@ -230,6 +234,7 @@ CKAN is an open-source data catalog for data management, powering data portals f
 ### Magda
 
 [Website](https://magda.io/) | [GitHub](https://github.com/magda-io/magda)
+![](https://img.shields.io/github/stars/magda-io/magda.svg?style=social)
 
 Magda is an open-source data catalog that features data discovery, metadata enrichment, and federation, focused on geodata.
 
