@@ -46,14 +46,22 @@ This repository contains a curated list of awesome data data catalogs and observ
 | [Talend](#talend)      | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
 
 
-<b>Based on open standard</b> - uses an open standard for collecting metadata to allow efficient time-to-discovery and federating different data catalogs  
-<b>Search-based</b> - allows to search for data assets 
+<b>Based on open standard</b> - uses an open standard for collecting metadata to allow efficient time-to-discovery and federating different data catalogs
+
+<b>Search-based</b> - allows to search for data assets
+
 <b>Lineage-based</b> - provides lineage for all entities the solution operates
-<b>Network-based</b> - provides rich context about data asset ownership  
-<b>Federation</b> - the ability to map multiple data catalogs into a single UI to avoid repeated data collection. For more information, see specification.md
-<b>End-to-end lineage</b> - data lineage that includes all data assets used in the organization across all its data catalogs and ML tools. 
-<b>ML 1st citizen</b> - operates ML entities on a high level - you can use them as any other data assets. 
+
+<b>Network-based</b> - provides rich context about data asset ownership
+
+<b>Federation</b> - the ability to map multiple data catalogs into a single UI to avoid repeated data collection. For more information, see **[specification.md](https://github.com/opendatadiscovery/opendatadiscovery-specification/blob/main/specification/specification.md)** 
+
+<b>End-to-end lineage</b> - data lineage that includes all data assets used in the organization across all its data catalogs and ML tools.
+
+<b>ML 1st citizen</b> - operates ML entities on a high level - you can use them as any other data assets.
+
 <b>Data Quality</b> - includes mature data quality assurance tools.
+
 <br>
 
 <a name="opensource"></a>
