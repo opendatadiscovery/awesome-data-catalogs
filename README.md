@@ -47,7 +47,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 Definitions:
 <ul>
-<li><b>Specification-based</b> - uses an open standard for collecting metadata to allow efficient time-to-discovery and federating different data catalogs</li>
+<li><b>Specification-based</b> - uses an open standard for collecting metadata to allow efficient time-to-discovery and federating data catalogs</li>
 <li><b>Search-based</b> - allows to search for data assets</li>
 <li><b>Lineage-based</b> - provides lineage for all entities the solution operates</li> 
 <li><b>Network-based</b> - provides rich context about data asset ownership</li>
