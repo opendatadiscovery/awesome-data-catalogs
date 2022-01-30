@@ -16,9 +16,9 @@ This repository contains a curated list of awesome data data catalogs and observ
 | [📙 Amundsen](#amundsen) |  [📒 Google DC](#google)       | [🔍 Monte Carlo](#montecarlo)  | [📕 Alation](#alation)         |
 | [📙 DataHub](#datahub)   |  [📒 Azure DC](#azure)         | [🔍 Databand](#databand)       | [📕 Atlan](#atlan)             |
 | [📙 Marquez](#marquez)   |                                | [🔍 Datafold](#datafold)       | [📕 Collibra](#collibra)       |
-| [📙 Atlas](#atlas)       |                                | [🔍 Ataccama](#ataccama)       | [📕 Informatica](#informatica) |
-| [📙 CKAN](#ckan)         |                                |                                | [📕Stemma](#stemma)             |
-| [📙 Magda](#magda)       |                                |                                |                                 |
+| [📙 Atlas](#atlas)       |                                | [🔍 Ataccama](#ataccama)       | [📕 DataGalaxy](#datagalaxy) |
+| [📙 CKAN](#ckan)         |                                |                                | [📕 Informatica](#informatica) |
+| [📙 Magda](#magda)       |                                |                                |   [📕Stemma](#stemma)          |
 
 <br>
 
@@ -34,6 +34,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 | [Azure DC](#azure)     | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
 | [CKAN](#ckan)          | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
 | [Collibra](#collibra)  | ❌ | ✔️ | ?  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
+| [DataGalaxy](#datagalaxy)  | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ✔️ |
 | [Databand](#databand)  | ❌ | ? | ? | ? | ❌ | ? | ? | ? | ✔️ |
 | [Datafold](#datafold)  | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ |
 | [DataHub](#datahub)    | ❌ | ✔️  | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
@@ -384,6 +385,32 @@ Atlan is a modern data catalog offering data discovery, data profiling, data qua
 <li><b>Network-based:</b> No</li> 
 <li><b>Rich data profiling:</b> ?</li> 
 <li><b>Supported data sources:</b> Presto, Deequ, Atlas, Airflow, Hudi  </li>
+</ul>
+</details>
+
+<br>
+
+<a name="datagalaxy"></a>
+### DataGalaxy
+
+[Website](https://www.datagalaxy.com/en-gb/home/) | [GitHub](https://github.com/datagalaxy-lab)
+
+DataGalaxy is a modern data catalog offering data discovery, data profiling, data quality, data lineage and data governance.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:---:|:---:| 
+| ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ✔️ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Pull & Push </li>
+<li><b>UX personalization:</b> Yes </li> 
+<li><b>AI autowiring:</b> Yes</li> 
+<li><b>Network-based:</b> Yes</li> 
+<li><b>Rich data profiling:</b> Yes</li> 
+<li><b>Supported data sources:</b>  </li>
 </ul>
 </details>
 
