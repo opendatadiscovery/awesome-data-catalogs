@@ -18,7 +18,8 @@ This repository contains a curated list of awesome data data catalogs and observ
 | [📙 Marquez](#marquez)   |                                | [🔍 Datafold](#datafold)       | [📕 Collibra](#collibra)       |
 | [📙 Atlas](#atlas)       |                                | [🔍 Ataccama](#ataccama)       | [📕 DataGalaxy](#datagalaxy) |
 | [📙 CKAN](#ckan)         |                                |                                | [📕 Informatica](#informatica) |
-| [📙 Magda](#magda)       |                                |                                |   [📕Stemma](#stemma)          |
+| [📙 Magda](#magda)       |                                |                                | [📕 Stemma](#stemma)          |
+|                         |                                |                                |  [📕 Talend](#talend) |
 
 <br>
 
@@ -50,12 +51,12 @@ Definitions:
 <ul>
 <li><b>Specification-based</b> - uses an open standard for collecting metadata to allow efficient time-to-discovery and federating data catalogs</li>
 <li><b>Search-based</b> - allows to search for data assets</li>
-<li><b>Lineage-based</b> - provides lineage for all entities the solution operates</li> 
 <li><b>Network-based</b> - provides rich context about data asset ownership</li>
+<li><b>Lineage-based</b> - provides lineage for all entities the solution operates</li> 
 <li><b>Federation</b> - the ability to map multiple data catalogs into a single UI to avoid repeated data collection.</li> 
-<li><b>End-to-end lineage</b> - data lineage that includes all data assets used in the organization across all its data catalogs and ML tools.</li> 
 <li><b>ML 1st citizen</b> - operates ML entities on a high level - you can use them as any other data assets.</li> 
 <li><b>Data Quality</b> - includes mature data quality assurance tools.</li> 
+<li><b>End-to-end lineage</b> - data lineage that includes all data assets used in the organization across all its data catalogs and ML tools.</li> 
 </ul>
 <br>
 
