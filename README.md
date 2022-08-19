@@ -20,6 +20,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 | [📙 CKAN](#ckan)         |                                |                                | [📕 Informatica](#informatica) |
 | [📙 Magda](#magda)       |                                |                                | [📕 Stemma](#stemma)          |
 |                         |                                |                                |  [📕 Talend](#talend) |
+|                         |                                |                                |  [📕 Select Star](#selectstar) |
 
 <br>
 
@@ -46,6 +47,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 | [Monte Carlo](#montecarlo)   | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ |
 | [Stemma](#stemma)      | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
 | [Talend](#talend)      | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
+| [Select Star](#selectstar)      | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ |
 
 Definitions:
 <ul>
@@ -464,6 +466,57 @@ Talend is a data catalog that helps enterprises power critical business descisio
 <li><b>Network-based:</b> ?</li> 
 <li><b>Rich data profiling:</b> Yes</li> 
 <li><b>Supported data sources:</b>  </li>
+</ul>
+</details>
+
+<br>
+
+
+<a name="selectstar" id="selectstar"></a>
+### Select Star
+
+[Website](https://www.selectstar.com/)
+
+Select Star is an intelligent data discovery platform that automatically analyzes and documents your data. Select Star provides an easy to use data portal that everyone can use to find and understand data.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:| 
+| ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ❌ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Pull </li>
+<li><b>UX personalization:</b> No</li>
+<li><b>AI autowiring:</b> Yes</li>
+<li><b>Network-based:</b> Yes</li>
+<li><b>Rich data profiling:</b> No</li>
+<li><b>ER Diagram generation:</b> Yes</li>
+<li><b>Popularity & usage:</b> Yes </li>
+<li><b>Description suggestion:</b> Yes </li>
+<li><b>Tag propagation:</b> Yes </li>
+<li><b>Data preview:</b> Yes </li>
+<li><b>Data owners:</b> Yes</li>
+<li><b>Top data users:</b> Yes </li>
+<li><b>Supported data sources:</b>
+  <ul>
+    <li>Snowflake</li>
+    <li>BigQuery</li>
+    <li>Redshift</li>
+    <li>Postgres</li>
+    <li>Looker</li>
+    <li>PowerBI</li>
+    <li>Tableau</li>
+    <li>Mode</li>
+    <li>Sigma</li>
+    <li>Sisense</li>
+    <li>Metabase</li>
+    <li>DBT Cloud</li>
+    <li>DBT Core</li>
+    <li>Slack</li>
+  </ul>
+</li>
 </ul>
 </details>
 
