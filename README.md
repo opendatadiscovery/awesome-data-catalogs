@@ -12,13 +12,14 @@ This repository contains a curated list of awesome data data catalogs and observ
 ## Contents: Existing Data Discovery and Observability Solutions
 
 | [OSS Data Catalogs](#opensource) | [ Proprietary Monocloud DCs](#monocloud)| [ Proprietary Obserability Tools](#observability) | [Other Proprietary DCs](#proprietary) |
-|--------------------------|--------------------------------|---------------------------------|--------------------------------|
-| [📙 Amundsen](#amundsen) |  [📒 Google DC](#google)       | [🔍 Monte Carlo](#montecarlo)  | [📕 Alation](#alation)         |
-| [📙 DataHub](#datahub)   |  [📒 Azure DC](#azure)         | [🔍 Databand](#databand)       | [📕 Atlan](#atlan)             |
-| [📙 Marquez](#marquez)   |                                | [🔍 Datafold](#datafold)       | [📕 Collibra](#collibra)       |
-| [📙 Atlas](#atlas)       |                                | [🔍 Ataccama](#ataccama)       | [📕 DataGalaxy](#datagalaxy) |
-| [📙 CKAN](#ckan)         |                                |                                | [📕 Informatica](#informatica) |
-| [📙 Magda](#magda)       |                                |                                |   [📕Stemma](#stemma)          |
+|----------------------------------|--------------------------------|---------------------------------|--------------------------------|
+| [📙 Amundsen](#amundsen)         |  [📒 Google DC](#google)       | [🔍 Monte Carlo](#montecarlo)  | [📕 Alation](#alation)         |
+| [📙 DataHub](#datahub)           |  [📒 Azure DC](#azure)         | [🔍 Databand](#databand)       | [📕 Atlan](#atlan)             |
+| [📙 Marquez](#marquez)           |                                | [🔍 Datafold](#datafold)       | [📕 Collibra](#collibra)       |
+| [📙 Atlas](#atlas)               |                                | [🔍 Ataccama](#ataccama)       | [📕 DataGalaxy](#datagalaxy)   |
+| [📙 CKAN](#ckan)                 |                                |                                | [📕 Informatica](#informatica) |
+| [📙 Magda](#magda)               |                                |                                | [📕Stemma](#stemma)            |
+| [📙 OpenMetadata](#openmetadata) |                                |                                |                                |
 
 <br>
 
@@ -43,6 +44,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 | [Magda](#magda)        | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
 | [Marquez](#marquez)    | [OpenLineage](https://github.com/OpenLineage/OpenLineage) | ✔️ | ❌| ✔️ | ? | ❌ | ❌ | ❌ | ❌ |
 | [Monte Carlo](#montecarlo)   | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ |
+| [OpenMetadata](#openmetadata)   | [JSON Schema](https://github.com/json-schema-org/json-schema-spec) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ |
 | [Stemma](#stemma)      | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
 | [Talend](#talend)      | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
 
@@ -625,6 +627,43 @@ Ataccama is an enterprise data catalog and observability tool featuring data pro
 <li><b>Network-based:</b> No</li> 
 <li><b>Rich data profiling:</b> Yes</li> 
 <li><b>Supported data sources:</b>  </li>
+</ul>
+</details>
+
+<br>
+
+<a name="atlas"></a>
+### OpenMetadata 
+
+[Website](https://open-metadata.org/) | [GitHub](https://github.com/open-metadata/OpenMetadata)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/open-metadata/OpenMetadata/commit-activity)
+![](https://img.shields.io/github/stars/open-metadata/OpenMetadata.svg?style=social)
+
+OpenMetadata is the all-in-one platform for data collaboration, discovery, governance, lineage, and quality that lets you focus on building and analyzing.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
+| ✔️ | ✔️  | ✔️  | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌|
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Push/Pull </li>
+<li><b>UX personalization:</b> No </li> 
+<li><b>Rich data profiling:</b> Yes </li>
+<li><b>Data collaboration:</b> Yes </li>
+<li><b>Schemas, Description:</b> Yes</li>
+<li><b>Complex schemas:</b> Yes </li>
+<li><b>Data preview:</b> Yes </li>
+<li><b>Column statistics:</b> Yes </li>
+<li><b>Data owner:</b> Yes </li>
+<li><b>Change notifications:</b> Yes </li>
+<li><b>Change feed:</b> Yes </li>
+<li><b>Metadata versioning:</b> Yes </li>
+<li><b>SaaS:</b> Yes </li>  
+<li><b>Third-party integrations:</b> Dbt, Great Expectations </li>
+<li><b>Supported data sources:</b> Athena, AzureSQL, BigQuery, Clickhouse, Databricks, DB2, DeltaLake, Druid, DynamoDB, Glue, Hive, MariaDB, MSSQL, MySQL, Oracle, Postgres, Presto, Redshift, Salesforce, SingleStore, Snowflake, Trino, Vertica, Looker, Metabase, Mode, PowerBI, Redash, Superset, Tableau, Kafka, Airbyte, Airflow, Glue, Fivetran, Dagster, MlFlow  </li>
 </ul>
 </details>
 
