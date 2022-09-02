@@ -662,7 +662,7 @@ OpenMetadata is the all-in-one platform for data collaboration, discovery, gover
 <li><b>Change feed:</b> Yes </li>
 <li><b>Metadata versioning:</b> Yes </li>
 <li><b>SaaS:</b> Yes </li>  
-<li><b>Third-party integrations:</b> Dbt, Great Expectations </li>
+<li><b>Third-party integrations:</b> Dbt, Great Expectations, and Prefect </li>
 <li><b>Supported data sources:</b> Airbyte, Airflow, Athena, AzureSQL, BigQuery, Clickhouse, Dagster, Databricks, DB2, DeltaLake, Druid, DynamoDB, Fivetran, Glue, Glue, Hive, Kafka, Looker, MariaDB, Metabase, MlFlow, Mode, MSSQL, MySQL, NiFi, Oracle, Postgres, PowerBI, Presto, Redash, Redpanda, Redshift, Salesforce, SingleStore, Snowflake, Superset, Tableau, Trino, and Vertica </li>
 </ul>
 </details>
