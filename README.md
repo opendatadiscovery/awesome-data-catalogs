@@ -12,20 +12,21 @@ This repository contains a curated list of awesome data data catalogs and observ
 ## Contents: Existing Data Discovery and Observability Solutions
 
 | [OSS Data Catalogs](#opensource) | [ Proprietary Monocloud DCs](#monocloud)| [ Proprietary Obserability Tools](#observability) | [Other Proprietary DCs](#proprietary) |
-|----------------------------------|--------------------------------|---------------------------------|--------------------------------|
-| [📙 Amundsen](#amundsen)         |  [📒 Google DC](#google)       | [🔍 Monte Carlo](#montecarlo)  | [📕 Alation](#alation)         |
-| [📙 DataHub](#datahub)           |  [📒 Azure DC](#azure)         | [🔍 Databand](#databand)       | [📕 Atlan](#atlan)             |
-| [📙 Marquez](#marquez)           |                                | [🔍 Datafold](#datafold)       | [📕 Collibra](#collibra)       |
-| [📙 Atlas](#atlas)               |                                | [🔍 Ataccama](#ataccama)       | [📕 DataGalaxy](#datagalaxy)   |
-| [📙 CKAN](#ckan)                 |                                |                                | [📕 Informatica](#informatica) |
-| [📙 Magda](#magda)               |                                |                                | [📕Stemma](#stemma)            |
-| [📙 OpenMetadata](#openmetadata) |                                |                                |                                |
+|--------------------------|--------------------------------|---------------------------------|--------------------------------|
+| [📙 Amundsen](#amundsen) |  [📒 Google DC](#google)       | [🔍 Monte Carlo](#montecarlo)  | [📕 Alation](#alation)         |
+| [📙 DataHub](#datahub)   |  [📒 Azure DC](#azure)         | [🔍 Databand](#databand)       | [📕 Atlan](#atlan)             |
+| [📙 Marquez](#marquez)   |                                | [🔍 Datafold](#datafold)       | [📕 Collibra](#collibra)       |
+| [📙 Atlas](#atlas)       |                                | [🔍 Ataccama](#ataccama)       | [📕 DataGalaxy](#datagalaxy) |
+| [📙 CKAN](#ckan)         |                                |                                | [📕 Informatica](#informatica) |
+| [📙 Magda](#magda)       |                                |                                | [📕 Stemma](#stemma)          |
+| [📙 OpenMetadata](#openmetadata)|                                |                                |  [📕 Talend](#talend) |
+|                         |                                |                                |  [📕 Select Star](#selectstar) |
 
 <br>
 
 ## High-Level Feature Comparision
 
-| Tool | Specification -Based | Search-based | Network-based | Lineage-based | Federa- tion | ML 1st Citizen | Data Quality | End-to-end Lineage | Observ- ability |
+| Tool | Specification -Based | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observ- ability |
 |:-------------:|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
 | [Alation](#alation)    | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
 | [Amundsen](#amundsen)  | ❌ | ✔️  | ✔️  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
@@ -44,6 +45,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 | [Magda](#magda)        | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
 | [Marquez](#marquez)    | [OpenLineage](https://github.com/OpenLineage/OpenLineage) | ✔️ | ❌| ✔️ | ? | ❌ | ❌ | ❌ | ❌ |
 | [Monte Carlo](#montecarlo)   | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ |
+| [Select Star](#selectstar)      | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ |
 | [OpenMetadata](#openmetadata)   | [JSON Schema](https://github.com/json-schema-org/json-schema-spec) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ |
 | [Stemma](#stemma)      | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
 | [Talend](#talend)      | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
@@ -52,12 +54,12 @@ Definitions:
 <ul>
 <li><b>Specification-based</b> - uses an open standard for collecting metadata to allow efficient time-to-discovery and federating data catalogs</li>
 <li><b>Search-based</b> - allows to search for data assets</li>
-<li><b>Lineage-based</b> - provides lineage for all entities the solution operates</li> 
 <li><b>Network-based</b> - provides rich context about data asset ownership</li>
+<li><b>Lineage-based</b> - provides lineage for all entities the solution operates</li> 
 <li><b>Federation</b> - the ability to map multiple data catalogs into a single UI to avoid repeated data collection.</li> 
-<li><b>End-to-end lineage</b> - data lineage that includes all data assets used in the organization across all its data catalogs and ML tools.</li> 
 <li><b>ML 1st citizen</b> - operates ML entities on a high level - you can use them as any other data assets.</li> 
 <li><b>Data Quality</b> - includes mature data quality assurance tools.</li> 
+<li><b>End-to-end lineage</b> - data lineage that includes all data assets used in the organization across all its data catalogs and ML tools.</li> 
 </ul>
 <br>
 
@@ -465,6 +467,57 @@ Talend is a data catalog that helps enterprises power critical business descisio
 <li><b>Network-based:</b> ?</li> 
 <li><b>Rich data profiling:</b> Yes</li> 
 <li><b>Supported data sources:</b>  </li>
+</ul>
+</details>
+
+<br>
+
+
+<a name="selectstar" id="selectstar"></a>
+### Select Star
+
+[Website](https://www.selectstar.com/)
+
+Select Star is an intelligent data discovery platform that automatically analyzes and documents your data. Select Star provides an easy to use data portal that everyone can use to find and understand data.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:| 
+| ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Pull </li>
+<li><b>UX personalization:</b> No</li>
+<li><b>AI autowiring:</b> Yes</li>
+<li><b>Network-based:</b> Yes</li>
+<li><b>Rich data profiling:</b> No</li>
+<li><b>ER Diagram generation:</b> Yes</li>
+<li><b>Popularity & usage:</b> Yes </li>
+<li><b>Description suggestion:</b> Yes </li>
+<li><b>Tag propagation:</b> Yes </li>
+<li><b>Data preview:</b> Yes </li>
+<li><b>Data owners:</b> Yes</li>
+<li><b>Top data users:</b> Yes </li>
+<li><b>Supported data sources:</b>
+  <ul>
+    <li>Snowflake</li>
+    <li>BigQuery</li>
+    <li>Redshift</li>
+    <li>Postgres</li>
+    <li>Looker</li>
+    <li>PowerBI</li>
+    <li>Tableau</li>
+    <li>Mode</li>
+    <li>Sigma</li>
+    <li>Sisense</li>
+    <li>Metabase</li>
+    <li>DBT Cloud</li>
+    <li>DBT Core</li>
+    <li>Slack</li>
+  </ul>
+</li>
 </ul>
 </details>
 
