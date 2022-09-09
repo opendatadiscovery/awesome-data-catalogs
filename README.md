@@ -287,6 +287,43 @@ Magda is an open-source data catalog that features data discovery, metadata enri
 
 <br>
 
+<a name="atlas"></a>
+### OpenMetadata 
+
+[Website](https://open-metadata.org/) | [GitHub](https://github.com/open-metadata/OpenMetadata)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/open-metadata/OpenMetadata/commit-activity)
+![](https://img.shields.io/github/stars/open-metadata/OpenMetadata.svg?style=social)
+
+OpenMetadata is the all-in-one platform for data collaboration, discovery, governance, lineage, and quality that lets you focus on building and analyzing.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
+| ✔️ | ✔️  | ✔️  | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌|
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Push/Pull </li>
+<li><b>UX personalization:</b> No </li> 
+<li><b>Rich data profiling:</b> Yes </li>
+<li><b>Data collaboration:</b> Yes </li>
+<li><b>Schemas, Description:</b> Yes</li>
+<li><b>Complex schemas:</b> Yes </li>
+<li><b>Data preview:</b> Yes </li>
+<li><b>Column statistics:</b> Yes </li>
+<li><b>Data owner:</b> Yes </li>
+<li><b>Change notifications:</b> Yes </li>
+<li><b>Change feed:</b> Yes </li>
+<li><b>Metadata versioning:</b> Yes </li>
+<li><b>SaaS:</b> Yes </li>  
+<li><b>Third-party integrations:</b> Dbt, Great Expectations, and Prefect </li>
+<li><b>Supported data sources:</b> Airbyte, Airflow, Athena, AzureSQL, BigQuery, Clickhouse, Dagster, Databricks, DB2, DeltaLake, Druid, DynamoDB, Fivetran, Glue, Glue, Hive, Kafka, Looker, MariaDB, Metabase, MlFlow, Mode, MSSQL, MySQL, NiFi, Oracle, Postgres, PowerBI, Presto, Redash, Redpanda, Redshift, Salesforce, SingleStore, Snowflake, Superset, Tableau, Trino, and Vertica </li>
+</ul>
+</details>
+
+<br>
+
 <a name="proprietary"></a>
 ## 📕 Proprietary Data Catalogs
 
@@ -680,43 +717,6 @@ Ataccama is an enterprise data catalog and observability tool featuring data pro
 <li><b>Network-based:</b> No</li> 
 <li><b>Rich data profiling:</b> Yes</li> 
 <li><b>Supported data sources:</b>  </li>
-</ul>
-</details>
-
-<br>
-
-<a name="atlas"></a>
-### OpenMetadata 
-
-[Website](https://open-metadata.org/) | [GitHub](https://github.com/open-metadata/OpenMetadata)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/open-metadata/OpenMetadata/commit-activity)
-![](https://img.shields.io/github/stars/open-metadata/OpenMetadata.svg?style=social)
-
-OpenMetadata is the all-in-one platform for data collaboration, discovery, governance, lineage, and quality that lets you focus on building and analyzing.
-
-|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
-|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
-| ✔️ | ✔️  | ✔️  | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌|
-
-<details>
-<summary>More features</summary>
-<br>
-<ul>
-<li><b>Strategy:</b> Push/Pull </li>
-<li><b>UX personalization:</b> No </li> 
-<li><b>Rich data profiling:</b> Yes </li>
-<li><b>Data collaboration:</b> Yes </li>
-<li><b>Schemas, Description:</b> Yes</li>
-<li><b>Complex schemas:</b> Yes </li>
-<li><b>Data preview:</b> Yes </li>
-<li><b>Column statistics:</b> Yes </li>
-<li><b>Data owner:</b> Yes </li>
-<li><b>Change notifications:</b> Yes </li>
-<li><b>Change feed:</b> Yes </li>
-<li><b>Metadata versioning:</b> Yes </li>
-<li><b>SaaS:</b> Yes </li>  
-<li><b>Third-party integrations:</b> Dbt, Great Expectations, and Prefect </li>
-<li><b>Supported data sources:</b> Airbyte, Airflow, Athena, AzureSQL, BigQuery, Clickhouse, Dagster, Databricks, DB2, DeltaLake, Druid, DynamoDB, Fivetran, Glue, Glue, Hive, Kafka, Looker, MariaDB, Metabase, MlFlow, Mode, MSSQL, MySQL, NiFi, Oracle, Postgres, PowerBI, Presto, Redash, Redpanda, Redshift, Salesforce, SingleStore, Snowflake, Superset, Tableau, Trino, and Vertica </li>
 </ul>
 </details>
 
