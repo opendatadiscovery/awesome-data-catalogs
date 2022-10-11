@@ -288,7 +288,44 @@ Magda is an open-source data catalog that features data discovery, metadata enri
 
 <br>
 
-<a name="atlas"></a>
+<a name="opendatadiscovery"></a>
+### OpenDataDiscovery 
+
+[Website](https://opendatadiscovery.org/) | [GitHub](https://github.com/opendatadiscovery/odd-platform)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/opendatadiscovery/odd-platform/commits/main)
+![](https://img.shields.io/github/stars/opendatadiscovery/odd-platform.svg?style=social)
+
+First open-source data discovery and observability platform. ODD Platform is based on ODD Specification.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
+|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
+| ✔️ | ✔️  | ✔️  | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Push/Pull </li>
+<li><b>UX personalization:</b> No </li> 
+<li><b>Rich data profiling:</b> Yes </li>
+<li><b>Data collaboration:</b> Yes </li>
+<li><b>Schemas, Description:</b> Yes</li>
+<li><b>Complex schemas:</b> Yes </li>
+<li><b>Data preview:</b> Yes </li>
+<li><b>Column statistics:</b> Yes </li>
+<li><b>Data owner:</b> Yes </li>
+<li><b>Change notifications:</b> Yes </li>
+<li><b>Change feed:</b> Yes </li>
+<li><b>Metadata versioning:</b> Yes </li>
+<li><b>SaaS:</b> Yes </li>  
+<li><b>Third-party integrations:</b> Dbt, Great Expectations, and Prefect </li>
+<li><b>Supported data sources:</b>  Airflow, Athena, AzureSQL, BigQuery, Clickhouse, Databricks, DeltaLake, Druid, DynamoDB, Fivetran, Glue, Hive, Kafka, Looker, MariaDB, MlFlow, MSSQL, MySQL, Oracle, Postgres, Presto, Redash, Redpanda, Redshift, Snowflake, Tableau, and Vertica </li>
+</ul>
+</details>
+
+<br>
+
+<a name="openmetadata"></a>
 ### OpenMetadata 
 
 [Website](https://open-metadata.org/) | [GitHub](https://github.com/open-metadata/OpenMetadata)
@@ -325,42 +362,7 @@ OpenMetadata is the all-in-one platform for data collaboration, discovery, gover
 
 <br>
 
-<a name="atlas"></a>
-### OpenDataDiscovery 
 
-[Website](https://opendatadiscovery.org/) | [GitHub](https://github.com/opendatadiscovery/odd-platform)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/opendatadiscovery/odd-platform/commits/main)
-![](https://img.shields.io/github/stars/opendatadiscovery/odd-platform.svg?style=social)
-
-First open-source data discovery and observability platform. ODD Platform is based on ODD Specification.
-
-|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
-|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
-| ✔️ | ✔️  | ✔️  | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
-
-<details>
-<summary>More features</summary>
-<br>
-<ul>
-<li><b>Strategy:</b> Push/Pull </li>
-<li><b>UX personalization:</b> No </li> 
-<li><b>Rich data profiling:</b> Yes </li>
-<li><b>Data collaboration:</b> Yes </li>
-<li><b>Schemas, Description:</b> Yes</li>
-<li><b>Complex schemas:</b> Yes </li>
-<li><b>Data preview:</b> Yes </li>
-<li><b>Column statistics:</b> Yes </li>
-<li><b>Data owner:</b> Yes </li>
-<li><b>Change notifications:</b> Yes </li>
-<li><b>Change feed:</b> Yes </li>
-<li><b>Metadata versioning:</b> Yes </li>
-<li><b>SaaS:</b> Yes </li>  
-<li><b>Third-party integrations:</b> Dbt, Great Expectations, and Prefect </li>
-<li><b>Supported data sources:</b>  Airflow, Athena, AzureSQL, BigQuery, Clickhouse, Databricks, DeltaLake, Druid, DynamoDB, Fivetran, Glue, Hive, Kafka, Looker, MariaDB, MlFlow, MSSQL, MySQL, Oracle, Postgres, Presto, Redash, Redpanda, Redshift, Snowflake, Tableau, and Vertica </li>
-</ul>
-</details>
-
-<br>
 
 <a name="proprietary"></a>
 ## 📕 Proprietary Data Catalogs
