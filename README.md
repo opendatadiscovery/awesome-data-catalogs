@@ -530,7 +530,7 @@ DataGalaxy is a modern data catalog offering data discovery, data profiling, dat
 <li><b>AI autowiring:</b> Yes</li> 
 <li><b>Network-based:</b> Yes</li> 
 <li><b>Rich data profiling:</b> Yes</li> 
-<li><b>Supported data sources:</b>  </li>
+<li><b>Supported data sources:</b> [Available connectors](https://www.datagalaxy.com/fr/integrations-connecteurs/) </li>
 </ul>
 </details>
 
