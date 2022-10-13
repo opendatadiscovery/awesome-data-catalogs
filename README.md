@@ -39,7 +39,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 | [DataGalaxy](#datagalaxy)  | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ✔️ |
 | [Databand](#databand)  | ❌ | ? | ? | ? | ❌ | ? | ? | ? | ✔️ |
 | [Datafold](#datafold)  | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ |
-| [DataHub](#datahub)    | ❌ | ✔️  | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [DataHub](#datahub)    | ✔️ [details](https://datahubproject.io/docs/metadata-modeling/metadata-model/) | ✔️  | ✔️ | ✔️ | ✔ | ✔ | ✔ | ✔ | ❌ |
 | [Google DC](#google)   | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ | ❌ |
 | [Informatica](#informatica)   | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ |
 | [Magda](#magda)        | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
@@ -106,35 +106,70 @@ A popular open-source data catalog for metadata management and data discovery or
 <a name="datahub"></a>
 ### DataHub
 
-[Website](https://datahubproject.io/) | [GitHub](https://github.com/linkedin/datahub)
+[Website](https://datahubproject.io/) | [GitHub](https://github.com/datahub-project/datahub)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/linkedin/datahub/graphs/commit-activity)
 ![](https://img.shields.io/github/stars/linkedin/datahub.svg?style=social)
 
-DataHub is an open-source data catalog featuring data discovery, data governance, metadata management originated from LinkedIn. 
+DataHub is an open-source data catalog enabling data discovery, data observability and federated governance that originated from LinkedIn and is commercially offered by Acryl Data as a cloud-hosted SaaS offering.
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability |
 |:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:| 
-| ❌ | ✔️  | ✔️ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| ✔️ [details](https://datahubproject.io/docs/metadata-modeling/metadata-model/) | ✔️  | ✔️ | ✔️ | ✔ | ✔ | ✔ | ✔ | ❌ |
 
 <details>
 <summary>More features</summary>
 <br>
 <ul>
 <li><b>Strategy:</b> Push, Pull</li>
-<li><b>UX personalization:</b> No</li> 
-<li><b>AI autowiring:</b> No</li> 
-<li><b>Rich data profiling:</b> No</li> 
-<li><b>Recommendations:</b> ? </li>
+<li><b>Customizable metadata model:</b> Yes. The metadata model can be declared using the open-source Pegasus language, and is interoperable with JSONSchema and Avro </li>
+<li><b>Rich data profiling:</b> Yes</li> 
+<li><b>Recommendations:</b> Yes </li>
 <li><b>Schemas, Description:</b> Yes</li>
-<li><b>Complex schemas:</b> No </li>
-<li><b>Data preview:</b> ? </li>
-<li><b>Column statistics:</b> No </li>
+<li><b>Complex schemas:</b> Yes </li>
+<li><b>Data preview:</b> Yes </li>
+<li><b>Column statistics:</b> Yes </li>
 <li><b>Data owner:</b> Yes</li>
-<li><b>Top data users:</b> ? </li>
-<li><b>Change notifications:</b> No </li>
+<li><b>Top data users:</b> Yes </li>
+<li><b>Lineage impact analysis:</b> Yes </li>
+<li><b>Change notifications:</b> Yes </li>
 <li><b>Change feed:</b> No </li>
-<li><b>Deployment:</b>  </li> 
-<li><b>Supported data sources:</b> Hive, Kafka, RDBMS </li>
+<li><b>Automation:</b> Yes </li>
+<li><b>UX personalization:</b> No</li> 
+<li><b>Deployment:</b> docker-compose / Kubernetes with Helm, or using Acryl Data's SaaS offering </li> 
+<li><b>Supported data sources:</b>
+  <ul>
+    <li>Snowflake</li>
+    <li>BigQuery</li>
+    <li>Redshift</li>
+    <li>Hive</li>
+    <li>Athena</li>
+    <li>Postgres</li>
+    <li>MySQL</li>
+    <li>SQL server</li>
+    <li>Trino</li>
+    <li>Delta Lake</li>
+    <li>S3</li>
+    <li>Looker</li>
+    <li>PowerBI</li>
+    <li>Tableau</li>
+    <li>Mode</li>
+    <li>Metabase</li>
+    <li>Redash</li>
+    <li>Superset</li>
+    <li>Airflow</li>
+    <li>Great Expectation</li>
+    <li>dbt</li>
+    <li>Feast</li>
+    <li>SageMaker</li>
+    <li>Glue</li>
+    <li>Kafka</li>
+    <li>Nifi</li>
+    <li>Okta</li>
+    <li>LDAP</li>
+    <li>Slack</li>
+    <li>There's 50+ integrations - see the <a href="https://datahubproject.io/docs/">docs</a> for the latest.</li>
+  </ul>
+</li>
 </ul>
 </details>
 
