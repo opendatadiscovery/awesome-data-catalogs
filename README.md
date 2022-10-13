@@ -11,7 +11,7 @@ This repository contains a curated list of awesome data data catalogs and observ
 
 ## Contents: Existing Data Discovery and Observability Solutions
 
-| [OSS Data Catalogs](#opensource) | [ Proprietary Monocloud DCs](#monocloud)| [ Proprietary Obserability Tools](#observability) | [Other Proprietary DCs](#proprietary) |
+| [OSS Data Catalogs](#opensource) | [ Proprietary Monocloud DCs](#monocloud)| [ Proprietary Observability Tools](#observability) | [Other Proprietary DCs](#proprietary) |
 |--------------------------|--------------------------------|---------------------------------|--------------------------------|
 | [📙 Amundsen](#amundsen) |  [📒 Google DC](#google)       | [🔍 Monte Carlo](#montecarlo)  | [📕 Alation](#alation)         |
 | [📙 DataHub](#datahub)   |  [📒 Azure DC](#azure)         | [🔍 Databand](#databand)       | [📕 Atlan](#atlan)             |
