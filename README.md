@@ -605,17 +605,17 @@ Select Star is an intelligent data discovery platform that automatically analyze
 <br>
 <ul>
 <li><b>Strategy:</b> Pull </li>
-<li><b>UX personalization:</b> No</li>
 <li><b>AI autowiring:</b> Yes</li>
 <li><b>Network-based:</b> Yes</li>
 <li><b>Rich data profiling:</b> No</li>
 <li><b>ER Diagram generation:</b> Yes</li>
+<li><b>Role & Policy based access control:</b> Yes</li>
 <li><b>Popularity & usage:</b> Yes </li>
-<li><b>Description suggestion:</b> Yes </li>
-<li><b>Tag propagation:</b> Yes </li>
+<li><b>Description & Tag propagation:</b> Yes </li>
 <li><b>Data preview:</b> Yes </li>
 <li><b>Data owners:</b> Yes</li>
 <li><b>Top data users:</b> Yes </li>
+<li><b>UX personalization:</b> No</li>
 <li><b>Supported data sources:</b>
   <ul>
     <li>Snowflake</li>
@@ -629,8 +629,8 @@ Select Star is an intelligent data discovery platform that automatically analyze
     <li>Sigma</li>
     <li>Sisense</li>
     <li>Metabase</li>
-    <li>DBT Cloud</li>
-    <li>DBT Core</li>
+    <li>Looker Studio</li>
+    <li>DBT Cloud & Core</li>
     <li>Slack</li>
   </ul>
 </li>
