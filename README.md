@@ -46,7 +46,7 @@ This repository contains a curated list of awesome data catalogs and observabili
 | [Magda](#magda)        | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Marquez](#marquez)    | [OpenLineage](https://github.com/OpenLineage/OpenLineage) | ✔️ | ❌| ✔️ | ? | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ |
 | [Monte Carlo](#montecarlo)   | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ |
-| [Select Star](#selectstar)      | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ? | ? |
+| [Select Star](#selectstar)      | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ |
 | [OpenDataDiscovery](#opendatadiscovery)   | [ODD Specification](https://github.com/opendatadiscovery/opendatadiscovery-specification) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ |
 | [OpenMetadata](#openmetadata)   | [JSON Schema](https://github.com/json-schema-org/json-schema-spec) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ |
 | [Stemma](#stemma)      | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ✔️ | ❌ | ❌ | ❌ |
@@ -598,24 +598,24 @@ Select Star is an intelligent data discovery platform that automatically analyze
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:| 
-| ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ? | ? |
+| ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ |
 
 <details>
 <summary>More features</summary>
 <br>
 <ul>
 <li><b>Strategy:</b> Pull </li>
-<li><b>UX personalization:</b> No</li>
 <li><b>AI autowiring:</b> Yes</li>
 <li><b>Network-based:</b> Yes</li>
 <li><b>Rich data profiling:</b> No</li>
 <li><b>ER Diagram generation:</b> Yes</li>
+<li><b>Role & Policy based access control:</b> Yes</li>
 <li><b>Popularity & usage:</b> Yes </li>
-<li><b>Description suggestion:</b> Yes </li>
-<li><b>Tag propagation:</b> Yes </li>
+<li><b>Description & Tag propagation:</b> Yes </li>
 <li><b>Data preview:</b> Yes </li>
 <li><b>Data owners:</b> Yes</li>
 <li><b>Top data users:</b> Yes </li>
+<li><b>UX personalization:</b> No</li>
 <li><b>Supported data sources:</b>
   <ul>
     <li>Snowflake</li>
@@ -629,8 +629,8 @@ Select Star is an intelligent data discovery platform that automatically analyze
     <li>Sigma</li>
     <li>Sisense</li>
     <li>Metabase</li>
-    <li>DBT Cloud</li>
-    <li>DBT Core</li>
+    <li>Looker Studio</li>
+    <li>DBT Cloud & Core</li>
     <li>Slack</li>
   </ul>
 </li>
