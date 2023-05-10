@@ -433,7 +433,7 @@ A popular open-source data catalog for metadata management and data discovery or
 <li><b>Change notifications:</b>No </li>
 <li><b>Change feed:</b> No </li>
 <li><b>Deployment:</b> Native installation, Docker </li> 
-<li><b>Supported data sources:</b> Microsoft SQL Server (JDBC), PostgreSQL (JDBC), MySQL (JDBC), MariaDB (JDBC), Intersystems Caché (JDBC), (all databases with an JDBC metadata interface) or supporting INFORMATION_SCHEMA </li>
+<li><b>Supported data sources:</b> All databases with an JDBC metadata interface (Microsoft SQL Server, PostgreSQL, MySQL, MariaDB, InterSystems Caché or IRIS), Flatfiles or manual import via (bulk) Copy&Paste into Meta\#Grid </li>
 </ul>
 </details>
 
