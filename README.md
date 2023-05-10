@@ -435,7 +435,7 @@ Meta\#Grid is an open source data catalog for metadata management. It is designe
 <li><b>Deployment:</b> Native installation, Docker </li> 
 <li><b>Supported data sources:</b> 
   <ul>
-    <li>All databases with an JDBC metadata interface (Microsoft SQL Server, PostgreSQL, MySQL, MariaDB, InterSystems Caché or IRIS)</li>
+    <li>All databases with an JDBC metadata interface (Microsoft SQL Server, Microsoft Azure Synapse, PostgreSQL, MySQL, MariaDB, InterSystems Caché or IRIS, ...)</li>
     <li>Flatfiles</li>
     <li>Microsoft Server Integration Services (SSIS)</li>
     <li>Manual import via (bulk) Copy&Paste into Meta\#Grid </li>
