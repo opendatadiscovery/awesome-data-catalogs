@@ -423,17 +423,17 @@ A popular open-source data catalog for metadata management and data discovery or
 <li><b>UX personalization:</b> No</li> 
 <li><b>AI autowiring:</b> No</li> 
 <li><b>Rich data profiling:</b>  No</li> 
-<li><b>Recommendations:</b> Yes </li>
+<li><b>Recommendations:</b> No</li>
 <li><b>Schemas, Description:</b> Yes</li>
-<li><b>Complex schemas:</b> No </li>
-<li><b>Data preview:</b> Yes </li>
-<li><b>Column statistics:</b> Yes </li>
+<li><b>Complex schemas:</b> Yes</li>
+<li><b>Data preview:</b> No</li>
+<li><b>Column statistics:</b> No</li>
 <li><b>Data owner:</b> Yes</li>
-<li><b>Top data users:</b> Yes </li>
+<li><b>Top data users:</b> No</li>
 <li><b>Change notifications:</b>No </li>
 <li><b>Change feed:</b> No </li>
-<li><b>Deployment:</b>  </li> 
-<li><b>Supported data sources:</b> Hive, Redshift, Druid, RDBMS, Presto, Snowflake </li>
+<li><b>Deployment:</b> Native installation, Docker </li> 
+<li><b>Supported data sources:</b> Microsoft SQL Server (JDBC), PostgreSQL (JDBC), MySQL (JDBC), MariaDB (JDBC), Intersystems Caché (JDBC), (all databases with an JDBC metadata interface) or supporting INFORMATION_SCHEMA </li>
 </ul>
 </details>
 
