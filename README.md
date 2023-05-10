@@ -409,7 +409,7 @@ OpenMetadata is the all-in-one platform for data collaboration, discovery, gover
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/patschwork/meta_grid/graphs/commit-activity)
 ![](https://img.shields.io/github/stars/patschwork/meta_grid.svg?style=social)
 
-A popular open-source data catalog for metadata management and data discovery originated from Lyft. Created by Amundsen maintainers, [Stemma](stemma.ai) provides a managed version of an enterprise data catalog, inspired by Amundsen.
+Meta\#Grid is an open source data catalog for metadata management. It is designed to help small and large organizations create an inventory of their data silos and connect between different technologies. Through a multi-client system, with granular permissions system, Meta\#Grid can be used in consulting companies (with diverse clients and projects) as well as in data mesh organizations. It grows with the requirements of the demand. 
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
 |:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:|:---:|:--:| 
@@ -419,7 +419,7 @@ A popular open-source data catalog for metadata management and data discovery or
 <summary>More features</summary>
 <br>
 <ul>
-<li><b>Strategy:</b> Push </li>
+<li><b>Strategy:</b> Push or Copy&Paste Import </li>
 <li><b>UX personalization:</b> No</li> 
 <li><b>AI autowiring:</b> No</li> 
 <li><b>Rich data profiling:</b>  No</li> 
@@ -433,7 +433,7 @@ A popular open-source data catalog for metadata management and data discovery or
 <li><b>Change notifications:</b>No </li>
 <li><b>Change feed:</b> No </li>
 <li><b>Deployment:</b> Native installation, Docker </li> 
-<li><b>Supported data sources:</b> All databases with an JDBC metadata interface (Microsoft SQL Server, PostgreSQL, MySQL, MariaDB, InterSystems Caché or IRIS), Flatfiles or manual import via (bulk) Copy&Paste into Meta\#Grid </li>
+<li><b>Supported data sources:</b> All databases with an JDBC metadata interface (Microsoft SQL Server, PostgreSQL, MySQL, MariaDB, InterSystems Caché or IRIS), Flatfiles, Microsoft Server Integration Services (SSIS) or manual import via (bulk) Copy&Paste into Meta\#Grid </li>
 </ul>
 </details>
 
