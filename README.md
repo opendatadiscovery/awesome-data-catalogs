@@ -21,7 +21,7 @@ This repository contains a curated list of awesome data catalogs and observabili
 | [📙 Magda](#magda)       |                                |                                | [📕 Stemma](#stemma)          |
 | [📙 OpenDataDiscovery](#opendatadiscovery)|                                |                                | [📕 Talend](#talend) |
 | [📙 OpenMetadata](#openmetadata)|                                |                                | [📕 Select Star](#selectstar) |
-| [📙 Meta\#Grid](#meta\#grid)|                                |                                | |
+| [📙 Meta\#Grid](#metagrid)|                                |                                | |
 
 <br>
 
@@ -52,7 +52,7 @@ This repository contains a curated list of awesome data catalogs and observabili
 | [OpenMetadata](#openmetadata)   | [JSON Schema](https://github.com/json-schema-org/json-schema-spec) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ |
 | [Stemma](#stemma)      | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ✔️ | ❌ | ❌ | ❌ |
 | [Talend](#talend)      | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
-| [Meta\#Grid](#meta\#grid)      | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | not yet | ❌ | ❌ | ❌ | ✔️ |
+| [Meta\#Grid](#metagrid)      | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | not yet | ❌ | ❌ | ❌ | ✔️ |
 
 
 Definitions:
@@ -403,7 +403,7 @@ OpenMetadata is the all-in-one platform for data collaboration, discovery, gover
 
 <br>
 
-<a name="meta\#grid"></a>
+<a name="metagrid"></a>
 ### Meta\#Grid 
 [Website](https://meta-grid.com/) | [GitHub](https://github.com/patschwork/meta_grid)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/patschwork/meta_grid/graphs/commit-activity)
