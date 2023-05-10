@@ -21,6 +21,7 @@ This repository contains a curated list of awesome data catalogs and observabili
 | [📙 Magda](#magda)       |                                |                                | [📕 Stemma](#stemma)          |
 | [📙 OpenDataDiscovery](#opendatadiscovery)|                                |                                | [📕 Talend](#talend) |
 | [📙 OpenMetadata](#openmetadata)|                                |                                | [📕 Select Star](#selectstar) |
+| [📙 Meta\#Grid](#meta\#grid)|                                |                                | |
 
 <br>
 
@@ -51,6 +52,7 @@ This repository contains a curated list of awesome data catalogs and observabili
 | [OpenMetadata](#openmetadata)   | [JSON Schema](https://github.com/json-schema-org/json-schema-spec) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ |
 | [Stemma](#stemma)      | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ✔️ | ❌ | ❌ | ❌ |
 | [Talend](#talend)      | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
+| [Meta\#Grid](#meta\#grid)      | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | not yet | ❌ | ❌ | ❌ | ✔️ |
 
 
 Definitions:
@@ -401,6 +403,41 @@ OpenMetadata is the all-in-one platform for data collaboration, discovery, gover
 
 <br>
 
+<a name="meta\#grid"></a>
+### Meta\#Grid 
+[Website](https://meta-grid.com/) | [GitHub](https://github.com/patschwork/meta_grid)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/amundsen-io/amundsen/graphs/commit-activity)
+![](https://img.shields.io/github/stars/amundsen-io/amundsen.svg?style=social)
+
+A popular open-source data catalog for metadata management and data discovery originated from Lyft. Created by Amundsen maintainers, [Stemma](stemma.ai) provides a managed version of an enterprise data catalog, inspired by Amundsen.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
+|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:|:---:|:--:| 
+| ❌ | ✔️  | ✔️  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Push </li>
+<li><b>UX personalization:</b> No</li> 
+<li><b>AI autowiring:</b> No</li> 
+<li><b>Rich data profiling:</b>  No</li> 
+<li><b>Recommendations:</b> Yes </li>
+<li><b>Schemas, Description:</b> Yes</li>
+<li><b>Complex schemas:</b> No </li>
+<li><b>Data preview:</b> Yes </li>
+<li><b>Column statistics:</b> Yes </li>
+<li><b>Data owner:</b> Yes</li>
+<li><b>Top data users:</b> Yes </li>
+<li><b>Change notifications:</b>No </li>
+<li><b>Change feed:</b> No </li>
+<li><b>Deployment:</b>  </li> 
+<li><b>Supported data sources:</b> Hive, Redshift, Druid, RDBMS, Presto, Snowflake </li>
+</ul>
+</details>
+
+<br>
 
 
 <a name="proprietary"></a>
