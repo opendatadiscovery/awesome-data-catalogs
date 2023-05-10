@@ -405,7 +405,7 @@ OpenMetadata is the all-in-one platform for data collaboration, discovery, gover
 
 <a name="metagrid"></a>
 ### Meta\#Grid 
-[Website](https://meta-grid.com/) | [GitHub](https://github.com/patschwork/meta_grid)
+[Website](https://meta-grid.com/) | [GitHub](https://github.com/patschwork/meta_grid) | [Docs](https://docs.meta-grid.com)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/patschwork/meta_grid/graphs/commit-activity)
 ![](https://img.shields.io/github/stars/patschwork/meta_grid.svg?style=social)
 
@@ -433,7 +433,14 @@ Meta\#Grid is an open source data catalog for metadata management. It is designe
 <li><b>Change notifications:</b>No </li>
 <li><b>Change feed:</b> No </li>
 <li><b>Deployment:</b> Native installation, Docker </li> 
-<li><b>Supported data sources:</b> All databases with an JDBC metadata interface (Microsoft SQL Server, PostgreSQL, MySQL, MariaDB, InterSystems Caché or IRIS), Flatfiles, Microsoft Server Integration Services (SSIS) or manual import via (bulk) Copy&Paste into Meta\#Grid </li>
+<li><b>Supported data sources:</b> 
+  <ul>
+    <li>All databases with an JDBC metadata interface (Microsoft SQL Server, PostgreSQL, MySQL, MariaDB, InterSystems Caché or IRIS)</li>
+    <li>Flatfiles</li>
+    <li>Microsoft Server Integration Services (SSIS)</li>
+    <li>Manual import via (bulk) Copy&Paste into Meta\#Grid </li>
+  </ul>
+</li>
 </ul>
 </details>
 
