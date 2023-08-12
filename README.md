@@ -22,10 +22,12 @@ This repository contains a curated list of awesome data catalogs and observabili
 | [📙 OpenDataDiscovery](#opendatadiscovery)|                                |                                | [📕 Talend](#talend) |
 | [📙 OpenMetadata](#openmetadata)|                                |                                | [📕 Select Star](#selectstar) |
 | [📙 Meta\#Grid](#metagrid)|                                |                                | |
+| [📙 Grai](#grai) |                                |                                | |
+
 
 <br>
 
-## High-Level Feature Comparision
+## High-Level Feature Comparison
 
 
 | Tool | Specification -Based | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observ- ability | Column-level lineage | Data collaboration |
@@ -53,6 +55,7 @@ This repository contains a curated list of awesome data catalogs and observabili
 | [Stemma](#stemma)      | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ✔️ | ❌ | ❌ | ❌ |
 | [Talend](#talend)      | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
 | [Meta\#Grid](#metagrid)      | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | not yet | ❌ | ❌ | ❌ | ✔️ |
+| [Grai](#grai) | [Grai Schemas](https://github.com/grai-io/grai-core/tree/master/grai-schemas) | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ |
 
 
 Definitions:
@@ -419,26 +422,72 @@ Meta\#Grid is an open source data catalog for metadata management. It is designe
 <summary>More features</summary>
 <br>
 <ul>
-<li><b>Strategy:</b> Push or Copy&Paste Import </li>
+<li><b>Strategy:</b> Push, Pull </li>
 <li><b>UX personalization:</b> No</li> 
 <li><b>AI autowiring:</b> No</li> 
 <li><b>Rich data profiling:</b>  No</li> 
-<li><b>Recommendations:</b> No</li>
+<li><b>Recommendations:</b> Yes </li>
 <li><b>Schemas, Description:</b> Yes</li>
-<li><b>Complex schemas:</b> Yes</li>
-<li><b>Data preview:</b> No</li>
-<li><b>Column statistics:</b> No</li>
+<li><b>Complex schemas:</b> Yes </li>
+<li><b>Data preview:</b> No </li>
+<li><b>Column statistics:</b> No </li>
 <li><b>Data owner:</b> Yes</li>
-<li><b>Top data users:</b> No</li>
-<li><b>Change notifications:</b>No </li>
-<li><b>Change feed:</b> No </li>
-<li><b>Deployment:</b> Native installation, Docker </li> 
-<li><b>Supported data sources:</b> 
+<li><b>Top data users:</b> No </li>
+<li><b>Change notifications:</b> Yes </li>
+<li><b>Change feed:</b> Yes </li>
+<li><b>Deployment:</b>  </li> 
+<li><b>Supported data sources:</b> Hive, Redshift, Druid, RDBMS, Presto, Snowflake </li>
+</ul>
+</details>
+
+<br>
+
+
+<a name="grai"></a>
+### Grai 
+[Website](https://grai.io/) | [GitHub](https://github.com/grai-io/grai-core) | [Docs](https://docs.grai.io)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/grai-io/grai-core/graphs/commit-activity)
+![](https://img.shields.io/github/stars/grai-io/grai-core.svg?style=social)
+
+
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
+|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:|:---:|:--:| 
+| [Grai Schemas](https://github.com/grai-io/grai-core/tree/master/grai-schemas) | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ |
+
+
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Push, Pull</li>
+<li><b>Customizable metadata model:</b> Yes. The metadata model can be flexibly extended or modified as needed. </li>
+<li><b>Rich data profiling:</b> No </li> 
+<li><b>Recommendations:</b> No </li>
+<li><b>Schemas, Description:</b> Yes </li>
+<li><b>Complex schemas:</b> Yes </li>
+<li><b>Data preview:</b> No </li>
+<li><b>Column statistics:</b> No </li>
+<li><b>Data owner:</b> Yes </li>
+<li><b>Top data users:</b> No </li>
+<li><b>CI Integration:</b> Yes </li>
+<li><b>Lineage impact analysis:</b> Yes </li>
+<li><b>Change notifications:</b> Yes </li>
+<li><b>Change feed:</b> Yes </li>
+<li><b>Automation:</b> Yes </li>
+<li><b>UX personalization:</b> Yes </li> 
+<li><b>Deployment:</b> docker-compose / Kubernetes with Helm, or using Grai SaaS offering </li> 
+<li><b>Supported data sources:</b>
   <ul>
-    <li>All databases with an JDBC metadata interface (Microsoft SQL Server, Microsoft Azure Synapse, PostgreSQL, MySQL, MariaDB, InterSystems Caché or IRIS, ...)</li>
-    <li>Flatfiles</li>
-    <li>Microsoft Server Integration Services (SSIS)</li>
-    <li>Manual import via (bulk) Copy&Paste into Meta\#Grid </li>
+    <li>Snowflake</li>
+    <li>BigQuery</li>
+    <li>Redshift</li>
+    <li>Postgres</li>
+    <li>MySQL</li>
+    <li>dbt</li>
+    <li>Slack</li>
+    <li>... many others see the <a href="https://docs.grai.io">docs</a> for a full list.</li>
   </ul>
 </li>
 </ul>
