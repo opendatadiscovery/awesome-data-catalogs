@@ -500,7 +500,7 @@ Meta\#Grid is an open source data catalog for metadata management. It is designe
 <a name="collibra"></a>
 ### Collibra
 
-[Website](https://github.com/collibra) | [GitHub](https://github.com/collibra)
+[Website](https://www.collibra.com) | [GitHub](https://github.com/collibra)
 
 Collibra is an enterprise data catalog that helps to discover and understand data that matters and drive impactful insights from it.
 
