@@ -15,7 +15,7 @@ This repository contains a curated list of awesome data catalogs and observabili
 | [📙 DataHub](#datahub)   |  [📒 Azure DC](#azure)         | [🔍 Databand](#databand)       | [📕 Atlan](#atlan)             |
 | [📙 Marquez](#marquez)   |                                | [🔍 Datafold](#datafold)       | [📕 Collibra](#collibra)       |
 | [📙 Atlas](#atlas)       |                                | [🔍 Ataccama](#ataccama)       | [📕 DataGalaxy](#datagalaxy) |
-| [📙 CKAN](#ckan)         |                                |                                | [📕 Informatica](#informatica) |
+| [📙 CKAN](#ckan)         |                                | [🔍 DataKitchen Open Source Data Observability](#datakitchen)| [📕 Informatica](#informatica) |
 | [📙 Magda](#magda)       |                                |                                | [📕 Stemma](#stemma)          |
 | [📙 OpenDataDiscovery](#opendatadiscovery)|                                |                                | [📕 Talend](#talend) |
 | [📙 OpenMetadata](#openmetadata)|                                |                                | [📕 Select Star](#selectstar) |
@@ -788,6 +788,31 @@ Azure Data Catalog is a fully managed, enterprise-wide metadata catalog that mak
 <a name="observability"></a>
 ## 🔍 Data Observability Platforms
 
+<a name="DataKitchen"></a>
+### DataKitchen Open Source Data Observability
+
+[Website](https://docs.datakitchen.io/articles/#!open-source-data-observability/data-observability-overview)  
+
+DataKitchen's Open Source Data Observability Products are full featured with Apache 2.0 license. Data breaks. Servers break. Your toolchain breaks. Ensure your team is the first to know and the first to solve with visibility across and down your data estate. Save time with simple, fast data quality test generation and execution. Trust your data, tools, and systems end to end.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:| 
+|  ✔️ | ✔️ |  ✔️ | ✔️ |  ✔️ |  ✔️ | ✔️ |  ✔️ | ✔️ | ❌ | ✔️ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Full featured, with UI for singlue user.  Enterprise version for teams </li>
+<li><b>UX personalization:</b> No </li> 
+<li><b>AI autowiring:</b> DataOps TestGen data quality verification tool that does five main tasks: (1) data profiling, (2) new dataset screening and hygiene review, (3) AI/algorithmic generation of data quality validation tests, (4) ongoing production testing of new data refreshes and (5) continuous periodic monitoring of datasets for anomalies </li> 
+<li><b>Network-based:</b> Data Journey based</li> 
+<li><b>Rich data profiling:</b> 51 characteristics, with UI </li> 
+<li><b>Supported data sources:</b> Snowflake, Redshift, Tableau, Synapse, Postgres, Tableau, PowerBI, Airflow, Fivetran, Databricks, dbt,  Databricks
+Azure Data Factory, SSIS, Synapse Pipelines, ADF-managed Airflow, Google Composer, AWS S3, Qlik Sense, Amazon Managed Workflows for Apache Airflow, Talend Cloud, Azure Functions (via Event Hub), Azure ADLS/Blob Storage (via Event Hub)</li>
+</ul>
+</details>
+
 <a name="montecarlo"></a>
 ### Monte Carlo
 
@@ -811,6 +836,7 @@ Monte Carlo is a data observability tool that helps to increase trust in data by
 <li><b>Supported data sources:</b> Snowflake, Hive, Kafka, Looker, Redshift, Tableau, Big Query, Airflow, Fivetran, Presto, Mode, Periscope, Databricks, Glue, dbt, Chartio, Spark, AWS, S3, data.world, Google Cloud Platform </li>
 </ul>
 </details>
+
 
 <br>
 
