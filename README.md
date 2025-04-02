@@ -21,6 +21,7 @@ This repository contains a curated list of awesome data catalogs and observabili
 | [📙 OpenMetadata](#openmetadata)|                                |                                | [📕 Select Star](#selectstar) |
 | [📙 Meta\#Grid](#metagrid)|                                |                                | |
 | [📙 Grai](#grai) |                                |                                | |
+| [📙 Hamilton](#hamilton) |                                |                                | |
 
 
 <br>
@@ -54,6 +55,7 @@ This repository contains a curated list of awesome data catalogs and observabili
 | [Talend](#talend)      | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
 | [Meta\#Grid](#metagrid)      | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | not yet | ❌ | ❌ | ❌ | ✔️ |
 | [Grai](#grai) | [Grai Schemas](https://github.com/grai-io/grai-core/tree/master/grai-schemas) | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ |
+| [Hamilton](#hamilton) | [Hamilton](https://github.com/dagworks-inc/hamilton) | ✔️ | ✔️ | ? | ✔️ | ❌ | ✔️ | ½ | ✔️ | ✔️ | ❌ |
 
 
 Definitions:
@@ -492,6 +494,43 @@ Meta\#Grid is an open source data catalog for metadata management. It is designe
 </details>
 
 <br>
+
+<a name="Hamilton"></a>
+### Hamilton 
+[GitHub](https://github.com/dagworks-inc/hamilton)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/dagworks-inc/hamilton/commit-activity)
+![](https://img.shields.io/github/stars/dagworks-inc/hamilton.svg?style=social)
+
+A popular open-source framework for describing transformations that comes with a catalog (the Hamilton UI). The project originated from Stitch Fix. Created by Hamilton maintainers, [Dagworks Inc. (YCW23)](www.dagworks.io) provides a managed version of the Hamilton UI in addition to self-hosted on-premise features.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
+|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:|:---:|:--:| 
+[Hamilton](https://github.com/dagworks-inc/hamilton) | ✔️ | ✔️ | ? | ✔️ | ❌ | ✔️ | ½ | ✔️ | ✔️ | ❌ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Use python to describe DAG, add one-line of code to capture: lineage & provenance, metadata, data summary profiles, versions, and execution telemetry. [See blog for details](https://blog.dagworks.io/p/hamilton-ui-streamlining-metadata). </li>
+<li><b>UX personalization:</b> No</li> 
+<li><b>AI autowiring:</b> No</li> 
+<li><b>Rich data profiling:</b> Pluggable</li> 
+<li><b>Recommendations:</b> No </li>
+<li><b>Schemas, Description:</b> Yes</li>
+<li><b>Complex schemas:</b> Yes </li>
+<li><b>Data preview:</b> Only summary statistics </li>
+<li><b>Column statistics:</b> Yes, only for python. </li>
+<li><b>Data owner:</b> Via tags.</li>
+<li><b>Top data users:</b> Not yet </li>
+<li><b>Change notifications:</b> Not yet </li>
+<li><b>Change feed:</b> No yet</li>
+<li><b>Deployment:</b> pip installable locally, self-hosted via docker, managed SaaS </li> 
+<li><b>Supported data sources:</b> No direct ingrations as of yet. </li>
+</ul>
+</details>
+
+<br>
+
 
 
 <a name="proprietary"></a>
