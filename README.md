@@ -37,7 +37,7 @@ This repository contains a curated list of awesome data catalogs and observabili
 | [Atlan](#atlan)        | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ✔️ |
 | [Atlas](#atlas)        | ❌ | ✔️  | ❌  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | [Azure DC](#azure)     | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
-| [CKAN](#ckan)          | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| [CKAN](#ckan)          | ✔️ [DCAT, DCAT-AP, Schema.org and more](https://linkdigital.com.au/news/2024/10/enhancing-dcat-support-in-ckan-dcat-ap-v3-scheming-integration-and-more/) | ✔️ | ❌  | ❌ | ✔️ [details](https://github.com/ckan/ckanext-harvest/)| ❌ | ✔️ [details](https://github.com/ckan/ckanext-qa/) | ❌ | ✔️ [details](https://github.com/ckan/ckanext-archiver/) | ❌ | ❌ |
 | [Collibra](#collibra)  | ❌ | ✔️ | ?  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
 | [DataGalaxy](#datagalaxy)  | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ? | ? |
 | [Databand](#databand)  | ❌ | ? | ? | ? | ❌ | ? | ? | ? | ✔️ | ❌ | ❌ |
@@ -265,31 +265,47 @@ Apache Atlas is an open-source data catalog for metadata collection, governance,
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ckan/ckan/graphs/commit-activity)
 ![](https://img.shields.io/github/stars/ckan/ckan.svg?style=social)
 
-CKAN is an open-source data catalog for data management, powering data portals for govenments and enterprises. 
+CKAN is an open-source data catalog for data management, widely adopted by governments, NGOs, research institutions, and enterprises. It is actively maintained by a global community, with four of the eight core maintainers currently funded by [Link Digital](https://linkdigital.com.au/).
+
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:---:|:--:|:---:|:--:| 
-| ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| ✔️ Yes (DCAT, DCAT-AP, schema.org via plugins) | ✔️ | ❌  | ❌ | ✔️| ❌ | ✔️ (ckanext-qa) | ❌ | ✔️(ckanext-archiver)| ❌ | ⭕️ (possible via external integrations or Drupal front-end)|
 
 <details>
 <summary>More features</summary>
 <br>
 <ul>
-<li><b>Strategy:</b> Push </li>
-<li><b>UX personalization:</b> No</li> 
-<li><b>AI autowiring:</b> No</li> 
-<li><b>Rich data profiling:</b> No</li>
-<li><b>Recommendations:</b> ? </li>
-<li><b>Schemas, Description:</b> ?</li>
-<li><b>Complex schemas:</b> ? </li>
-<li><b>Data preview:</b> ? </li>
-<li><b>Column statistics:</b> ? </li>
-<li><b>Data owner:</b> ?</li>
-<li><b>Top data users:</b> ? </li>
-<li><b>Change notifications:</b> ? </li>
-<li><b>Change feed:</b> ? </li>
-<li><b>Deployment:</b>  </li> 
-<li><b>Supported data sources:</b>  </li>
+<li><b>Strategy:</b> Push, CKAN is used to publish or upload datasets into a central catalog </li>
+<li><b>UX personalization:</b> Achievable through integration with CMS platforms like Drupal or any custom front ends. </li> 
+<li><b>AI autowiring:</b> Yes. Can be experimented using ckanext-embeddings. </li> 
+<li><b>Rich data profiling:</b> Yes, via ckanext-validation extension.</li>
+<li><b>Recommendations:</b> Yes. Custom development or integration would be required. </li>
+<li><b>Metadata Schemas and Custom Fields:</b> Yes, using ckanext-scheming​.
+One of the most widely used extensions for complex metadata schemas.</li>
+<li><b>Complex schemas:</b> Yes (via ckanext-dcat extension) </li>
+<li><b>Data preview:</b> Yes </li>
+<li><b>Visual previews:</b> Yes </li>
+<li><b>Column statistics:</b> No </li>
+<li><b>Data owner:</b> No </li>
+<li><b>Top data users:</b> Achievable using the stats-extension, which provides insights into user activity and dataset popularity.</li>
+<li><b>Change notifications:</b> Achievable using ckanext-email-notification. </li>
+<li><b>Change feed:</b> Yes </li>
+<li><b>Deployment:</b> Yes (Self-hosted, cloud-hosted) </li> 
+<li><b>Supported data sources:</b> Yes; various formats:
+  <ul>
+    <li>Postgres</li>
+    <li>MySQL</li>
+    <li>SQL server</li>
+    <li>PowerBI</li>
+    <li>Tableau</li>
+    <li>CSV</li>
+    <li>Croissant</li>
+    <li>JSON</li>
+    <li>GeoJSON</li>
+    <li>XLS</li>
+    <li>Tableau</li>
+    <li>...and more!</li>
 </ul>
 </details>
 
