@@ -7,55 +7,58 @@ This repository contains a curated list of awesome data catalogs and observabili
 
 <br>
 
-## Contents: Existing Data Discovery and Observability Solutions
+## Contents: Data Discovery and Observability Solutions
 
-| [OSS Data Catalogs](#opensource) | [ Proprietary Monocloud DCs](#monocloud)| [ Proprietary Observability Tools](#observability) | [Other Proprietary DCs](#proprietary) |
-|--------------------------|--------------------------------|---------------------------------|--------------------------------|
-| [📙 Amundsen](#amundsen) |  [📒 Google DC](#google)       | [🔍 Monte Carlo](#montecarlo)  | [📕 Alation](#alation)         |
-| [📙 DataHub](#datahub)   |  [📒 Azure DC](#azure)         | [🔍 Databand](#databand)       | [📕 Atlan](#atlan)             |
-| [📙 Marquez](#marquez)   |                                | [🔍 Datafold](#datafold)       | [📕 Collibra](#collibra)       |
-| [📙 Atlas](#atlas)       |                                | [🔍 Ataccama](#ataccama)       | [📕 DataGalaxy](#datagalaxy) |
-| [📙 CKAN](#ckan)         |                                | [🔍 DataKitchen Open Source Data Observability](#datakitchen)| [📕 Informatica](#informatica) |
-| [📙 Magda](#magda)       |                                |                                | [📕 Stemma](#stemma)          |
-| [📙 OpenDataDiscovery](#opendatadiscovery)|                                |                                | [📕 Talend](#talend) |
-| [📙 OpenMetadata](#openmetadata)|                                |                                | [📕 Select Star](#selectstar) |
-| [📙 Meta\#Grid](#metagrid)|                                |                                | |
-| [📙 Grai](#grai) |                                |                                | |
-| [📙 Hamilton](#hamilton) |                                |                                | |
-
+| [OSS Data Catalogs](#opensource)             | [ Proprietary Cloud DCs](#monocloud)       | [ Proprietary Observability Tools](#observability) | [Other Proprietary DCs](#proprietary) |
+|----------------------------------------------|--------------------------------------------|---------------------------------|--------------------------------|
+| [📙 Amundsen](#amundsen)                     | [📒 Amazon DataZone](#aws)                 | [🔍 Monte Carlo](#montecarlo)  | [📕 Alation](#alation)         |
+| [📙 DataHub](#datahub)                       | [📒 Google Cloud Dataplex](#google)        | [🔍 Databand](#databand)       | [📕 Atlan](#atlan)             |
+| [📙 Marquez](#marquez)                       | [📒 Microsoft Purview](#azure)             | [🔍 Datafold](#datafold)       | [📕 Collibra](#collibra)       |
+| [📙 Atlas](#atlas)                           | [📒 Databricks Unity Catalog](#databricks) | [🔍 Ataccama](#ataccama)       | [📕 DataGalaxy](#datagalaxy) |
+| [📙 CKAN](#ckan)                             | [📒 Snowflake Horizon Catalog](#snowflake) | [🔍 DataKitchen Open Source Data Observability](#datakitchen)| [📕 Informatica](#informatica) |
+| [📙 Magda](#magda)                           |                                            |                                | [📕 Stemma](#stemma)          |
+| [📙 Open Data Discovery](#opendatadiscovery) |                                            |                                | [📕 Talend](#talend) |
+| [📙 OpenMetadata](#openmetadata)             |                                            |                                | [📕 Select Star](#selectstar) |
+| [📙 Elementary](#elementary)                 |                                            |                                | |
+| [📙 Gravitino](#gravitino)                   |                                            |                                | |
+| [📙 Soda Core](#soda)                        |                                            |                                | |
+| [📙 Meta\#Grid](#metagrid)                   |                                            |                                | |
+| [📙 Grai](#grai)                             |                                            |                                | |
+| [📙 Hamilton](#hamilton)                     |                                            |                                | |
+| [📙 Egeria](#egeria)                         |                                            |                                | |
 
 <br>
 
 ## High-Level Feature Comparison
 
 
-| Tool | Specification -Based | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observ- ability | Column-level lineage | Data collaboration |
-|:-------------:|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:|:--:|:--:| 
-| [Alation](#alation)    | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
-| [Amundsen](#amundsen)  | ❌ | ✔️  | ✔️  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Ataccama](#ataccama)  | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
-| [Atlan](#atlan)        | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ✔️ |
-| [Atlas](#atlas)        | ❌ | ✔️  | ❌  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Azure DC](#azure)     | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
-| [CKAN](#ckan)          | ✔️ [DCAT, DCAT-AP, Schema.org and more](https://linkdigital.com.au/news/2024/10/enhancing-dcat-support-in-ckan-dcat-ap-v3-scheming-integration-and-more/) | ✔️ | ❌  | ❌ | ✔️ [details](https://github.com/ckan/ckanext-harvest/)| ❌ | ✔️ [details](https://github.com/ckan/ckanext-qa/) | ❌ | ✔️ [details](https://github.com/ckan/ckanext-archiver/) | ❌ | ❌ |
-| [Collibra](#collibra)  | ❌ | ✔️ | ?  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
-| [DataGalaxy](#datagalaxy)  | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ? | ? |
-| [Databand](#databand)  | ❌ | ? | ? | ? | ❌ | ? | ? | ? | ✔️ | ❌ | ❌ |
-| [Datafold](#datafold)  | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ |
-| [DataHub](#datahub)    | ✔️ [details](https://datahubproject.io/docs/metadata-modeling/metadata-model/) | ✔️  | ✔️ | ✔️ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| [Google DC](#google)   | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
-| [Informatica](#informatica)   | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ |
-| [Magda](#magda)        | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| [Marquez](#marquez)    | [OpenLineage](https://github.com/OpenLineage/OpenLineage) | ✔️ | ❌| ✔️ | ? | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ |
-| [Monte Carlo](#montecarlo)   | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ |
-| [Select Star](#selectstar)      | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ |
-| [OpenDataDiscovery](#opendatadiscovery)   | [ODD Specification](https://github.com/opendatadiscovery/opendatadiscovery-specification) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ✔️ |
-| [OpenMetadata](#openmetadata)   | [JSON Schema](https://github.com/json-schema-org/json-schema-spec) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
-| [Stemma](#stemma)      | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ✔️ | ❌ | ❌ | ❌ |
-| [Talend](#talend)      | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
-| [Meta\#Grid](#metagrid)      | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | not yet | ❌ | ❌ | ❌ | ✔️ |
-| [Grai](#grai) | [Grai Schemas](https://github.com/grai-io/grai-core/tree/master/grai-schemas) | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ |
-| [Hamilton](#hamilton) | [Hamilton](https://github.com/dagworks-inc/hamilton) | ✔️ | ✔️ | ? | ✔️ | ❌ | ✔️ | ½ | ✔️ | ✔️ | ❌ |
+|                   Tool                    | Specification -Based | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observ- ability | Column-level lineage | Data collaboration |
+|:-----------------------------------------:|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:|:--:|:--:| 
+|            [Alation](#alation)            | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
+|           [Amundsen](#amundsen)           | ❌ | ✔️  | ✔️  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+|           [Ataccama](#ataccama)           | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
+|              [Atlan](#atlan)              | ❌ | ✔️ | ❌  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ✔️ |
+|              [Atlas](#atlas)              | ❌ | ✔️  | ❌  | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+|        [Microsoft Purview](#azure)        | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
+|               [CKAN](#ckan)               | ✔️ [DCAT, DCAT-AP, Schema.org and more](https://linkdigital.com.au/news/2024/10/enhancing-dcat-support-in-ckan-dcat-ap-v3-scheming-integration-and-more/) | ✔️ | ❌  | ❌ | ✔️ [details](https://github.com/ckan/ckanext-harvest/)| ❌ | ✔️ [details](https://github.com/ckan/ckanext-qa/) | ❌ | ✔️ [details](https://github.com/ckan/ckanext-archiver/) | ❌ | ❌ |
+|           [Collibra](#collibra)           | ❌ | ✔️ | ?  | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
+|         [DataGalaxy](#datagalaxy)         | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ? | ? |
+|           [Databand](#databand)           | ❌ | ? | ? | ? | ❌ | ? | ? | ? | ✔️ | ❌ | ❌ |
+|           [Datafold](#datafold)           | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ |
+|            [DataHub](#datahub)            | ✔️ [details](https://datahubproject.io/docs/metadata-modeling/metadata-model/) | ✔️  | ✔️ | ✔️ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+|     [Google Cloud Dataplex](#google)      | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
+|        [Informatica](#informatica)        | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ |
+|              [Magda](#magda)              | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+|            [Marquez](#marquez)            | [OpenLineage](https://github.com/OpenLineage/OpenLineage) | ✔️ | ❌| ✔️ | ? | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ |
+|        [Monte Carlo](#montecarlo)         | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ |
+|        [Select Star](#selectstar)         | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ |
+| [Open Data Discovery](#opendatadiscovery) | [ODD Specification](https://github.com/opendatadiscovery/opendatadiscovery-specification) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ✔️ |
+|       [OpenMetadata](#openmetadata)       | [JSON Schema](https://github.com/json-schema-org/json-schema-spec) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+|             [Stemma](#stemma)             | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ✔️ | ❌ | ❌ | ❌ |
+|             [Talend](#talend)             | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
+|          [Meta\#Grid](#metagrid)          | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | not yet | ❌ | ❌ | ❌ | ✔️ |
+|               [Grai](#grai)               | [Grai Schemas](https://github.com/grai-io/grai-core/tree/master/grai-schemas) | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ |
+|           [Hamilton](#hamilton)           | [Hamilton](https://github.com/dagworks-inc/hamilton) | ✔️ | ✔️ | ? | ✔️ | ❌ | ✔️ | ½ | ✔️ | ✔️ | ❌ |
 
 
 Definitions:
@@ -349,7 +352,7 @@ Magda is an open-source data catalog that features data discovery, metadata enri
 <br>
 
 <a name="opendatadiscovery"></a>
-### OpenDataDiscovery 
+### Open Data Discovery (ODD) Platform
 
 [Website](https://opendatadiscovery.org/) | [GitHub](https://github.com/opendatadiscovery/odd-platform)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/opendatadiscovery/odd-platform/commits/main)
@@ -371,14 +374,14 @@ First open-source data discovery and observability platform. ODD Platform is bas
 <li><b>Data collaboration:</b> Yes </li>
 <li><b>Schemas, Description:</b> Yes</li>
 <li><b>Complex schemas:</b> Yes </li>
-<li><b>Data preview:</b> Yes </li>
+<li><b>Data preview:</b> No </li>
 <li><b>Column statistics:</b> Yes </li>
 <li><b>Data owner:</b> Yes </li>
 <li><b>Change notifications:</b> Yes </li>
 <li><b>Change feed:</b> Yes </li>
 <li><b>Metadata versioning:</b> Yes </li>
-<li><b>SaaS:</b> Yes </li>  
-<li><b>Third-party integrations:</b> Dbt, Great Expectations, and Prefect </li>
+<li><b>SaaS:</b> No </li>  
+<li><b>Third-party integrations:</b> Airflow, Apache Spark, Dbt, Great Expectations, and Prefect </li>
 <li><b>Supported data sources:</b>  Airflow, Athena, AzureSQL, BigQuery, Clickhouse, Databricks, DeltaLake, Druid, DynamoDB, Fivetran, Glue, Hive, Kafka, Looker, MariaDB, MlFlow, MSSQL, MySQL, Oracle, Postgres, Presto, Redash, Redpanda, Redshift, Snowflake, Tableau, and Vertica </li>
 </ul>
 </details>
@@ -421,6 +424,30 @@ OpenMetadata is the all-in-one platform for data collaboration, discovery, gover
 </details>
 
 <br>
+
+<a name="elementary"></a>
+### Elementary
+
+[Website](https://www.elementary-data.com/) | [GitHub](https://github.com/elementary-data/elementary)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/elementary-data/elementary/commits/main)
+![](https://img.shields.io/github/stars/elementary-data/elementary.svg?style=social)
+
+
+<a name="gravitino"></a>
+### Apache Gravitino 
+
+[Website](https://gravitino.apache.org/) | [GitHub](https://github.com/apache/gravitino)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/apache/gravitino/commits/main)
+![](https://img.shields.io/github/stars/apache/gravitino.svg?style=social)
+
+
+<a name="soda"></a>
+### Soda Core 
+
+[Website](https://www.soda.io/) | [GitHub](https://github.com/sodadata/soda-core)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sodadata/soda-core/commits/main)
+![](https://img.shields.io/github/stars/sodadata/soda-core.svg?style=social)
+
 
 <a name="metagrid"></a>
 ### Meta\#Grid 
@@ -546,6 +573,13 @@ A popular open-source framework for describing transformations that comes with a
 </details>
 
 <br>
+
+<a name="egeria"></a>
+### Egeria 
+
+[Website](https://www.soda.io/) | [GitHub](https://github.com/odpi/egeria)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/odpi/egeria/commits/main)
+![](https://img.shields.io/github/stars/odpi/egeria.svg?style=social)
 
 
 
@@ -788,12 +822,19 @@ Select Star is an intelligent data discovery platform that automatically analyze
 <a name="monocloud"></a>
 ## 📒 Monocloud Data Catalogs
 
+<a name="aws"></a>
+### Amazon DataZone
+
+[Website](https://aws.amazon.com/datazone/)
+
+Amazon DataZone is a data management service that makes it faster and easier for customers to catalog, discover, share, and govern data stored across AWS, on premises, and third-party sources.
+
 <a name="google"></a>
-### Google Cloud Data Catalog
+### Google Cloud Dataplex Universal Catalog
 
-[Website](https://cloud.google.com/data-catalog) | [GitHub](https://github.com/GoogleCloudPlatform)
+[Website](https://cloud.google.com/dataplex) | [GitHub](https://github.com/GoogleCloudPlatform)
 
-Google Cloud Data Catalog is a fully managed, scalable metadata management service in Google Cloud's Data Analytics family of products.
+Google Cloud Dataplex Universal Catalog is integrated platform that combines data discovery, cataloging, governance, quality, and exploration into one cohesive service.
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:| 
@@ -815,11 +856,11 @@ Google Cloud Data Catalog is a fully managed, scalable metadata management servi
 <br>
 
 <a name="azure"></a>
-### Azure Data Catalog
+### Microsoft Purview Unified Catalog
 
-[Website](https://azure.microsoft.com/en-us/services/data-catalog/)  
+[Website](https://learn.microsoft.com/en-us/purview/)  
 
-Azure Data Catalog is a fully managed, enterprise-wide metadata catalog that makes data asset discovery straightforward.
+Microsoft Purview Unified Catalog is a central platform for discovering, classifying, and managing data assets across organization.
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:|
@@ -839,6 +880,17 @@ Azure Data Catalog is a fully managed, enterprise-wide metadata catalog that mak
 </details>
 
 <br>
+
+
+<a name="databricks"></a>
+### Databricks Unity Catalog
+
+[Website](https://www.databricks.com/product/unity-catalog)
+
+<a name="snowflake"></a>
+### Snowflake Horizon Catalog
+
+[Website](https://www.snowflake.com/en/product/features/horizon/)
 
 <a name="observability"></a>
 ## 🔍 Data Observability Platforms
