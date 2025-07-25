@@ -22,10 +22,10 @@ This repository contains a curated list of awesome data catalogs and observabili
 | [📙 Elementary](#elementary)                 |                                              | [📕 DataHub Cloud](#datahubcloud)                               |
 | [📙 Gravitino](#gravitino)                   |                                              | [📕 DataKitchen DataOps Observability](#datakitchen)            |
 | [📙 Soda Core](#soda)                        |                                              | [📕 DataGalaxy](#datagalaxy)                                    |
-| [📙 Meta\#Grid](#metagrid)                   |                                              | [📕 Talend](#talend)                                            |
-| [📙 Grai](#grai)                             |                                              | [📕 Datafold](#datafold)                                        |
-| [📙 Hamilton](#hamilton)                     |                                              | [📕 IBM Data Observability by Databand](#ibmdobd)               |
-| [📙 Egeria](#egeria)                         |                                              | [📕 IBM watsonx.data intelligence](#ibmwatsonxdataintelligence) |
+| [📙 Grai](#grai)                             |                                              | [📕 Talend](#talend)                                            |
+| [📙 Hamilton](#hamilton)                     |                                              | [📕 Datafold](#datafold)                                        |
+| [📙 Egeria](#egeria)                         |                                              | [📕 IBM Data Observability by Databand](#ibmdobd)               |
+|                                              |                                              | [📕 IBM watsonx.data intelligence](#ibmwatsonxdataintelligence) |
 |                                              |                                              | [📕 Precisely](#precisely)                                      |
 |                                              |                                              | [📕 erwin](#erwin)                                              |
 |                                              |                                              | [📕 OneTrust](#onetrust)                                        |
@@ -291,7 +291,6 @@ Essential features for maintaining data reliability, trustworthiness, observabil
 |       [OpenMetadata](#openmetadata)       | [JSON Schema](https://github.com/json-schema-org/json-schema-spec) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 |             [Stemma](#stemma)             | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ✔️ | ❌ | ❌ | ❌ |
 |             [Talend](#talend)             | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
-|          [Meta\#Grid](#metagrid)          | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | not yet | ❌ | ❌ | ❌ | ✔️ |
 |               [Grai](#grai)               | [Grai Schemas](https://github.com/grai-io/grai-core/tree/master/grai-schemas) | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ |
 |           [Hamilton](#hamilton)           | [Hamilton](https://github.com/dagworks-inc/hamilton) | ✔️ | ✔️ | ? | ✔️ | ❌ | ✔️ | ½ | ✔️ | ✔️ | ❌ |
 
@@ -682,43 +681,6 @@ OpenMetadata is the all-in-one platform for data collaboration, discovery, gover
 [Website](https://www.soda.io/) | [GitHub](https://github.com/sodadata/soda-core)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/sodadata/soda-core/commits/main)
 ![](https://img.shields.io/github/stars/sodadata/soda-core.svg?style=social)
-
-
-<a name="metagrid"></a>
-### Meta\#Grid 
-[Website](https://meta-grid.com/) | [GitHub](https://github.com/patschwork/meta_grid) | [Docs](https://docs.meta-grid.com)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/patschwork/meta_grid/graphs/commit-activity)
-![](https://img.shields.io/github/stars/patschwork/meta_grid.svg?style=social)
-
-Meta\#Grid is an open source data catalog for metadata management. It is designed to help small and large organizations create an inventory of their data silos and connect between different technologies. Through a multi-client system, with granular permissions system, Meta\#Grid can be used in consulting companies (with diverse clients and projects) as well as in data mesh organizations. It grows with the requirements of the demand. 
-
-|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
-|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:|:---:|:--:| 
-| ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | not yet | ❌ | ❌ | ❌ | ✔️ |
-
-<details>
-<summary>More features</summary>
-<br>
-<ul>
-<li><b>Strategy:</b> Push, Pull </li>
-<li><b>UX personalization:</b> No</li> 
-<li><b>AI autowiring:</b> No</li> 
-<li><b>Rich data profiling:</b>  No</li> 
-<li><b>Recommendations:</b> Yes </li>
-<li><b>Schemas, Description:</b> Yes</li>
-<li><b>Complex schemas:</b> Yes </li>
-<li><b>Data preview:</b> No </li>
-<li><b>Column statistics:</b> No </li>
-<li><b>Data owner:</b> Yes</li>
-<li><b>Top data users:</b> No </li>
-<li><b>Change notifications:</b> Yes </li>
-<li><b>Change feed:</b> Yes </li>
-<li><b>Deployment:</b>  </li> 
-<li><b>Supported data sources:</b> Hive, Redshift, Druid, RDBMS, Presto, Snowflake </li>
-</ul>
-</details>
-
-<br>
 
 
 <a name="grai"></a>
