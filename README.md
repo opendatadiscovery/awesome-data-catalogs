@@ -1,9 +1,9 @@
 
 
 
-# Awesome Data Discovery and Observability [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# Awesome Data & AI Governance Tool [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-This repository contains a curated list of awesome data catalogs and observability platforms that help you discover, manage, and observe data in your organization. 
+This repository contains a curated list of awesome Data & AI Governance tools that help you discover, manage, and observe data and AI solutions in your organization. 
 
 <br>
 
@@ -58,7 +58,7 @@ The following categories outline key GenAI readiness features available across v
 
 ### AI & Semantic Metadata Enrichment
 
-The group includes built-in AI capabilities essential for Generative AI applications, enhancing metadata through semantic enrichment and context awareness. It supports Agent-to-Agent (A2A) protocols and Retrieval-Augmented Generation (RAG) systems by facilitating semantic understanding, vectorization, and natural language interactions.
+The group includes built-in AI capabilities essential for Generative AI applications, enhancing metadata through semantic enrichment and context awareness. It supports Agent-to-Agent (A2A) protocols and Retrieval-Augmented Generation (RAG) systems by facilitating semantic understanding, vectorization, and natural language interactions. These capabilities align closely with Model Context Protocol (MCP), enabling standardized metadata exchange and interoperability across GenAI applications, making it possible for AI agents and RAG systems to leverage rich, structured metadata efficiently.
 
 | Product                            | Vendor / Origin                            | Offering Type | GitHub Repo                                                 | Official Website                                                          | MCP Support | GenAI Metadata Enrichment | Classic ML Metadata Enrichment | Built-in AI Assistant | Semantic Search | Vector Store Collector | API Access |
 |------------------------------------|--------------------------------------------|---------------|-------------------------------------------------------------|---------------------------------------------------------------------------|-------------|---------------------------|--------------------------------|-----------------------|-----------------|------------------------|------------|
