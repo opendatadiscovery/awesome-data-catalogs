@@ -9,7 +9,7 @@ This repository contains a curated list of awesome data catalogs and observabili
 
 ## Contents: Data Discovery and Observability Solutions
 
-| [Open Source Sowtware (OSS)](#opensource)    | [Cloud](#monocloud)                          | [Proprietary (Prop)](#observability)                 |
+| [Open Source Software (OSS)](#opensource)    | [Cloud](#monocloud)                          | [Proprietary (Prop)](#observability)                 |
 |----------------------------------------------|----------------------------------------------|------------------------------------------------------|
 | [📙 Amundsen](#amundsen)                     | [📒 Amazon DataZone](#aws)                   | [📕 Alation](#alation)                               |
 | [📙 DataHub](#datahub)                       | [📒 Google Cloud Dataplex](#google)          | [📕 Atlan](#atlan)                                   |
