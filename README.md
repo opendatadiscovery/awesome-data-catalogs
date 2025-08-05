@@ -1122,55 +1122,55 @@ Ataccama is an enterprise data catalog and observability tool featuring data pro
 
 <a name="collate"></a>
 ### Collate AI Platform  
-[Website](https://www.getcollate.io/) | [GitHub](https://github.com/getcollate) :contentReference[oaicite:0]{index=0}
+[Website](https://www.getcollate.io/) | [GitHub](https://github.com/getcollate)
 
 <a name="datahubcloud"></a>
 ### DataHub Cloud  
-[Website](https://datahub.com/) | [GitHub](https://github.com/datahub-project/datahub) :contentReference[oaicite:1]{index=1}
+[Website](https://datahub.com/) | [GitHub](https://github.com/datahub-project/datahub)
 
 <a name="ibmdobd"></a>
 ### IBM Data Observability by Databand  
-[Website](https://www.ibm.com/products/databand) | [GitHub](https://github.com/databand-ai/dbnd) :contentReference[oaicite:2]{index=2}
+[Website](https://www.ibm.com/products/databand) | [GitHub](https://github.com/databand-ai/dbnd)
 
 <a name="ibmwatsonxdataintelligence"></a>
 ### IBM watsonx.data intelligence  
-[Website](https://www.ibm.com/products/watsonx-data-intelligence) | [GitHub](https://github.com/IBM/watsonx-data) :contentReference[oaicite:3]{index=3}
+[Website](https://www.ibm.com/products/watsonx-data-intelligence) | [GitHub](https://github.com/IBM/watsonx-data)
 
 <a name="precisely"></a>
 ### Precisely  
-[Website](https://www.precisely.com/product/data-integrity/precisely-data-integrity-suite/data-catalog/) | [GitHub](https://github.com/PreciselyData) :contentReference[oaicite:4]{index=4}
+[Website](https://www.precisely.com/product/data-integrity/precisely-data-integrity-suite/data-catalog/) | [GitHub](https://github.com/PreciselyData)
 
 <a name="erwin"></a>
 ### erwin  
-[Website](https://www.erwin.com/) | [GitHub](https://github.com/erwin) :contentReference[oaicite:5]{index=5}
+[Website](https://www.erwin.com/) | [GitHub](https://github.com/erwin)
 
 <a name="onetrust"></a>
 ### OneTrust  
-[Website](https://www.onetrust.com/) | [GitHub](https://github.com/onetrust) :contentReference[oaicite:6]{index=6}
+[Website](https://www.onetrust.com/) | [GitHub](https://github.com/onetrust)
 
 <a name="dataworld"></a>
 ### data.world  
-[Website](https://data.world/) | [GitHub](https://github.com/datadotworld) :contentReference[oaicite:7]{index=7}
+[Website](https://data.world/) | [GitHub](https://github.com/datadotworld)
 
 <a name="Zeenea"></a>
 ### Zeenea  
-[Website](https://zeenea.com/) | [GitHub](https://github.com/zeenea) :contentReference[oaicite:8]{index=8}
+[Website](https://zeenea.com/) | [GitHub](https://github.com/zeenea)
 
 <a name="explorium"></a>
 ### Explorium  
-[Website](https://www.explorium.ai/) | [GitHub](https://github.com/explorium-ai) :contentReference[oaicite:9]{index=9}
+[Website](https://www.explorium.ai/) | [GitHub](https://github.com/explorium-ai)
 
 <a name="metaplane"></a>
 ### Metaplane  
-[Website](https://metaplane.dev/) | [GitHub](https://github.com/metaplane) :contentReference[oaicite:10]{index=10}
+[Website](https://metaplane.dev/) | [GitHub](https://github.com/metaplane)
 
 <a name="bigid"></a>
 ### BigID  
-[Website](https://bigid.com/) | [GitHub](https://github.com/bigexchange) :contentReference[oaicite:11]{index=11}
+[Website](https://bigid.com/) | [GitHub](https://github.com/bigexchange)
 
 <a name="ovaledge"></a>
 ### OvalEdge  
-[Website](https://support.ovaledge.com/) | [GitHub](https://github.com/ovaledge) :contentReference[oaicite:12]{index=12}
+[Website](https://support.ovaledge.com/) | [GitHub](https://github.com/ovaledge) 
 
 
 <a name="cloud"></a>
