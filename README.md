@@ -1,15 +1,15 @@
 
 
 
-# Awesome Data & AI Governance Tool [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# Awesome Data & AI Governance [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-This repository contains a curated list of awesome Data & AI Governance tools that help you discover, manage, and observe data and AI solutions in your organization. 
+This repository contains a curated list of awesome Data & AI Governance platforms and tools that help you discover, manage, and observe data and AI solutions in your organization. 
 
 <br>
 
 ## Contents: Data Discovery and Observability Solutions
 
-| [Open-source Software (OSS)](#opensource)    | [Cloud](#monocloud)                          | [Proprietary (Prop)](#observability)                            |
+| [Open-source Software (OSS)](#opensource)    | [Cloud](#cloud)                          | [Proprietary (Prop)](#proprietary)                              |
 |----------------------------------------------|----------------------------------------------|-----------------------------------------------------------------|
 | [📙 Amundsen](#amundsen)                     | [📒 Amazon DataZone](#aws)                   | [📕 Alation](#alation)                                          |
 | [📙 DataHub](#datahub)                       | [📒 Google Cloud Dataplex](#google)          | [📕 Atlan](#atlan)                                              |
@@ -311,7 +311,7 @@ Definitions:
 <br>
 
 <a name="opensource"></a>
-## 📙 Open-Source Data Catalogs
+## 📙 Open-source Data & AI Governance Tools and Platforms
 
 <a name="amundsen"></a>
 ### Amundsen 
@@ -781,7 +781,7 @@ A popular open-source framework for describing transformations that comes with a
 
 
 <a name="proprietary"></a>
-## 📕 Proprietary Data Catalogs
+## 📕 Proprietary Data & AI Governance Tools and Platforms
 
 <a name="collibra"></a>
 ### Collibra
@@ -990,81 +990,6 @@ Select Star is an intelligent data discovery platform that automatically analyze
 
 <br>
 
-<a name="monocloud"></a>
-## 📒 Monocloud Data Catalogs
-
-<a name="aws"></a>
-### Amazon DataZone
-
-[Website](https://aws.amazon.com/datazone/)
-
-Amazon DataZone is a data management service that makes it faster and easier for customers to catalog, discover, share, and govern data stored across AWS, on premises, and third-party sources.
-
-<a name="google"></a>
-### Google Cloud Dataplex Universal Catalog
-
-[Website](https://cloud.google.com/dataplex) | [GitHub](https://github.com/GoogleCloudPlatform)
-
-Google Cloud Dataplex Universal Catalog is integrated platform that combines data discovery, cataloging, governance, quality, and exploration into one cohesive service.
-
-|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
-|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:| 
-| ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
-
-<details>
-<summary>More features</summary>
-<br>
-<ul>
-<li><b>Strategy:</b> Pull </li>
-<li><b>UX personalization:</b> ?</li> 
-<li><b>AI autowiring:</b> ?</li> 
-<li><b>Network-based:</b> No</li> 
-<li><b>Rich data profiling:</b> No</li> 
-<li><b>Supported data sources:</b>  </li>
-</ul>
-</details>
-
-<br>
-
-<a name="azure"></a>
-### Microsoft Purview Unified Catalog
-
-[Website](https://learn.microsoft.com/en-us/purview/)  
-
-Microsoft Purview Unified Catalog is a central platform for discovering, classifying, and managing data assets across organization.
-
-|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
-|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:|
-| ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
-
-<details>
-<summary>More features</summary>
-<br>
-<ul>
-<li><b>Strategy:</b> Pull </li>
-<li><b>UX personalization:</b> ?</li> 
-<li><b>AI autowiring:</b> ?</li> 
-<li><b>Network-based:</b> ?</li> 
-<li><b>Rich data profiling:</b> ?</li> 
-<li><b>Supported data sources:</b>  </li>
-</ul>
-</details>
-
-<br>
-
-
-<a name="databricks"></a>
-### Databricks Unity Catalog
-
-[Website](https://www.databricks.com/product/unity-catalog)
-
-<a name="snowflake"></a>
-### Snowflake Horizon Catalog
-
-[Website](https://www.snowflake.com/en/product/features/horizon/)
-
-<a name="observability"></a>
-## 🔍 Data Observability Platforms
 
 <a name="DataKitchen"></a>
 ### DataKitchen DataOps Observability
@@ -1193,5 +1118,137 @@ Ataccama is an enterprise data catalog and observability tool featuring data pro
 </details>
 
 <br>
+
+
+<a name="collate"></a>
+### Collate AI Platform  
+[Website](https://www.getcollate.io/) | [GitHub](https://github.com/getcollate) :contentReference[oaicite:0]{index=0}
+
+<a name="datahubcloud"></a>
+### DataHub Cloud  
+[Website](https://datahub.com/) | [GitHub](https://github.com/datahub-project/datahub) :contentReference[oaicite:1]{index=1}
+
+<a name="ibmdobd"></a>
+### IBM Data Observability by Databand  
+[Website](https://www.ibm.com/products/databand) | [GitHub](https://github.com/databand-ai/dbnd) :contentReference[oaicite:2]{index=2}
+
+<a name="ibmwatsonxdataintelligence"></a>
+### IBM watsonx.data intelligence  
+[Website](https://www.ibm.com/products/watsonx-data-intelligence) | [GitHub](https://github.com/IBM/watsonx-data) :contentReference[oaicite:3]{index=3}
+
+<a name="precisely"></a>
+### Precisely  
+[Website](https://www.precisely.com/product/data-integrity/precisely-data-integrity-suite/data-catalog/) | [GitHub](https://github.com/PreciselyData) :contentReference[oaicite:4]{index=4}
+
+<a name="erwin"></a>
+### erwin  
+[Website](https://www.erwin.com/) | [GitHub](https://github.com/erwin) :contentReference[oaicite:5]{index=5}
+
+<a name="onetrust"></a>
+### OneTrust  
+[Website](https://www.onetrust.com/) | [GitHub](https://github.com/onetrust) :contentReference[oaicite:6]{index=6}
+
+<a name="dataworld"></a>
+### data.world  
+[Website](https://data.world/) | [GitHub](https://github.com/datadotworld) :contentReference[oaicite:7]{index=7}
+
+<a name="Zeenea"></a>
+### Zeenea  
+[Website](https://zeenea.com/) | [GitHub](https://github.com/zeenea) :contentReference[oaicite:8]{index=8}
+
+<a name="explorium"></a>
+### Explorium  
+[Website](https://www.explorium.ai/) | [GitHub](https://github.com/explorium-ai) :contentReference[oaicite:9]{index=9}
+
+<a name="metaplane"></a>
+### Metaplane  
+[Website](https://metaplane.dev/) | [GitHub](https://github.com/metaplane) :contentReference[oaicite:10]{index=10}
+
+<a name="bigid"></a>
+### BigID  
+[Website](https://bigid.com/) | [GitHub](https://github.com/bigexchange) :contentReference[oaicite:11]{index=11}
+
+<a name="ovaledge"></a>
+### OvalEdge  
+[Website](https://support.ovaledge.com/) | [GitHub](https://github.com/ovaledge) :contentReference[oaicite:12]{index=12}
+
+
+<a name="cloud"></a>
+## 📒 Cloud Data & AI Governance Tools and Platforms
+
+<a name="aws"></a>
+### Amazon DataZone
+
+[Website](https://aws.amazon.com/datazone/)
+
+Amazon DataZone is a data management service that makes it faster and easier for customers to catalog, discover, share, and govern data stored across AWS, on premises, and third-party sources.
+
+<a name="google"></a>
+### Google Cloud Dataplex Universal Catalog
+
+[Website](https://cloud.google.com/dataplex) | [GitHub](https://github.com/GoogleCloudPlatform)
+
+Google Cloud Dataplex Universal Catalog is integrated platform that combines data discovery, cataloging, governance, quality, and exploration into one cohesive service.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:| 
+| ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Pull </li>
+<li><b>UX personalization:</b> ?</li> 
+<li><b>AI autowiring:</b> ?</li> 
+<li><b>Network-based:</b> No</li> 
+<li><b>Rich data profiling:</b> No</li> 
+<li><b>Supported data sources:</b>  </li>
+</ul>
+</details>
+
+<br>
+
+<a name="azure"></a>
+### Microsoft Purview Unified Catalog
+
+[Website](https://learn.microsoft.com/en-us/purview/)  
+
+Microsoft Purview Unified Catalog is a central platform for discovering, classifying, and managing data assets across organization.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:|
+| ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Pull </li>
+<li><b>UX personalization:</b> ?</li> 
+<li><b>AI autowiring:</b> ?</li> 
+<li><b>Network-based:</b> ?</li> 
+<li><b>Rich data profiling:</b> ?</li> 
+<li><b>Supported data sources:</b>  </li>
+</ul>
+</details>
+
+<br>
+
+
+<a name="databricks"></a>
+### Databricks Unity Catalog
+
+[Website](https://www.databricks.com/product/unity-catalog)
+
+<a name="snowflake"></a>
+### Snowflake Horizon Catalog
+
+[Website](https://www.snowflake.com/en/product/features/horizon/)
+
+<a name="observability"></a>
+## 🔍 Data Observability Platforms
+
+
 
 <a href="#top">Back to top</a>
