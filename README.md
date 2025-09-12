@@ -1,9 +1,9 @@
 
 
 
-# Awesome Data Discovery and Observability [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# Awesome Data & AI Governance [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-This repository contains a curated list of awesome data catalogs and observability platforms that help you discover, manage, and observe data in your organization. 
+This repository contains a curated list of awesome Data & AI Governance platforms and tools that help you discover, manage, and observe data and AI solutions in your organization. 
 
 <br>
 
@@ -19,7 +19,7 @@ This repository contains a curated list of awesome data catalogs and observabili
 | [📙 Magda](#magda)                           |                                            |                                | [📕 Stemma](#stemma)          |
 | [📙 Open Data Discovery](#opendatadiscovery) |                                            |                                | [📕 Talend](#talend) |
 | [📙 OpenMetadata](#openmetadata)             |                                            |                                | [📕 Select Star](#selectstar) |
-| [📙 Elementary](#elementary)                 |                                            |                                | [📕 Secoda](#secoda) |
+| [📙 Elementary](#elementary)                 |                                            |                                | |
 | [📙 Gravitino](#gravitino)                   |                                            |                                | |
 | [📙 Soda Core](#soda)                        |                                            |                                | |
 | [📙 Meta\#Grid](#metagrid)                   |                                            |                                | |
@@ -57,7 +57,6 @@ This repository contains a curated list of awesome data catalogs and observabili
 |       [OpenMetadata](#openmetadata)       | [JSON Schema](https://github.com/json-schema-org/json-schema-spec) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 |             [Stemma](#stemma)             | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ✔️ | ❌ | ❌ | ❌ |
 |             [Talend](#talend)             | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
-|          [Meta\#Grid](#metagrid)          | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | not yet | ❌ | ❌ | ❌ | ✔️ |
 |               [Grai](#grai)               | [Grai Schemas](https://github.com/grai-io/grai-core/tree/master/grai-schemas) | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ |
 |           [Hamilton](#hamilton)           | [Hamilton](https://github.com/dagworks-inc/hamilton) | ✔️ | ✔️ | ? | ✔️ | ❌ | ✔️ | ½ | ✔️ | ✔️ | ❌ |
 
@@ -78,7 +77,7 @@ Definitions:
 <br>
 
 <a name="opensource"></a>
-## 📙 Open-Source Data Catalogs
+## 📙 Open-source Data & AI Governance Tools and Platforms
 
 <a name="amundsen"></a>
 ### Amundsen 
@@ -450,43 +449,6 @@ OpenMetadata is the all-in-one platform for data collaboration, discovery, gover
 ![](https://img.shields.io/github/stars/sodadata/soda-core.svg?style=social)
 
 
-<a name="metagrid"></a>
-### Meta\#Grid 
-[Website](https://meta-grid.com/) | [GitHub](https://github.com/patschwork/meta_grid) | [Docs](https://docs.meta-grid.com)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/patschwork/meta_grid/graphs/commit-activity)
-![](https://img.shields.io/github/stars/patschwork/meta_grid.svg?style=social)
-
-Meta\#Grid is an open source data catalog for metadata management. It is designed to help small and large organizations create an inventory of their data silos and connect between different technologies. Through a multi-client system, with granular permissions system, Meta\#Grid can be used in consulting companies (with diverse clients and projects) as well as in data mesh organizations. It grows with the requirements of the demand. 
-
-|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
-|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:|:---:|:--:| 
-| ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | not yet | ❌ | ❌ | ❌ | ✔️ |
-
-<details>
-<summary>More features</summary>
-<br>
-<ul>
-<li><b>Strategy:</b> Push, Pull </li>
-<li><b>UX personalization:</b> No</li> 
-<li><b>AI autowiring:</b> No</li> 
-<li><b>Rich data profiling:</b>  No</li> 
-<li><b>Recommendations:</b> Yes </li>
-<li><b>Schemas, Description:</b> Yes</li>
-<li><b>Complex schemas:</b> Yes </li>
-<li><b>Data preview:</b> No </li>
-<li><b>Column statistics:</b> No </li>
-<li><b>Data owner:</b> Yes</li>
-<li><b>Top data users:</b> No </li>
-<li><b>Change notifications:</b> Yes </li>
-<li><b>Change feed:</b> Yes </li>
-<li><b>Deployment:</b>  </li> 
-<li><b>Supported data sources:</b> Hive, Redshift, Druid, RDBMS, Presto, Snowflake </li>
-</ul>
-</details>
-
-<br>
-
-
 <a name="grai"></a>
 ### Grai 
 [Website](https://grai.io/) | [GitHub](https://github.com/grai-io/grai-core) | [Docs](https://docs.grai.io)
@@ -585,7 +547,7 @@ A popular open-source framework for describing transformations that comes with a
 
 
 <a name="proprietary"></a>
-## 📕 Proprietary Data Catalogs
+## 📕 Proprietary Data & AI Governance Tools and Platforms
 
 <a name="collibra"></a>
 ### Collibra
@@ -717,32 +679,6 @@ DataGalaxy is a modern data catalog offering data discovery, data profiling, dat
 
 <br>
 
-<a name="stemma"></a>
-### Stemma
-
-[Website](https://www.stemma.ai/)  
-
-Stemma is a fully managed data catalog powered by the open-source data catalog Amundsen that helps data teams have total trust in their data. 
-
-|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
-|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:|
-| ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ✔️ | ❌ | ❌ | ❌ |
-
-<details>
-<summary>More features</summary>
-<br>
-<ul>
-<li><b>Strategy:</b> Push </li>
-<li><b>UX personalization:</b> No</li> 
-<li><b>AI autowiring:</b> No</li> 
-<li><b>Network-based:</b> No</li> 
-<li><b>Rich data profiling:</b> No</li> 
-<li><b>Supported data sources:</b>  </li>
-</ul>
-</details>
-
-<br>
-
 <a name="talend"></a>
 ### Talend
 
@@ -823,7 +759,7 @@ Select Star is an intelligent data discovery platform that automatically analyze
 <a name="secoda"></a>
 ### Secoda
 
-[Website](https://www.secoda.co/)
+[Website](https://www.secoda.co/) | [GitHub](https://github.com/team-secoda) | [Docs](https://docs.secoda.co)
 
 Secoda is an AI-powered data discovery and cataloging platform that serves as your organization's 24/7 AI data analyst. Built as "The AI platform for data and analytics," Secoda uses intelligent agents to automate data discovery, documentation, governance, and analysis, enabling anyone to get insights from data through natural language queries.
 
@@ -838,13 +774,12 @@ Secoda is an AI-powered data discovery and cataloging platform that serves as yo
 <li><b>Strategy:</b> Push / Pull</li>
 <li><b>Automations:</b> Yes</li>
 <li><b>AI autowiring:</b> Yes</li>
-<li><b>AI agents:</b> Yes</li>
-<li><b>AI Multi-Agent System:</b> 9 specialized AI agents (Analysis, Automation, Search, Memory, Observability, Governance, Documentation, Visualization, Cataloging)</li>
+<li><b>AI agents:</b> 9 specialized AI agents (Analysis, Automation, Search, Memory, Observability, Governance, Documentation, Visualization, Cataloging)</li>
 <li><b>Natural Language Querying:</b> Chat with your data using natural language - no SQL required</li>
-<li><b>AI-Powered Query Generation:</b> Automatically writes and executes sophisticated queries based on natural language questions</li>
-<li><b>Intelligent Error Recovery:</b> AI learns from query errors and self-corrects to deliver accurate results</li>
-<li><b>Context-Aware AI:</b> Uses combined context of data sources, lineage, documentation, and semantic layer for accurate responses</li>
-<li><b>AI-Driven Metadata Enrichment:</b> Automatically generates descriptions and enriches data assets with critical metadata</li>
+<li><b>AI-Powered Query Generation:</b> Automatically writes and executes sophisticated queries</li>
+<li><b>Intelligent Error Recovery:</b> AI learns from query errors and self-corrects</li>
+<li><b>Context-Aware AI:</b> Uses combined context of data sources, lineage, and documentation</li>
+<li><b>AI-Driven Metadata Enrichment:</b> Automatically generates descriptions and enriches data assets</li>
 <li><b>Recommendations:</b> Yes</li>
 <li><b>Rich data profiling:</b> Yes</li>
 <li><b>Monitoring and observability:</b> Yes</li>
@@ -860,94 +795,17 @@ Secoda is an AI-powered data discovery and cataloging platform that serves as yo
 <li><b>Data owners:</b> Yes</li>
 <li><b>Top data users:</b> Yes</li>
 <li><b>UX personalization:</b> Yes</li>
-<li><b>Supported data sources:</b> Airbyte, Airflow (Apache), Amplitude, Apache Hive, Apache Kafka, Astronomer, AWS Athena, AWS Cross Account Role, AWS Glue, AWS S3, Azure Cosmos DB (Both NoSQL and Tables), Azure Synapse, BigQuery (Google Cloud), Census, Cluvio, Coalesce, Confluent Cloud, Confluence, Cyera, Dagster, Databricks, Dataplex (Google Cloud), dbt (Both Cloud and Core), File Upload (CSV, JSONL), Fivetran, Git, GitHub, Google Cloud Storage, Google Data Studio, Great Expectations, Hashboard, Hex, Hightouch, Jira, Lightdash, Linear, Looker (Google), Marketplace Integrations, Matillion, Metabase, Microsoft SQL Server, Microsoft Teams, Mixpanel, Mode, MongoDB, Monte Carlo, MotherDuck, MySQL, Oracle, PagerDuty, Polytomic, PostgreSQL, Power BI (Microsoft), Preset, QuickSight (AWS), Redash, Redshift (AWS), Retool, Reverse SSH Tunnel, Salesforce, Sigma Computing, SingleStore, Slack, Snowflake (Primary warehouse), SQL Server Reporting Services (SSRS), SSH Tunnel, Stitch, Superset, Tableau, ThoughtSpot, Trino, VPC Peering</li>
+<li><b>Supported data sources:</b> 142+ integrations including Airbyte, Airflow, dbt, Snowflake, BigQuery, Redshift, PostgreSQL, MySQL, and many more</li>
 </ul>
 </details>
 
 <br>
 
-<a name="monocloud"></a>
-## 📒 Monocloud Data Catalogs
-
-<a name="aws"></a>
-### Amazon DataZone
-
-[Website](https://aws.amazon.com/datazone/)
-
-Amazon DataZone is a data management service that makes it faster and easier for customers to catalog, discover, share, and govern data stored across AWS, on premises, and third-party sources.
-
-<a name="google"></a>
-### Google Cloud Dataplex Universal Catalog
-
-[Website](https://cloud.google.com/dataplex) | [GitHub](https://github.com/GoogleCloudPlatform)
-
-Google Cloud Dataplex Universal Catalog is integrated platform that combines data discovery, cataloging, governance, quality, and exploration into one cohesive service.
-
-|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
-|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:| 
-| ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
-
-<details>
-<summary>More features</summary>
-<br>
-<ul>
-<li><b>Strategy:</b> Pull </li>
-<li><b>UX personalization:</b> ?</li> 
-<li><b>AI autowiring:</b> ?</li> 
-<li><b>Network-based:</b> No</li> 
-<li><b>Rich data profiling:</b> No</li> 
-<li><b>Supported data sources:</b>  </li>
-</ul>
-</details>
-
-<br>
-
-<a name="azure"></a>
-### Microsoft Purview Unified Catalog
-
-[Website](https://learn.microsoft.com/en-us/purview/)  
-
-Microsoft Purview Unified Catalog is a central platform for discovering, classifying, and managing data assets across organization.
-
-|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
-|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:|
-| ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
-
-<details>
-<summary>More features</summary>
-<br>
-<ul>
-<li><b>Strategy:</b> Pull </li>
-<li><b>UX personalization:</b> ?</li> 
-<li><b>AI autowiring:</b> ?</li> 
-<li><b>Network-based:</b> ?</li> 
-<li><b>Rich data profiling:</b> ?</li> 
-<li><b>Supported data sources:</b>  </li>
-</ul>
-</details>
-
-<br>
-
-
-<a name="databricks"></a>
-### Databricks Unity Catalog
-
-[Website](https://www.databricks.com/product/unity-catalog)
-
-<a name="snowflake"></a>
-### Snowflake Horizon Catalog
-
-[Website](https://www.snowflake.com/en/product/features/horizon/)
-
-<a name="observability"></a>
-## 🔍 Data Observability Platforms
 
 <a name="DataKitchen"></a>
-### DataKitchen Open Source Data Observability
+### DataKitchen DataOps Observability
 
 [Website](https://docs.datakitchen.io/articles/#!open-source-data-observability/data-observability-overview)  
-
-DataKitchen's Open Source Data Observability Products are full featured with Apache 2.0 license. Data breaks. Servers break. Your toolchain breaks. Ensure your team is the first to know and the first to solve with visibility across and down your data estate. Save time with simple, fast data quality test generation and execution. Trust your data, tools, and systems end to end.
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:| 
@@ -1071,5 +929,137 @@ Ataccama is an enterprise data catalog and observability tool featuring data pro
 </details>
 
 <br>
+
+
+<a name="collate"></a>
+### Collate AI Platform  
+[Website](https://www.getcollate.io/) | [GitHub](https://github.com/getcollate)
+
+<a name="datahubcloud"></a>
+### DataHub Cloud  
+[Website](https://datahub.com/) | [GitHub](https://github.com/datahub-project/datahub)
+
+<a name="ibmdobd"></a>
+### IBM Data Observability by Databand  
+[Website](https://www.ibm.com/products/databand) | [GitHub](https://github.com/databand-ai/dbnd)
+
+<a name="ibmwatsonxdataintelligence"></a>
+### IBM watsonx.data intelligence  
+[Website](https://www.ibm.com/products/watsonx-data-intelligence) | [GitHub](https://github.com/IBM/watsonx-data)
+
+<a name="precisely"></a>
+### Precisely  
+[Website](https://www.precisely.com/product/data-integrity/precisely-data-integrity-suite/data-catalog/) | [GitHub](https://github.com/PreciselyData)
+
+<a name="erwin"></a>
+### erwin  
+[Website](https://www.erwin.com/) | [GitHub](https://github.com/erwin)
+
+<a name="onetrust"></a>
+### OneTrust  
+[Website](https://www.onetrust.com/) | [GitHub](https://github.com/onetrust)
+
+<a name="dataworld"></a>
+### data.world  
+[Website](https://data.world/) | [GitHub](https://github.com/datadotworld)
+
+<a name="Zeenea"></a>
+### Zeenea  
+[Website](https://zeenea.com/) | [GitHub](https://github.com/zeenea)
+
+<a name="explorium"></a>
+### Explorium  
+[Website](https://www.explorium.ai/) | [GitHub](https://github.com/explorium-ai)
+
+<a name="metaplane"></a>
+### Metaplane  
+[Website](https://metaplane.dev/) | [GitHub](https://github.com/metaplane)
+
+<a name="bigid"></a>
+### BigID  
+[Website](https://bigid.com/) | [GitHub](https://github.com/bigexchange)
+
+<a name="ovaledge"></a>
+### OvalEdge  
+[Website](https://support.ovaledge.com/) | [GitHub](https://github.com/ovaledge) 
+
+
+<a name="cloud"></a>
+## 📒 Cloud Data & AI Governance Tools and Platforms
+
+<a name="aws"></a>
+### Amazon DataZone
+
+[Website](https://aws.amazon.com/datazone/)
+
+Amazon DataZone is a data management service that makes it faster and easier for customers to catalog, discover, share, and govern data stored across AWS, on premises, and third-party sources.
+
+<a name="google"></a>
+### Google Cloud Dataplex Universal Catalog
+
+[Website](https://cloud.google.com/dataplex) | [GitHub](https://github.com/GoogleCloudPlatform)
+
+Google Cloud Dataplex Universal Catalog is integrated platform that combines data discovery, cataloging, governance, quality, and exploration into one cohesive service.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:| 
+| ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Pull </li>
+<li><b>UX personalization:</b> ?</li> 
+<li><b>AI autowiring:</b> ?</li> 
+<li><b>Network-based:</b> No</li> 
+<li><b>Rich data profiling:</b> No</li> 
+<li><b>Supported data sources:</b>  </li>
+</ul>
+</details>
+
+<br>
+
+<a name="azure"></a>
+### Microsoft Purview Unified Catalog
+
+[Website](https://learn.microsoft.com/en-us/purview/)  
+
+Microsoft Purview Unified Catalog is a central platform for discovering, classifying, and managing data assets across organization.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:|
+| ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Pull </li>
+<li><b>UX personalization:</b> ?</li> 
+<li><b>AI autowiring:</b> ?</li> 
+<li><b>Network-based:</b> ?</li> 
+<li><b>Rich data profiling:</b> ?</li> 
+<li><b>Supported data sources:</b>  </li>
+</ul>
+</details>
+
+<br>
+
+
+<a name="databricks"></a>
+### Databricks Unity Catalog
+
+[Website](https://www.databricks.com/product/unity-catalog)
+
+<a name="snowflake"></a>
+### Snowflake Horizon Catalog
+
+[Website](https://www.snowflake.com/en/product/features/horizon/)
+
+<a name="observability"></a>
+## 🔍 Data Observability Platforms
+
+
 
 <a href="#top">Back to top</a>
