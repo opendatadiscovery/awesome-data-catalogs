@@ -990,6 +990,52 @@ Select Star is an intelligent data discovery platform that automatically analyze
 
 <br>
 
+<a name="secoda"></a>
+### Secoda
+
+[Website](https://www.secoda.co/)
+
+Secoda is an AI-powered data discovery and cataloging platform that serves as your organization's 24/7 AI data analyst. Built as "The AI platform for data and analytics," Secoda uses intelligent agents to automate data discovery, documentation, governance, and analysis, enabling anyone to get insights from data through natural language queries.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:| 
+| ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Push / Pull</li>
+<li><b>Automations:</b> Yes</li>
+<li><b>AI autowiring:</b> Yes</li>
+<li><b>AI agents:</b> Yes</li>
+<li><b>AI Multi-Agent System:</b> 9 specialized AI agents (Analysis, Automation, Search, Memory, Observability, Governance, Documentation, Visualization, Cataloging)</li>
+<li><b>Natural Language Querying:</b> Chat with your data using natural language - no SQL required</li>
+<li><b>AI-Powered Query Generation:</b> Automatically writes and executes sophisticated queries based on natural language questions</li>
+<li><b>Intelligent Error Recovery:</b> AI learns from query errors and self-corrects to deliver accurate results</li>
+<li><b>Context-Aware AI:</b> Uses combined context of data sources, lineage, documentation, and semantic layer for accurate responses</li>
+<li><b>AI-Driven Metadata Enrichment:</b> Automatically generates descriptions and enriches data assets with critical metadata</li>
+<li><b>Recommendations:</b> Yes</li>
+<li><b>Rich data profiling:</b> Yes</li>
+<li><b>Monitoring and observability:</b> Yes</li>
+<li><b>Change notifications:</b> Yes</li>
+<li><b>Entity Relationship Diagram generation:</b> Yes</li>
+<li><b>Table and column level lineage:</b> Yes</li>
+<li><b>Lineage impact analysis:</b> Yes</li>
+<li><b>Role Based Access Controls:</b> Yes</li>
+<li><b>Policy Based Access Controls:</b> Yes</li>
+<li><b>Popularity and Usage:</b> Yes</li>
+<li><b>Description and Tag propagation:</b> Yes</li>
+<li><b>Data preview:</b> Yes</li>
+<li><b>Data owners:</b> Yes</li>
+<li><b>Top data users:</b> Yes</li>
+<li><b>UX personalization:</b> Yes</li>
+<li><b>Supported data sources:</b> 142+ integrations including Airbyte, Airflow (Apache), Amplitude, Apache Hive, Apache Kafka, Astronomer, AWS Athena, AWS Cross Account Role, AWS Glue, AWS S3, Azure Cosmos DB, Azure Synapse, BigQuery (Google Cloud), Census, Cluvio, Coalesce, Confluent Cloud, Confluence, Cyera, Dagster, Databricks, Dataplex (Google Cloud), dbt (Both Cloud and Core), File Upload (CSV, JSONL), Fivetran, Git, GitHub, Google Cloud Storage, Google Data Studio, Great Expectations, Hashboard, Hex, Hightouch, Jira, Lightdash, Linear, Looker (Google), Marketplace Integrations, Matillion, Metabase, Microsoft SQL Server, Microsoft Teams, Mixpanel, Mode, MongoDB, Monte Carlo, MotherDuck, MySQL, Oracle, PagerDuty, Polytomic, PostgreSQL, Power BI (Microsoft), Preset, QuickSight (AWS), Redash, Redshift (AWS), Retool, Reverse SSH Tunnel, Salesforce, Sigma Computing, SingleStore, Slack, Snowflake (Primary warehouse), SQL Server Reporting Services (SSRS), SSH Tunnel, Stitch, Superset, Tableau, ThoughtSpot, Trino, VPC Peering, and many more</li>
+</ul>
+</details>
+
+<br>
+
 
 <a name="DataKitchen"></a>
 ### DataKitchen DataOps Observability
