@@ -6,7 +6,6 @@ This repository contains a curated list of awesome Data & AI Governance platform
 
 ## Contents: Data Discovery and Observability Solutions
 
-<<<<<<< HEAD
 | [OSS Data Catalogs](#opensource)             | [ Proprietary Cloud DCs](#monocloud)       | [ Proprietary Observability Tools](#observability) | [Other Proprietary DCs](#proprietary) |
 |----------------------------------------------|--------------------------------------------|---------------------------------|--------------------------------|
 | [📙 Amundsen](#amundsen)                     | [📒 Amazon DataZone](#aws)                 | [🔍 Monte Carlo](#montecarlo)  | [📕 Alation](#alation)         |
@@ -293,11 +292,6 @@ Essential features for maintaining data reliability, trustworthiness, observabil
 |              [Magda](#magda)              | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 |            [Marquez](#marquez)            | [OpenLineage](https://github.com/OpenLineage/OpenLineage) | ✔️ | ❌| ✔️ | ? | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ |
 |        [Monte Carlo](#montecarlo)         | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ |
-<<<<<<< HEAD
-|        [Select Star](#selectstar)         | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ |
-|             [Secoda](#secoda)             | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
-=======
->>>>>>> secoda-genai-updates
 | [Open Data Discovery](#opendatadiscovery) | [ODD Specification](https://github.com/opendatadiscovery/opendatadiscovery-specification) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ✔️ |
 |       [OpenMetadata](#openmetadata)       | [JSON Schema](https://github.com/json-schema-org/json-schema-spec) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
 |             [Secoda](#secoda)             | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
