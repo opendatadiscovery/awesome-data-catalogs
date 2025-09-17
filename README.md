@@ -1,6 +1,3 @@
-
-
-
 # Awesome Data & AI Governance [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 This repository contains a curated list of awesome Data & AI Governance platforms and tools that help you discover, manage, and observe data and AI solutions in your organization. 
@@ -9,32 +6,36 @@ This repository contains a curated list of awesome Data & AI Governance platform
 
 ## Contents: Data Discovery and Observability Solutions
 
-| [Open-source Software (OSS)](#opensource)    | [Cloud](#cloud)                          | [Proprietary (Prop)](#proprietary)                              |
-|----------------------------------------------|----------------------------------------------|-----------------------------------------------------------------|
-| [📙 Amundsen](#amundsen)                     | [📒 Amazon DataZone](#aws)                   | [📕 Alation](#alation)                                          |
-| [📙 DataHub](#datahub)                       | [📒 Google Cloud Dataplex](#google)          | [📕 Atlan](#atlan)                                              |
-| [📙 Marquez](#marquez)                       | [📒 Microsoft Purview](#azure)               | [📕 Collate AI Platform](#collate)                              |
-| [📙 Atlas](#atlas)                           | [📒 Databricks Unity Catalog](#databricks)   | [📕 Ataccama](#ataccama)                                        |
-| [📙 CKAN](#ckan)                             | [📒 Snowflake Horizon Catalog](#snowflake)   | [📕 Collibra](#collibra)                                        |
-| [📙 Magda](#magda)                           |                                              | [📕 Monte Carlo](#montecarlo)                                   |
-| [📙 Open Data Discovery](#opendatadiscovery) |                                              | [📕 Informatica](#informatica)                                  |
-| [📙 OpenMetadata](#openmetadata)             |                                              | [📕 Select Star](#selectstar)                                   |
-| [📙 Elementary](#elementary)                 |                                              | [📕 DataHub Cloud](#datahubcloud)                               |
-| [📙 Gravitino](#gravitino)                   |                                              | [📕 DataKitchen DataOps Observability](#datakitchen)            |
-| [📙 Soda Core](#soda)                        |                                              | [📕 DataGalaxy](#datagalaxy)                                    |
-| [📙 Grai](#grai)                             |                                              | [📕 Talend](#talend)                                            |
-| [📙 Hamilton](#hamilton)                     |                                              | [📕 Datafold](#datafold)                                        |
-| [📙 Egeria](#egeria)                         |                                              | [📕 IBM Data Observability by Databand](#ibmdobd)               |
-|                                              |                                              | [📕 IBM watsonx.data intelligence](#ibmwatsonxdataintelligence) |
-|                                              |                                              | [📕 Precisely](#precisely)                                      |
-|                                              |                                              | [📕 erwin](#erwin)                                              |
-|                                              |                                              | [📕 OneTrust](#onetrust)                                        |
-|                                              |                                              | [📕 data.world](#dataworld)                                     |
-|                                              |                                              | [📕 Zeenea](#Zeenea)                                            |
-|                                              |                                              | [📕 Explorium](#explorium)                                      |
-|                                              |                                              | [📕 Metaplane](#metaplane)                                      |
-|                                              |                                              | [📕 BigID](#bigid)                                              |
-|                                              |                                              | [📕 OvalEdge](#ovaledge)                                        |
+| [OSS Data Catalogs](#opensource)             | [ Proprietary Cloud DCs](#monocloud)       | [ Proprietary Observability Tools](#observability) | [Other Proprietary DCs](#proprietary) |
+|----------------------------------------------|--------------------------------------------|---------------------------------|--------------------------------|
+| [📙 Amundsen](#amundsen)                     | [📒 Amazon DataZone](#aws)                 | [🔍 Monte Carlo](#montecarlo)  | [📕 Alation](#alation)         |
+| [📙 DataHub](#datahub)                       | [📒 Google Cloud Dataplex](#google)        | [🔍 Databand](#databand)       | [📕 Atlan](#atlan)             |
+| [📙 Marquez](#marquez)                       | [📒 Microsoft Purview](#azure)             | [🔍 Datafold](#datafold)       | [📕 Collibra](#collibra)       |
+| [📙 Atlas](#atlas)                           | [📒 Databricks Unity Catalog](#databricks) | [🔍 Ataccama](#ataccama)       | [📕 DataGalaxy](#datagalaxy) |
+| [📙 CKAN](#ckan)                             | [📒 Snowflake Horizon Catalog](#snowflake) | [🔍 DataKitchen Open Source Data Observability](#datakitchen)| [📕 Informatica](#informatica) |
+| [📙 Magda](#magda)                           |                                            |                                | [📕 Stemma](#stemma)          |
+| [📙 Open Data Discovery](#opendatadiscovery) |                                            |                                | [📕 Talend](#talend) |
+| [📙 OpenMetadata](#openmetadata)             |                                            |                                | [📕 Select Star](#selectstar) |
+| [📙 Elementary](#elementary)                 |                                            |                                | |
+| [📙 Gravitino](#gravitino)                   |                                            |                                | |
+| [📙 Soda Core](#soda)                        |                                            |                                | |
+| [📙 Meta\#Grid](#metagrid)                   |                                            |                                | |
+| [📙 Grai](#grai)                             |                                            |                                | |
+| [📙 Hamilton](#hamilton)                     |                                            |                                | |
+| [📙 Egeria](#egeria)                         |                                            |                                | |
+|                                              |                                            |                                | [📕 Datafold](#datafold) |
+|                                              |                                            |                                | [📕 IBM Data Observability by Databand](#ibmdobd) |
+|                                              |                                            |                                | [📕 IBM watsonx.data intelligence](#ibmwatsonxdataintelligence) |
+|                                              |                                            |                                | [📕 Precisely](#precisely) |
+|                                              |                                            |                                | [📕 erwin](#erwin) |
+|                                              |                                            |                                | [📕 OneTrust](#onetrust) |
+|                                              |                                            |                                | [📕 data.world](#dataworld) |
+|                                              |                                            |                                | [📕 Zeenea](#Zeenea) |
+|                                              |                                            |                                | [📕 Explorium](#explorium) |
+|                                              |                                            |                                | [📕 Metaplane](#metaplane) |
+|                                              |                                            |                                | [📕 BigID](#bigid) |
+|                                              |                                            |                                | [📕 OvalEdge](#ovaledge) |
+|                                              |                                            |                                | [📕 Secoda](#secoda) |
 
 <br>
 
@@ -101,6 +102,7 @@ The group includes built-in AI capabilities essential for Generative AI applicat
 | IBM watsonx.data intelligence      | IBM                                        | Prop          | –                                                           | [ibm.com](https://www.ibm.com/products/watsonx-data)                      | ❌           | ✔️                        | ✔️                             | ❌                     | ✔️              | ✔️                     | ✔️         |
 | DataKitchen DataOps Observability  | DataKitchen                                | Prop          | –                                                           | [datakitchen.io](https://datakitchen.io/)                                 | ❌           | ✔️                        | ✔️                             | ❌                     | ✔️              | ✔️                     | ✔️         |
 | IBM Data Observability by Databand | Databand / IBM                             | Prop          | –                                                           | [ibm.com](https://www.ibm.com/docs/en/dobd)                               | ❌           | ✔️                        | ✔️                             | ❌                     | ✔️              | ✔️                     | ✔️         |
+| Secoda                             | Secoda                                     | Prop          | [GitHub](https://github.com/team-secoda)                    | [secoda.co](https://www.secoda.co)                                        | ✔️           | ✔️                        | ✔️                             | ✔️                    | ✔️              | ✔️                     | ✔️         |
 | Databricks Unity Catalog           | Databricks                                 | Cloud         | –                                                           | [databricks.com](https://www.databricks.com/product/unity-catalog)        | ❌           | ✔️                        | ✔️                             | ❌                     | ✔️              | ✔️                     | ✔️         |
 | Snowflake Horizon Catalog          | Snowflake                                  | Cloud         | –                                                           | [snowflake.com](https://www.snowflake.com/en/data-cloud/horizon)          | ❌           | ✔️                        | ✔️                             | ❌                     | ✔️              | ✔️                     | ✔️         |
 | AWS DataZone                       | Amazon                                     | Cloud         | –                                                           | [aws.amazon.com](https://aws.amazon.com/datazone)                         | ❌           | ✔️                        | ✔️                             | ❌                     | ✔️              | ✔️                     | ✔️         |
@@ -153,8 +155,9 @@ Features enabling a semantic bridge between business concepts and technical meta
 | IBM watsonx.data intelligence      | IBM                                                 | Prop           | -                                                           | [ibm.com](https://ibm.com/products/watsonx-data)                          | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
 | DataKitchen DataOps Observability  | DataKitchen                                         | Prop           | -                                                           | [datakitchen.io](https://datakitchen.io/)                                 | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
 | IBM Data Observability by Databand | Databand / IBM                                      | Prop           | -                                                           | [ibm.com](https://www.ibm.com/docs/en/dobd)                               | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
-| Databricks Unity Catalog           | Databricks                                          | Cloud          | -                                                           | [databricks.com](https://databricks.com/product/unity-catalog)            | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
-| Snowflake Horizon Catalog          | Snowflake                                           | Cloud          | -                                                           | [snowflake.com](https://snowflake.com/en/data-cloud/horizon)              | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
+| Secoda                             | Secoda                                              | Prop           | [GitHub](https://github.com/team-secoda)                    | [secoda.co](https://www.secoda.co)                                        | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
+| Databricks Unity Catalog           | Databricks                                          | Cloud          | -                                                           | [databricks.com](https://www.databricks.com/product/unity-catalog)        | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
+| Snowflake Horizon Catalog          | Snowflake                                           | Cloud          | -                                                           | [snowflake.com](https://www.snowflake.com/en/data-cloud/horizon)          | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
 | AWS DataZone                       | AWS                                                 | Cloud          | -                                                           | [aws.amazon.com](https://aws.amazon.com/datazone)                         | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
 | Google Cloud Dataplex              | Google Cloud                                        | Cloud          | -                                                           | [cloud.google.com](https://cloud.google.com/dataplex)                     | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
 | Microsoft Purview                  | Microsoft                                           | Cloud          | -                                                           | [azure.microsoft.com](https://azure.microsoft.com/en-us/products/purview) | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
@@ -205,8 +208,9 @@ Core features providing detailed technical insights, query analytics, and usage 
 | IBM watsonx.data intelligence      | IBM                                                 | Prop          | -                                                           | [ibm.com](https://ibm.com/products/watsonx-data)                          | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
 | DataKitchen DataOps Observability  | DataKitchen                                         | Prop          | -                                                           | [datakitchen.io](https://datakitchen.io/)                                 | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
 | IBM Data Observability by Databand | Databand / IBM                                      | Prop          | -                                                           | [ibm.com](https://www.ibm.com/docs/en/dobd)                               | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
+| Secoda                             | Secoda                                              | Prop          | [GitHub](https://github.com/team-secoda)                    | [secoda.co](https://www.secoda.co)                                        | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
 | Databricks Unity Catalog           | Databricks                                          | Cloud         | -                                                           | [databricks.com](https://databricks.com/product/unity-catalog)            | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
-| Snowflake Horizon Catalog          | Snowflake                                           | Cloud         | -                                                           | [snowflake.com](https://snowflake.com/en/data-cloud/horizon)              | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
+| Snowflake Horizon Catalog          | Snowflake                                           | Cloud         | -                                                           | [snowflake.com](https://www.snowflake.com/en/data-cloud/horizon)          | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
 | AWS DataZone                       | Amazon                                              | Cloud         | -                                                           | [aws.amazon.com](https://aws.amazon.com/datazone)                         | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
 | Google Cloud Dataplex              | Google                                              | Cloud         | -                                                           | [cloud.google.com](https://cloud.google.com/dataplex)                     | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
 | Microsoft Purview                  | Microsoft                                           | Cloud         | -                                                           | [azure.microsoft.com](https://azure.microsoft.com/en-us/products/purview) | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
@@ -239,7 +243,7 @@ Essential features for maintaining data reliability, trustworthiness, observabil
 | Monte Carlo                        | Monte Carlo                                         | Prop          | -                                                           | [montecarlodata.com](https://www.montecarlodata.com/)                     | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | Select Star                        | Select Star                                         | Prop          | -                                                           | [selectstar.com](https://www.selectstar.com)                              | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | OvalEdge                           | OvalEdge                                            | Prop          | -                                                           | [ovaledge.com](https://www.ovaledge.com)                                  | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
-| Alation                            | Alation                                             | Prop          | -                                                           | [alation.com](https://www.alation.com)                                    | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
+| Alation                            | Alation                                             | Prop          | -                                                           | [alation.com](https://alation.com)                                    | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | Informatica Data Catalog           | Informatica                                         | Prop          | -                                                           | [informatica.com](https://www.informatica.com)                            | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | Precisely Data Integrity Suite     | Precisely                                           | Prop          | -                                                           | [precisely.com](https://www.precisely.com)                                | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | erwin Data Intelligence            | Quest                                               | Prop          | -                                                           | [quest.com](https://www.quest.com/products/erwin-data-intelligence/)      | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
@@ -249,7 +253,7 @@ Essential features for maintaining data reliability, trustworthiness, observabil
 | DataGalaxy Data Catalog            | DataGalaxy                                          | Prop          |                                                             | [datagalaxy.com](https://www.datagalaxy.com/en/product/data-catalog/)     | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | data.world                         | ServiceNow                                          | Prop          | [GitHub](https://github.com/datadotworld)                   | [data.world](https://data.world)                                          | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | Zeenea                             | Zeenea / Actian  division of HCL Software           | Prop          | [GitHub](https://github.com/zeenea)                         | [zeenea.com](https://www.zeenea.com)                                      | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
-| Explorium                          | Explorium                                           | Prop          | [GitHub](https://github.com/explorium-ai)                   | [explorium.ai](https://www.explorium.ai)                                  | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
+| Explorium                          | Explorium                                           | Prop          | [GitHub](https://github.com/explorium-ai)                   | [explorium.ai](https://explorium.ai)                                  | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | Talend Data Fabric                 | Talend / Qlik                                       | Prop          | -                                                           | [talend.com](https://www.talend.com)                                      | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | Datafold                           | Datafold                                            | Prop          | -                                                           | [datafold.com](https://www.datafold.com/)                                 | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | Metaplane                          | Metaplane / Datadog                                 | Prop          | -                                                           | [metaplane.dev](https://www.metaplane.dev)                                | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
@@ -257,6 +261,7 @@ Essential features for maintaining data reliability, trustworthiness, observabil
 | IBM watsonx.data intelligence      | IBM                                                 | Prop          | -                                                           | [ibm.com](https://www.ibm.com/products/watsonx-data)                      | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | DataKitchen DataOps Observability  | DataKitchen                                         | Prop          | -                                                           | [datakitchen.io](https://datakitchen.io/)                                 | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | IBM Data Observability by Databand | Databand / IBM                                      | Prop          | -                                                           | [datakitchen.io](https://datakitchen.io/)                                 | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
+| Secoda                             | Secoda                                              | Prop          | [GitHub](https://github.com/team-secoda)                    | [secoda.co](https://www.secoda.co)                                        | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | Databricks Unity Catalog           | Databricks                                          | Cloud         | -                                                           | [databricks.com](https://www.databricks.com/product/unity-catalog)        | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | Snowflake Horizon Catalog          | Snowflake                                           | Cloud         | -                                                           | [snowflake.com](https://www.snowflake.com/en/data-cloud/horizon)          | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | AWS DataZone                       | Amazone                                             | Cloud         | -                                                           | [aws.amazon.com](https://aws.amazon.com/datazone)                         | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
@@ -264,6 +269,7 @@ Essential features for maintaining data reliability, trustworthiness, observabil
 | Microsoft Purview                  | Microsoft                                           | Cloud         | -                                                           | [azure.microsoft.com](https://azure.microsoft.com/en-us/products/purview) | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 
 
+>>>>>>> secoda-genai-updates
 ## High-Level Feature Comparison
 
 
@@ -286,9 +292,10 @@ Essential features for maintaining data reliability, trustworthiness, observabil
 |              [Magda](#magda)              | ❌ | ✔️ | ❌  | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 |            [Marquez](#marquez)            | [OpenLineage](https://github.com/OpenLineage/OpenLineage) | ✔️ | ❌| ✔️ | ? | ❌ | ❌ | ❌ | ❌ | ✔️ | ❌ |
 |        [Monte Carlo](#montecarlo)         | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ |
-|        [Select Star](#selectstar)         | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ |
 | [Open Data Discovery](#opendatadiscovery) | [ODD Specification](https://github.com/opendatadiscovery/opendatadiscovery-specification) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ✔️ |
 |       [OpenMetadata](#openmetadata)       | [JSON Schema](https://github.com/json-schema-org/json-schema-spec) | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+|             [Secoda](#secoda)             | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+|        [Select Star](#selectstar)         | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ✔️ |
 |             [Stemma](#stemma)             | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ? | ✔️ | ❌ | ❌ | ❌ |
 |             [Talend](#talend)             | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
 |               [Grai](#grai)               | [Grai Schemas](https://github.com/grai-io/grai-core/tree/master/grai-schemas) | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ |
@@ -990,6 +997,51 @@ Select Star is an intelligent data discovery platform that automatically analyze
 
 <br>
 
+<a name="secoda"></a>
+### Secoda
+
+[Website](https://www.secoda.co/) | [GitHub](https://github.com/team-secoda) | [Docs](https://docs.secoda.co)
+
+Secoda is an AI-powered data discovery and cataloging platform that serves as your organization's 24/7 AI data analyst. Built as "The AI platform for data and analytics," Secoda uses intelligent agents to automate data discovery, documentation, governance, and analysis, enabling anyone to get insights from data through natural language queries.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:| 
+| ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Push / Pull</li>
+<li><b>Automations:</b> Yes</li>
+<li><b>AI autowiring:</b> Yes</li>
+<li><b>AI agents:</b> 9 specialized AI agents (Analysis, Automation, Search, Memory, Observability, Governance, Documentation, Visualization, Cataloging)</li>
+<li><b>Natural Language Querying:</b> Chat with your data using natural language - no SQL required</li>
+<li><b>AI-Powered Query Generation:</b> Automatically writes and executes sophisticated queries</li>
+<li><b>Intelligent Error Recovery:</b> AI learns from query errors and self-corrects</li>
+<li><b>Context-Aware AI:</b> Uses combined context of data sources, lineage, and documentation</li>
+<li><b>AI-Driven Metadata Enrichment:</b> Automatically generates descriptions and enriches data assets</li>
+<li><b>Recommendations:</b> Yes</li>
+<li><b>Rich data profiling:</b> Yes</li>
+<li><b>Monitoring and observability:</b> Yes</li>
+<li><b>Change notifications:</b> Yes</li>
+<li><b>Entity Relationship Diagram generation:</b> Yes</li>
+<li><b>Table and column level lineage:</b> Yes</li>
+<li><b>Lineage impact analysis:</b> Yes</li>
+<li><b>Role Based Access Controls:</b> Yes</li>
+<li><b>Policy Based Access Controls:</b> Yes</li>
+<li><b>Popularity and Usage:</b> Yes</li>
+<li><b>Description and Tag propagation:</b> Yes</li>
+<li><b>Data preview:</b> Yes</li>
+<li><b>Data owners:</b> Yes</li>
+<li><b>Top data users:</b> Yes</li>
+<li><b>UX personalization:</b> Yes</li>
+<li><b>Supported data sources:</b> 142+ integrations including Airbyte, Airflow, dbt, Snowflake, BigQuery, Redshift, PostgreSQL, MySQL, and many more</li>
+</ul>
+</details>
+
+<br>
+
 
 <a name="DataKitchen"></a>
 ### DataKitchen DataOps Observability
@@ -1171,6 +1223,39 @@ Ataccama is an enterprise data catalog and observability tool featuring data pro
 <a name="ovaledge"></a>
 ### OvalEdge  
 [Website](https://support.ovaledge.com/) | [GitHub](https://github.com/ovaledge) 
+
+<a name="secoda"></a>
+### Secoda
+
+[Website](https://www.secoda.co/) | [GitHub](https://github.com/team-secoda) | [Docs](https://docs.secoda.co)
+
+Secoda is an AI-powered data management platform that unifies data discovery, cataloging, lineage, governance, and observability. It is designed to serve as a central source of truth for an organization's data, using AI to automate documentation and enable natural language data interaction for both technical and non-technical users.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
+|:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:| 
+| ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Push & Pull </li>
+<li><b>AI Autowiring:</b> Yes, core feature for automated documentation, natural language search, and monitoring.</li>
+<li><b>Rich data profiling:</b> Yes</li>
+<li><b>Lineage impact analysis:</b> Yes</li>
+<li><b>Change notifications:</b> Yes</li>
+<li><b>Role & Policy based access control:</b> Yes</li>
+<li><b>Popularity & usage:</b> Yes </li>
+<li><b>Description & Tag propagation:</b> Yes </li>
+<li><b>Data preview:</b> Yes </li>
+<li><b>Data owners:</b> Yes</li>
+<li><b>Top data users:</b> Yes </li>
+<li><b>UX personalization:</b> Yes</li>
+<li><b>Supported data sources:</b> Snowflake, BigQuery, Redshift, dbt, Tableau, PowerBI, and 100+ more.</li>
+</ul>
+</details>
+
+<br>
 
 
 <a name="cloud"></a>
