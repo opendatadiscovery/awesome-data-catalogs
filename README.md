@@ -25,7 +25,7 @@ This repository contains a curated list of awesome Data & AI Governance platform
 | [📙 Grai](#grai)                             |                                              | [📕 Talend](#talend)                                            |
 | [📙 Hamilton](#hamilton)                     |                                              | [📕 Datafold](#datafold)                                        |
 | [📙 Egeria](#egeria)                         |                                              | [📕 IBM Data Observability by Databand](#ibmdobd)               |
-|                                              |                                              | [📕 IBM watsonx.data intelligence](#ibmwatsonxdataintelligence) |
+| [📙 FlightPath Data](#flightpath)            |                                              | [📕 IBM watsonx.data intelligence](#ibmwatsonxdataintelligence) |
 |                                              |                                              | [📕 Precisely](#precisely)                                      |
 |                                              |                                              | [📕 erwin](#erwin)                                              |
 |                                              |                                              | [📕 OneTrust](#onetrust)                                        |
@@ -179,7 +179,8 @@ Core features providing detailed technical insights, query analytics, and usage 
 | Atlas                              | Apache Software Foundation                          | OSS           | [GitHub](https://github.com/apache/atlas)                   | [atlas.apache.org](https://atlas.apache.org)                              | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ❌                      | ❌                     | ❌              | ❌           |
 | Grai Core                          | Grai                                                | OSS           | [GitHub](https://github.com/grai-io/grai-core)              | [grai.io](https://www.grai.io/)                                           | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ❌                      | ❌                     | ❌              | ❌           |
 | CKAN                               | Datopian / Link Digital                             | OSS           | [GitHub](https://github.com/ckan/ckan)                      | [ckan.org](https://ckan.org)                                              | ✔️                                       | ✔️                                   | ✔️               | ❌                        | ❌                                     | ❌                        | ❌                    | ✔️                                             | ❌                                          | ❌                      | ❌                     | ❌              | ✔️          |
-| Hamilton                           | DagWorks / Apache Software Foundation               | OSS           | [GitHub](https://github.com/apache/hamilton)                | [hamilton](https://hamilton.apache.org/)                                  | ✔️                                       | ❌                                    | ❌                | ❌                        | ❌                                     | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ❌                      | ❌                     | ❌              | ❌           |
+| Hamilton                           | DagWorks / Apache Software Foundation               | OSS           | [GitHub](https://github.com/apache/hamilton)                | [hamilton](https://hamilton.apache.org/)                                  | ✔️                                       | ❌                                   | ❌               | ❌                        | ❌                                     | ✔️                       | ✔️                   | ✔️                                           | ✔️                                         | ❌                     | ❌                     | ❌              | ❌           |
+| FlightPath Data                    | CsvPath Framework Community                         | OSS           | [GitHub](https://github.com/csvpath/csvpath)                | [flightpathdata.com](https://www.flightpathdata.com)                      | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ❌                    | ❌             | ✔️          |
 | DataHub Cloud                      | Acryl Data / SaaS DataHub                           | Prop          | -                                                           | [datahub.io](https://datahub.io)                                          | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ❌                    | ❌             | ❌          |
 | Collate AI Platform                | Collate / SaaS OpenMetadata                         | Prop          | -                                                           | [getcollate.io](https://www.getcollate.io/)                               | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ❌                    | ✔️             | ✔️          |
 | Atlan                              | Atlan                                               | Prop          | [GitHub](https://github.com/atlanhq)                        | [atlan.com](https://atlan.com)                                            | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
@@ -232,6 +233,7 @@ Essential features for maintaining data reliability, trustworthiness, observabil
 | Grai Core                          | Grai                                                | OSS           | [GitHub](https://github.com/grai-io/grai-core)              | [grai.io](https://www.grai.io/)                                           | ✔️           | ✔️              | ❌                  | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | CKAN                               | Datopian & Link Digital                             | OSS           | [GitHub](https://github.com/ckan/ckan)                      | [ckan.org](https://ckan.org)                                              | ❌            | ✔️              | ❌                  | ✔️          | ✔️                    | ✔️            | ❌                        | ❌                |
 | Hamilton                           | Apache Software Foundation                          | OSS           | [GitHub](https://github.com/dagworks-inc/hamilton)          | [dagworks.io/hamilton](https://www.dagworks.io/hamilton)                  | ❌            | ❌               | ❌                  | ❌           | ❌                     | ❌             | ❌                        | ❌                |
+| FlightPath Data                    | CsvPath Framework Community                         | OSS           | [GitHub](https://github.com/csvpath/csvpath)                | [flightpathdata.com](https://www.flightpathdata.com)                      | ✔️           | ✔️              | ❌                 | ✔️          | ❌                    | ❌            | ❌                       | ❌               |
 | DataHub Cloud                      | Acryl Data / SaaS DataHub                           | Prop          | -                                                           | [datahub.io](https://datahub.io)                                          | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | Collate AI Platform                | Managed OpenMetadata                                | Prop          | -                                                           | [getcollate.io](https://www.getcollate.io/)                               | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | Atlan                              | Atlan                                               | Prop          | [GitHub](https://github.com/atlanhq)                        | [atlan.com](https://atlan.com)                                            | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
@@ -293,7 +295,8 @@ Essential features for maintaining data reliability, trustworthiness, observabil
 |             [Talend](#talend)             | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
 |               [Grai](#grai)               | [Grai Schemas](https://github.com/grai-io/grai-core/tree/master/grai-schemas) | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ |
 |           [Hamilton](#hamilton)           | [Hamilton](https://github.com/dagworks-inc/hamilton) | ✔️ | ✔️ | ? | ✔️ | ❌ | ✔️ | ½ | ✔️ | ✔️ | ❌ |
-
+|           [FlightPath Data](#flightpath)  | ✔️ [CsvPath Validation Language](https://github.com/csvpath/csvpath)) | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ✔️ |
+                               
 
 Definitions:
 <ul>
@@ -778,7 +781,40 @@ A popular open-source framework for describing transformations that comes with a
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/odpi/egeria/commits/main)
 ![](https://img.shields.io/github/stars/odpi/egeria.svg?style=social)
 
+<br>
 
+<a name="flightpath"></a>
+### FlightPath Data 
+[GitHub](https://github.com/csvpath/csvpath)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/csvpath/csvpath/graphs/code-frequency)
+
+A frontend and API server built on the [CsvPath Framework](https://www.csvpath.org) library as a complete data preboarding solution. FlightPath intermediates data partners and downstream internal data consumers, acting as an edge gate and archive between MFT and data lake, preventing corruption of applications, analytics, and AI. 
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
+|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:|:---:|:--:| 
+✔️ [CsvPath Validation Language](https://github.com/csvpath/csvpath) | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Register inbound data versions immutably; assign durable identity; validate and upgrade using a schemas and rules-based validation language in idempotent versioned linear pipelines; capture source, processing, content, errors, and other metadata; publish immutable known-good/known-bad data sets downstream from a queryable archive.</li>
+<li><b>UX personalization:</b> No</li> 
+<li><b>AI autowiring:</b> No (alpha exists)</li> 
+<li><b>Rich data profiling:</b> Yes</li> 
+<li><b>Recommendations:</b> No </li>
+<li><b>Schemas, Description:</b> Yes</li>
+<li><b>Complex schemas:</b> Yes </li>
+<li><b>Data preview:</b> Yes </li>
+<li><b>Column statistics:</b> Yes </li>
+<li><b>Data owner:</b> Via tags, markdown docs, and in-context comments.</li>
+<li><b>Top data users:</b> No </li>
+<li><b>Change notifications:</b> Yes, via Slack, OTLP, OpenLineage, webhook </li>
+<li><b>Change feed:</b> Yes, using integrated services</li>
+<li><b>Deployment:</b> macOS and Windows native binaries available from Apple and Microsoft stores (free; server and frontend bundled together); from GitHub for Linux as plain Python </li> 
+<li><b>Supported data sources:</b> SFTP, S3, Azure Blob, Google Cloud Storage, local filesystem; limited support for HTTP imports </li>
+</ul>
+</details>
 
 <a name="proprietary"></a>
 ## 📕 Proprietary Data & AI Governance Tools and Platforms
