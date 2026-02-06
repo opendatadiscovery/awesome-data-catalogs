@@ -298,7 +298,7 @@ Essential features for maintaining data reliability, trustworthiness, observabil
 |             [Talend](#talend)             | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
 |               [Grai](#grai)               | [Grai Schemas](https://github.com/grai-io/grai-core/tree/master/grai-schemas) | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ |
 |           [Hamilton](#hamilton)           | [Hamilton](https://github.com/dagworks-inc/hamilton) | ✔️ | ✔️ | ? | ✔️ | ❌ | ✔️ | ½ | ✔️ | ✔️ | ❌ |
-|             [Dawiso](#dawiso)             | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ✔️ |
+|             [Dawiso](#dawiso)             | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ❌ |
 
 
 Definitions:
