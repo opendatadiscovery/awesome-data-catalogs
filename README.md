@@ -1183,7 +1183,7 @@ Ataccama is an enterprise data catalog and observability tool featuring data pro
 
 [Website](https://www.dawiso.com/)
 
-Dawiso is a data governance platform that provides business context to AI agents and data teams through automatic metadata extraction, data lineage, business glossary, and support for 40+ data source connectors.
+Dawiso is modern Data Catalog and AI platform that helps organizations discover, manage, and govern their data assets. It provides automatic metadata scanning, AI-powered enrichment, interactive data lineage, and business glossary management. The platform supports 40+ data platform connectors and offers MCP (Model Context Protocol) support for AI agents integration.
 
 |Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
 |:--:|:---:|:---:|:---:|:--:|:---:|:--:|:--:|:--:|:--:|:--:|
