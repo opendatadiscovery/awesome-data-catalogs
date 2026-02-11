@@ -35,6 +35,7 @@ This repository contains a curated list of awesome Data & AI Governance platform
 |                                              |                                              | [📕 Metaplane](#metaplane)                                      |
 |                                              |                                              | [📕 BigID](#bigid)                                              |
 |                                              |                                              | [📕 OvalEdge](#ovaledge)                                        |
+|                                              |                                              | [📕 everyrow](#everyrow)                                        |
 
 <br>
 
@@ -1169,8 +1170,13 @@ Ataccama is an enterprise data catalog and observability tool featuring data pro
 [Website](https://bigid.com/) | [GitHub](https://github.com/bigexchange)
 
 <a name="ovaledge"></a>
-### OvalEdge  
-[Website](https://support.ovaledge.com/) | [GitHub](https://github.com/ovaledge) 
+### OvalEdge
+[Website](https://support.ovaledge.com/) | [GitHub](https://github.com/ovaledge)
+
+<a name="everyrow"></a>
+### everyrow
+
+[Website](https://everyrow.io/) | [GitHub](https://github.com/futuresearch/everyrow-sdk)
 
 
 <a name="cloud"></a>
