@@ -1178,8 +1178,6 @@ Ataccama is an enterprise data catalog and observability tool featuring data pro
 
 [Website](https://everyrow.io/) | [GitHub](https://github.com/futuresearch/everyrow-sdk)
 
-AI-powered data quality SDK. Semantic deduplication, entity resolution, and intelligent data validation for governance workflows.
-
 
 <a name="cloud"></a>
 ## 📒 Cloud Data & AI Governance Tools and Platforms
