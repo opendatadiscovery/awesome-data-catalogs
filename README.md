@@ -35,6 +35,7 @@ This repository contains a curated list of awesome Data & AI Governance platform
 |                                              |                                              | [📕 Metaplane](#metaplane)                                      |
 |                                              |                                              | [📕 BigID](#bigid)                                              |
 |                                              |                                              | [📕 OvalEdge](#ovaledge)                                        |
+|                                              |                                              | [📕 Dawiso](#dawiso)                                            |
 
 <br>
 
@@ -101,6 +102,7 @@ The group includes built-in AI capabilities essential for Generative AI applicat
 | IBM watsonx.data intelligence      | IBM                                        | Prop          | –                                                           | [ibm.com](https://www.ibm.com/products/watsonx-data)                      | ❌           | ✔️                        | ✔️                             | ❌                     | ✔️              | ✔️                     | ✔️         |
 | DataKitchen DataOps Observability  | DataKitchen                                | Prop          | –                                                           | [datakitchen.io](https://datakitchen.io/)                                 | ❌           | ✔️                        | ✔️                             | ❌                     | ✔️              | ✔️                     | ✔️         |
 | IBM Data Observability by Databand | Databand / IBM                             | Prop          | –                                                           | [ibm.com](https://www.ibm.com/docs/en/dobd)                               | ❌           | ✔️                        | ✔️                             | ❌                     | ✔️              | ✔️                     | ✔️         |
+| Dawiso                             | Dawiso                                     | Prop          | –                                                           | [dawiso.com](https://www.dawiso.com)                                      | ✔️          | ✔️                        | ✔️                             | ✔️                    | ✔️              | ❌                      | ✔️         |
 | Databricks Unity Catalog           | Databricks                                 | Cloud         | –                                                           | [databricks.com](https://www.databricks.com/product/unity-catalog)        | ❌           | ✔️                        | ✔️                             | ❌                     | ✔️              | ✔️                     | ✔️         |
 | Snowflake Horizon Catalog          | Snowflake                                  | Cloud         | –                                                           | [snowflake.com](https://www.snowflake.com/en/data-cloud/horizon)          | ❌           | ✔️                        | ✔️                             | ❌                     | ✔️              | ✔️                     | ✔️         |
 | AWS DataZone                       | Amazon                                     | Cloud         | –                                                           | [aws.amazon.com](https://aws.amazon.com/datazone)                         | ❌           | ✔️                        | ✔️                             | ❌                     | ✔️              | ✔️                     | ✔️         |
@@ -153,6 +155,7 @@ Features enabling a semantic bridge between business concepts and technical meta
 | IBM watsonx.data intelligence      | IBM                                                 | Prop           | -                                                           | [ibm.com](https://ibm.com/products/watsonx-data)                          | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
 | DataKitchen DataOps Observability  | DataKitchen                                         | Prop           | -                                                           | [datakitchen.io](https://datakitchen.io/)                                 | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
 | IBM Data Observability by Databand | Databand / IBM                                      | Prop           | -                                                           | [ibm.com](https://www.ibm.com/docs/en/dobd)                               | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
+| Dawiso                             | Dawiso                                              | Prop           | -                                                           | [dawiso.com](https://www.dawiso.com)                                      | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
 | Databricks Unity Catalog           | Databricks                                          | Cloud          | -                                                           | [databricks.com](https://databricks.com/product/unity-catalog)            | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
 | Snowflake Horizon Catalog          | Snowflake                                           | Cloud          | -                                                           | [snowflake.com](https://snowflake.com/en/data-cloud/horizon)              | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
 | AWS DataZone                       | AWS                                                 | Cloud          | -                                                           | [aws.amazon.com](https://aws.amazon.com/datazone)                         | ✔️                             | ✔️                         | ✔️                           | ✔️                       | ✔️                       | ✔️                   | ✔️                | ✔️                             | ✔️                         | ✔️                           | ✔️                                |
@@ -205,6 +208,7 @@ Core features providing detailed technical insights, query analytics, and usage 
 | IBM watsonx.data intelligence      | IBM                                                 | Prop          | -                                                           | [ibm.com](https://ibm.com/products/watsonx-data)                          | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
 | DataKitchen DataOps Observability  | DataKitchen                                         | Prop          | -                                                           | [datakitchen.io](https://datakitchen.io/)                                 | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
 | IBM Data Observability by Databand | Databand / IBM                                      | Prop          | -                                                           | [ibm.com](https://www.ibm.com/docs/en/dobd)                               | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
+| Dawiso                             | Dawiso                                              | Prop          | -                                                           | [dawiso.com](https://www.dawiso.com)                                      | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ❌                     | ❌              | ❌           |
 | Databricks Unity Catalog           | Databricks                                          | Cloud         | -                                                           | [databricks.com](https://databricks.com/product/unity-catalog)            | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
 | Snowflake Horizon Catalog          | Snowflake                                           | Cloud         | -                                                           | [snowflake.com](https://snowflake.com/en/data-cloud/horizon)              | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
 | AWS DataZone                       | Amazon                                              | Cloud         | -                                                           | [aws.amazon.com](https://aws.amazon.com/datazone)                         | ✔️                                       | ✔️                                   | ✔️               | ✔️                       | ✔️                                    | ✔️                       | ✔️                   | ✔️                                             | ✔️                                         | ✔️                     | ✔️                    | ✔️             | ✔️          |
@@ -257,6 +261,7 @@ Essential features for maintaining data reliability, trustworthiness, observabil
 | IBM watsonx.data intelligence      | IBM                                                 | Prop          | -                                                           | [ibm.com](https://www.ibm.com/products/watsonx-data)                      | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | DataKitchen DataOps Observability  | DataKitchen                                         | Prop          | -                                                           | [datakitchen.io](https://datakitchen.io/)                                 | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | IBM Data Observability by Databand | Databand / IBM                                      | Prop          | -                                                           | [datakitchen.io](https://datakitchen.io/)                                 | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
+| Dawiso                             | Dawiso                                              | Prop          | -                                                           | [dawiso.com](https://www.dawiso.com)                                      | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | Databricks Unity Catalog           | Databricks                                          | Cloud         | -                                                           | [databricks.com](https://www.databricks.com/product/unity-catalog)        | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | Snowflake Horizon Catalog          | Snowflake                                           | Cloud         | -                                                           | [snowflake.com](https://www.snowflake.com/en/data-cloud/horizon)          | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
 | AWS DataZone                       | Amazone                                             | Cloud         | -                                                           | [aws.amazon.com](https://aws.amazon.com/datazone)                         | ✔️           | ✔️              | ✔️                 | ✔️          | ✔️                    | ✔️            | ✔️                       | ✔️               |
@@ -280,6 +285,7 @@ Essential features for maintaining data reliability, trustworthiness, observabil
 |         [DataGalaxy](#datagalaxy)         | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ❌ | ✔️ | ✔️ | ? | ? |
 |           [Databand](#databand)           | ❌ | ? | ? | ? | ❌ | ? | ? | ? | ✔️ | ❌ | ❌ |
 |           [Datafold](#datafold)           | ❌ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ |
+|             [Dawiso](#dawiso)             | ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ | ✔️ | ❌ |
 |            [DataHub](#datahub)            | ✔️ [details](https://datahubproject.io/docs/metadata-modeling/metadata-model/) | ✔️  | ✔️ | ✔️ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 |     [Google Cloud Dataplex](#google)      | ❌ | ✔️ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ | ❌ | ❌ | ❌ |
 |        [Informatica](#informatica)        | ❌ | ✔️ | ✔️  | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ? | ❌ |
@@ -1169,9 +1175,43 @@ Ataccama is an enterprise data catalog and observability tool featuring data pro
 [Website](https://bigid.com/) | [GitHub](https://github.com/bigexchange)
 
 <a name="ovaledge"></a>
-### OvalEdge  
-[Website](https://support.ovaledge.com/) | [GitHub](https://github.com/ovaledge) 
+### OvalEdge
+[Website](https://support.ovaledge.com/) | [GitHub](https://github.com/ovaledge)
 
+<a name="dawiso"></a>
+### Dawiso
+
+[Website](https://www.dawiso.com/)
+
+Dawiso is an AI-powered data catalog and governance platform that unifies metadata management, business glossary, automated data lineage, and data products in a single solution. With 40+ connectors including Snowflake, Power BI, Databricks, SAP HANA, dbt, and more, it provides MCP Server integration for AI agent context, GenAI-driven metadata enrichment, and governs both structured and unstructured data assets. Designed for rapid deployment with cloud and on-premise options.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
+|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:|:---:|:--:|
+| ❌ | ✔️ | ✔️ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ | ✔️ | ❌ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Pull </li>
+<li><b>UX personalization:</b> Yes</li>
+<li><b>AI autowiring:</b> Yes</li>
+<li><b>Rich data profiling:</b> Yes</li>
+<li><b>Recommendations:</b> Yes </li>
+<li><b>Schemas, Description:</b> Yes</li>
+<li><b>Complex schemas:</b> Yes </li>
+<li><b>Data preview:</b> Yes </li>
+<li><b>Column statistics:</b> Yes </li>
+<li><b>Data owner:</b> Yes</li>
+<li><b>Top data users:</b> Yes </li>
+<li><b>Change notifications:</b> Yes </li>
+<li><b>Change feed:</b> Yes </li>
+<li><b>Deployment:</b> Cloud (Dawiso-managed), Azure, AWS, On-premise </li>
+<li><b>Supported data sources:</b> Snowflake, Power BI, Databricks, SAP HANA, dbt, Oracle, PostgreSQL, MSSQL, Tableau, Qlik, MySQL, and 40+ more </li>
+</ul>
+</details>
+
+<br>
 
 <a name="cloud"></a>
 ## 📒 Cloud Data & AI Governance Tools and Platforms
