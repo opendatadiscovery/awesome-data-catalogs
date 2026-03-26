@@ -25,6 +25,7 @@ This repository contains a curated list of awesome Data & AI Governance platform
 | [📙 Grai](#grai)                             |                                              | [📕 Talend](#talend)                                            |
 | [📙 Hamilton](#hamilton)                     |                                              | [📕 Datafold](#datafold)                                        |
 | [📙 Egeria](#egeria)                         |                                              | [📕 IBM Data Observability by Databand](#ibmdobd)               |
+| [📕 Prefactor](https://prefactor.tech/)                         |
 |                                              |                                              | [📕 IBM watsonx.data intelligence](#ibmwatsonxdataintelligence) |
 |                                              |                                              | [📕 Precisely](#precisely)                                      |
 |                                              |                                              | [📕 erwin](#erwin)                                              |
