@@ -35,6 +35,7 @@ This repository contains a curated list of awesome Data & AI Governance platform
 |                                              |                                              | [📕 Metaplane](#metaplane)                                      |
 |                                              |                                              | [📕 BigID](#bigid)                                              |
 |                                              |                                              | [📕 OvalEdge](#ovaledge)                                        |
+|                                              |                                              | [📕 FutureSearch](#futuresearch)                                |
 
 <br>
 
@@ -1171,6 +1172,11 @@ Ataccama is an enterprise data catalog and observability tool featuring data pro
 <a name="ovaledge"></a>
 ### OvalEdge  
 [Website](https://support.ovaledge.com/) | [GitHub](https://github.com/ovaledge) 
+
+<a name="futuresearch"></a>
+### FutureSearch
+
+[Website](https://futuresearch.ai/) | [GitHub](https://github.com/futuresearch/futuresearch-python)
 
 
 <a name="cloud"></a>
