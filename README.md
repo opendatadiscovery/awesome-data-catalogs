@@ -25,7 +25,7 @@ This repository contains a curated list of awesome Data & AI Governance platform
 | [📙 Grai](#grai)                             |                                              | [📕 Talend](#talend)                                            |
 | [📙 Hamilton](#hamilton)                     |                                              | [📕 Datafold](#datafold)                                        |
 | [📙 Egeria](#egeria)                         |                                              | [📕 IBM Data Observability by Databand](#ibmdobd)               |
-|                                              |                                              | [📕 IBM watsonx.data intelligence](#ibmwatsonxdataintelligence) |
+| [📙 DataCharter](#datacharter)               |                                              | [📕 IBM watsonx.data intelligence](#ibmwatsonxdataintelligence) |
 |                                              |                                              | [📕 Precisely](#precisely)                                      |
 |                                              |                                              | [📕 erwin](#erwin)                                              |
 |                                              |                                              | [📕 OneTrust](#onetrust)                                        |
@@ -293,6 +293,7 @@ Essential features for maintaining data reliability, trustworthiness, observabil
 |             [Talend](#talend)             | ❌ | ✔️ | ? | ✔️ | ❌ | ❌ | ✔️ | ❌ | ❌ | ❌ | ❌ |
 |               [Grai](#grai)               | [Grai Schemas](https://github.com/grai-io/grai-core/tree/master/grai-schemas) | ✔️ | ❌ | ✔️ | ❌ | ✔️ | ✔️ | ❌ | ❌ | ✔️ | ✔️ |
 |           [Hamilton](#hamilton)           | [Hamilton](https://github.com/dagworks-inc/hamilton) | ✔️ | ✔️ | ? | ✔️ | ❌ | ✔️ | ½ | ✔️ | ✔️ | ❌ |
+| [DataCharter](#datacharter) | ❌ | ½ | ❌ | ✔️ | ✔️ | ❌ | ½ | ❌ | ❌ | ❌ | ❌ |
 
 
 Definitions:
@@ -778,6 +779,38 @@ A popular open-source framework for describing transformations that comes with a
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/odpi/egeria/commits/main)
 ![](https://img.shields.io/github/stars/odpi/egeria.svg?style=social)
 
+
+
+<a name="datacharter"></a>
+### DataCharter
+
+[GitHub](https://github.com/datacharter/datacharter)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/datacharter/datacharter/graphs/commit-activity)
+![](https://img.shields.io/github/stars/datacharter/datacharter.svg?style=social)
+
+A local-first, open-source (Apache-2.0) data explorer governed by a YAML "charter". The charter declares sources, PII, and per-source/table/column access rules; DataCharter federates local files and databases through an embedded DuckDB engine and enforces the charter when serving data to both SQL users and AI agents over the Model Context Protocol (MCP) — with automatic PII masking, read-only guards, and row-level security. Runs as a CLI plus a local web UI.
+
+|Based on Open Standard | Search-based | Network-based | Lineage-based | Federation | ML 1st Citizen | Data Quality | End-to-end Lineage | Observability | Column-level lineage | Data collaboration |
+|:--:|:----:|:---:|:---:|:--:|:---:|:--:|:---:|:--:|:---:|:--:|
+| ❌ | ½ | ❌ | ✔️ | ✔️ | ❌ | ½ | ❌ | ❌ | ❌ | ❌ |
+
+<details>
+<summary>More features</summary>
+<br>
+<ul>
+<li><b>Strategy:</b> Local-first; reads sources directly and federates them in an embedded DuckDB engine.</li>
+<li><b>Governance:</b> Contract-based access control, automatic PII masking, read-only enforcement, and row-level security across both human SQL and AI-agent access.</li>
+<li><b>Agent access:</b> Governed MCP server exposing read-only, PII-masked tools (list_sources, list_tables, describe_table, query).</li>
+<li><b>Rich data profiling:</b> Yes — column profiling and drift detection.</li>
+<li><b>Data preview:</b> Yes, via the local web UI and CLI.</li>
+<li><b>Lineage:</b> Query and history lineage within the federation.</li>
+<li><b>Schemas, Description:</b> Yes, declared in the charter.</li>
+<li><b>Supported data sources:</b> CSV, Parquet, Excel, SQLite, DuckDB, Postgres, and other DuckDB-supported sources.</li>
+<li><b>Deployment:</b> pip/uvx installable; runs locally (CLI + web UI); MCP server over stdio or HTTP.</li>
+</ul>
+</details>
+
+<br>
 
 
 <a name="proprietary"></a>
